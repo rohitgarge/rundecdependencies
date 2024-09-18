@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-dateutil",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-dateutil-4.0.4-groovydoc.jar",
+          "url": "groovy-dateutil-4.0.4-groovydoc.jar",
+          "size": 39868,
+          "sha512": "2c82c43164c8e392a9ef4e49df9b9f4734d8e471dc1bb6bb1e2edd8b34045601ddecf9b0931e060ba67865784f4211174b2ce03d85fc6df9165a460abc22b4d8",
+          "sha256": "1d7d78ae33ab9946177063aaa48c824db01c8ddd3ad9792ebabaad2f4082745b",
+          "sha1": "383ddf76edffaf89bce1ec3351f359247ac8c68c",
+          "md5": "082700b07982d021d9543d705991e669"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-dateutil-4.0.4-javadoc.jar",
+          "url": "groovy-dateutil-4.0.4-javadoc.jar",
+          "size": 123834,
+          "sha512": "526fecf5f365ba030d3f232f50e3c368f6555a4bf0c4e4e4c526feea9786b5a7710c78104ba064b18f16791238ce5043abfe5544b5fb5b03f12841e81b7c2b0a",
+          "sha256": "bcc4be578635001452258d5644881261882e192f642d032fc545c13f47fce2a2",
+          "sha1": "529aeda39c995ca7e652a9fc130d2b2fcb4c226f",
+          "md5": "c20aede0be7adc23d054a4bb57afa420"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-dateutil-4.0.4-sources.jar",
+          "url": "groovy-dateutil-4.0.4-sources.jar",
+          "size": 12204,
+          "sha512": "729d205908fc0bb30705591a023fde4947f2b5c102b60004a790f964e5953d29b7b2828053d37b6378ebdd0090dc4514da47d2e7c73882b46bff3c01f0df74da",
+          "sha256": "7fb21c6e38755c6a52e7a7c2e49358a8e31fe9f2bc1e710e7e2dbfda960d60f0",
+          "sha1": "5bd0b13e7f07e894d19c23e8676b8125c76c3ce0",
+          "md5": "18d92a5a3a5710c62fe50a96694b0227"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-dateutil-4.0.4.jar",
+          "url": "groovy-dateutil-4.0.4.jar",
+          "size": 7447,
+          "sha512": "c9d346520653e6962afa2600554b98b4ead10b35f711e9dc3142f9c53921ed416beb5fe2755f61a889908482e12146b58236a8c2681048b8f9afb8b9d290fcad",
+          "sha256": "d45551adf5f899111e80bcb3fa8b9637386bc3dca0f59b15e36ea7a9fba71aa6",
+          "sha1": "168ccd4cb7e0653b3b670650b3df0c8d20b9b962",
+          "md5": "62e219113b2a5d7e3b438fdb1b58693b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-dateutil",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-dateutil",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-dateutil-4.0.4.jar",
+          "url": "groovy-dateutil-4.0.4.jar",
+          "size": 7447,
+          "sha512": "c9d346520653e6962afa2600554b98b4ead10b35f711e9dc3142f9c53921ed416beb5fe2755f61a889908482e12146b58236a8c2681048b8f9afb8b9d290fcad",
+          "sha256": "d45551adf5f899111e80bcb3fa8b9637386bc3dca0f59b15e36ea7a9fba71aa6",
+          "sha1": "168ccd4cb7e0653b3b670650b3df0c8d20b9b962",
+          "md5": "62e219113b2a5d7e3b438fdb1b58693b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-dateutil",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-dateutil",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

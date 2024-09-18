@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spockframework",
+    "module": "spock-spring",
+    "version": "2.1-groovy-3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-spring-2.1-groovy-3.0.jar",
+          "url": "spock-spring-2.1-groovy-3.0.jar",
+          "size": 47669,
+          "sha512": "28b890876b9699bdf9df7ba2d3d7aae6929c8a2cbb8e0575dd6cf7934afbcd37f34ce025ac60cbe45f5832ae397f0238f99f7fa0f6194961fada32e1ba7a4c0c",
+          "sha256": "14ce1c57341b6630fc5d5a2aa68f757901dd5dacb37e1d83080a4f483b90272a",
+          "sha1": "69b6847d494400d834d47a84f0441f9b09ba76c2",
+          "md5": "0f45e0bb293a3dfabfbb59905755d624"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.9"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "4.3.5.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "4.3.5.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "4.3.5.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-spring-2.1-groovy-3.0.jar",
+          "url": "spock-spring-2.1-groovy-3.0.jar",
+          "size": 47669,
+          "sha512": "28b890876b9699bdf9df7ba2d3d7aae6929c8a2cbb8e0575dd6cf7934afbcd37f34ce025ac60cbe45f5832ae397f0238f99f7fa0f6194961fada32e1ba7a4c0c",
+          "sha256": "14ce1c57341b6630fc5d5a2aa68f757901dd5dacb37e1d83080a4f483b90272a",
+          "sha1": "69b6847d494400d834d47a84f0441f9b09ba76c2",
+          "md5": "0f45e0bb293a3dfabfbb59905755d624"
+        }
+      ]
+    }
+  ]
+}

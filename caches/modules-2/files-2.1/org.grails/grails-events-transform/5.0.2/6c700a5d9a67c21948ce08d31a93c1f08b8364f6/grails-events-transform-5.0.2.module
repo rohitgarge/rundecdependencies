@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-events-transform",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-events-transform-5.0.2.jar",
+          "url": "grails-events-transform-5.0.2.jar",
+          "size": 30586,
+          "sha512": "3537dc53f1ad7de2b9cfadc1b3fd47e285c1903281556381b047132d5e81505e10d06b86402003f11b7d79e167ecbea76f12ed16627612a62b2e9c5ad98817a1",
+          "sha256": "4ad53ff70b617d09cf3a6639fb61fca332a90a0a897fc0a65bba0b89c0c8c044",
+          "sha1": "bbe78351be7604909f593f8da51d02248aaed3ea",
+          "md5": "a8fb2d23d361923c52c9158550af1bad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.3"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-datastore-gorm-validation"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-events-transform-5.0.2.jar",
+          "url": "grails-events-transform-5.0.2.jar",
+          "size": 30586,
+          "sha512": "3537dc53f1ad7de2b9cfadc1b3fd47e285c1903281556381b047132d5e81505e10d06b86402003f11b7d79e167ecbea76f12ed16627612a62b2e9c5ad98817a1",
+          "sha256": "4ad53ff70b617d09cf3a6639fb61fca332a90a0a897fc0a65bba0b89c0c8c044",
+          "sha1": "bbe78351be7604909f593f8da51d02248aaed3ea",
+          "md5": "a8fb2d23d361923c52c9158550af1bad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-transform-5.0.2-sources.jar",
+          "url": "grails-events-transform-5.0.2-sources.jar",
+          "size": 11786,
+          "sha512": "48579f69d7254fbd7a88eb52046645f3a850cbb116b9fc1ebff05ca8c15882e85d7335102629703b7c8ffe98c2b207e38bf2065f41e888a2ec6ec4c12f7af42b",
+          "sha256": "b0e8fd92853e526911cfd5272eb1bc009bf8e772676ed259b56b7c4325241868",
+          "sha1": "327a2da16bf852ab7b97b33e4c4fae42f177bad1",
+          "md5": "dd0a2b83cdfa1b3b530f4c12d3319a51"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-transform-5.0.2-javadoc.jar",
+          "url": "grails-events-transform-5.0.2-javadoc.jar",
+          "size": 261,
+          "sha512": "637f9d274d19fc6addc51f231e66cbc25cb53153ac7f297c70d5f46585a4393019fdeaa91cf530630300b669e5febb8cbefc1df5a836ab24562f6f0c47433f19",
+          "sha256": "53ab3d335e370b9b8776d88bb355ede95085dc5126298a62d59ba934dfc0bd4a",
+          "sha1": "5e4ae99e9331456771dd2def52b5dbbddff18032",
+          "md5": "735168e4ef44c718431d040f225e94ad"
+        }
+      ]
+    }
+  ]
+}

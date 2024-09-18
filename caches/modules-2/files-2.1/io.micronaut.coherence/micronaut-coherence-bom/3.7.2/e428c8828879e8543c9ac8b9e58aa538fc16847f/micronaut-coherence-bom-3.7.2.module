@@ -1,0 +1,234 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.coherence",
+    "module": "micronaut-coherence-bom",
+    "version": "3.7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-bom",
+          "version": {
+            "requires": "22.06.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-grpc-proxy",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-java-client",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-json",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-client",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-test",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "3.7.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-bom",
+          "version": {
+            "requires": "22.06.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-grpc-proxy",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-java-client",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-json",
+          "version": {
+            "requires": "22.06.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-client",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-test",
+          "version": {
+            "requires": "3.7.2"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "3.7.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-coherence-bom-3.7.2.toml",
+          "url": "micronaut-coherence-bom-3.7.2.toml",
+          "size": 1870,
+          "sha512": "51101cc098281d02b002d23547768fd04520808daa64ea129c123c10c4aa2f2d1ebd59f37cc90bfd2006eebb1a89f84bcabdcf92eecf785ec134381fbc5ae1a5",
+          "sha256": "49c5f3d16441c9300a44e2d536369fecc98d517e48c0dd52449805f9cbfa09ec",
+          "sha1": "b3701e4228e17a71de0b8485a7ea8cd4037a0727",
+          "md5": "ceb71d62b1be3f6f3c7892953076737f"
+        }
+      ]
+    }
+  ]
+}

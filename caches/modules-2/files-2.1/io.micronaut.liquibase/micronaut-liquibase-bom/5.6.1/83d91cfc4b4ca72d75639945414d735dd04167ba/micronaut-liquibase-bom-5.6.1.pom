@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.liquibase</groupId>
+  <artifactId>micronaut-liquibase-bom</artifactId>
+  <version>5.6.1</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Liquibase</name>
+  <description>Integration between Micronaut and Liquibase</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-liquibase.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-liquibase.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-liquibase.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ivanlopez</id>
+      <name>Ivan Lopez</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.liquibase.version>5.6.1</micronaut.liquibase.version>
+    <liquibase.version>4.18.0</liquibase.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.liquibase</groupId>
+        <artifactId>liquibase-core</artifactId>
+        <version>${liquibase.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.liquibase</groupId>
+        <artifactId>micronaut-liquibase</artifactId>
+        <version>${micronaut.liquibase.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

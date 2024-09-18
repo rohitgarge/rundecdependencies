@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.serde",
+    "module": "micronaut-serde-bom",
+    "version": "1.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.mongodb",
+          "module": "bson",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "jakarta.json",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "jakarta.json",
+          "module": "jakarta.json-api",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "jakarta.json.bind",
+          "module": "jakarta.json.bind-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-api",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-bson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-jackson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-jsonp",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-oracle-jdbc-json",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-processor",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-support",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.mongodb",
+          "module": "bson",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "jakarta.json",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "jakarta.json",
+          "module": "jakarta.json-api",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "jakarta.json.bind",
+          "module": "jakarta.json.bind-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-api",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-bson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-jackson",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-jsonp",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-oracle-jdbc-json",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-processor",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-support",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-serde-bom-1.5.2.toml",
+          "url": "micronaut-serde-bom-1.5.2.toml",
+          "size": 1688,
+          "sha512": "b3e7cb5d4ea011a2ffca24c55ac057caa3f743aae1779bdd31efc58e494c68d6576fc49671e4ec0ab2d40fb8c139c7d3c47341e72b8225008f733a7a7df4bc5d",
+          "sha256": "24f8f30ef1ec28a4fd4bd8fac3c7f819cac18304ab55d3793a60d0f0b3d8b786",
+          "sha1": "e6585be2d48b5aacc4c4c091e7b2db576c472074",
+          "md5": "b553252c268d4a7b9d40e874a906b9eb"
+        }
+      ]
+    }
+  ]
+}

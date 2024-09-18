@@ -1,0 +1,306 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.test",
+    "module": "micronaut-test-bom",
+    "version": "3.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "rest-assured-bom",
+          "version": {
+            "requires": "5.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-bom",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.23.1"
+          }
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-core-jvm",
+          "version": {
+            "requires": "4.6.4"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-runner-junit5-jvm",
+          "version": {
+            "requires": "4.6.4"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-junit-jupiter",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-junit5",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-kotest",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-kotest5",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-rest-assured",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-spock",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "rest-assured-bom",
+          "version": {
+            "requires": "5.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-bom",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.23.1"
+          }
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-core-jvm",
+          "version": {
+            "requires": "4.6.4"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-runner-junit5-jvm",
+          "version": {
+            "requires": "4.6.4"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-junit-jupiter",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.8"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-junit5",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-kotest",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-kotest5",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-rest-assured",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-spock",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-test-bom-3.8.0.toml",
+          "url": "micronaut-test-bom-3.8.0.toml",
+          "size": 1813,
+          "sha512": "e6ee1365d9b2d19939c32d95604f481db4b9d26381956c6e26bcf3a48469582becfacdb9c499daa4c56eea08a04fb7308988c197917821b527757094fbe295f5",
+          "sha256": "5905a1d25466a3ce074ac3f1675651af243615ad4b97470cd98a92065d6d08d3",
+          "sha1": "d1964d759c621c94871b0c4ad68f4c5fae92d330",
+          "md5": "5e94b75039337b03861a34143ed9ee1d"
+        }
+      ]
+    }
+  ]
+}

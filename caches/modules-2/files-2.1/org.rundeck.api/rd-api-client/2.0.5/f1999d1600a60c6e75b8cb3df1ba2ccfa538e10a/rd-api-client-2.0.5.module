@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.rundeck.api",
+    "module": "rd-api-client",
+    "version": "2.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jackson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jaxb",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.sun.xml.bind",
+          "module": "jaxb-impl",
+          "version": {
+            "requires": "2.3.8"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rd-api-client-2.0.5.jar",
+          "url": "rd-api-client-2.0.5.jar",
+          "size": 143076,
+          "sha512": "91a8da62ec2a796da48bfa524900bc635e18ea5051b5b4cf73412310aeb409ec752ac9550bdc6bb6bd88f7d9527fc50a98d731e081e4981ae8a393b877523f8a",
+          "sha256": "882cf8b6be027130086b1de36d17fa3567a1bee4b06aabd37740ce4a239a7a04",
+          "sha1": "f4648f86c2a599b0773cb960933fffa2df574a23",
+          "md5": "f42174962dbac78072cc8bb6c62e6cca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jackson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jaxb",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.sun.xml.bind",
+          "module": "jaxb-impl",
+          "version": {
+            "requires": "2.3.8"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rd-api-client-2.0.5.jar",
+          "url": "rd-api-client-2.0.5.jar",
+          "size": 143076,
+          "sha512": "91a8da62ec2a796da48bfa524900bc635e18ea5051b5b4cf73412310aeb409ec752ac9550bdc6bb6bd88f7d9527fc50a98d731e081e4981ae8a393b877523f8a",
+          "sha256": "882cf8b6be027130086b1de36d17fa3567a1bee4b06aabd37740ce4a239a7a04",
+          "sha1": "f4648f86c2a599b0773cb960933fffa2df574a23",
+          "md5": "f42174962dbac78072cc8bb6c62e6cca"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rd-api-client-2.0.5-javadoc.jar",
+          "url": "rd-api-client-2.0.5-javadoc.jar",
+          "size": 417200,
+          "sha512": "696e76d016e457aa58263380db6a892982e79928b988a0ca36dfb529cad7c53a44cdd44396dd1efff59c6d6ebe8f6d7d1be27d6f849f6559adaaba79d2d48607",
+          "sha256": "7f4d0c761b96cbcede324167571f3ed90615dc83a2a44f3d6c54d6b072852064",
+          "sha1": "1aa40e42f9bf9863eff81743d486081d8f0d87ef",
+          "md5": "699863fd2b3218c67cf38b0659d7c722"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rd-api-client-2.0.5-sources.jar",
+          "url": "rd-api-client-2.0.5-sources.jar",
+          "size": 103545,
+          "sha512": "128f627307470abcc27933d524d422eea4a6e07135167b5abdaada5cc62bea9e2d4eda999a451cd8b32a1a1ae8e1f7f9769831b05f32af9c0a9129f0801b6fbc",
+          "sha256": "d9723feba7c5d74537de99727db453663180fcbdce2cfdac2178422d81e7ff98",
+          "sha1": "00d2affb335f65775a2a5a39f4d8aa9cabb9dbe7",
+          "md5": "e5b42d79558e41cd9e52fbd27b0f101a"
+        }
+      ]
+    }
+  ]
+}

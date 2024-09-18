@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.microstream",
+    "module": "micronaut-microstream-bom",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "07.01.00-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-microstream-bom-1.3.0.toml",
+          "url": "micronaut-microstream-bom-1.3.0.toml",
+          "size": 1324,
+          "sha512": "41388827abe423afc7ee65e1ed1966b58a24a99baa6b2cabf62b53730bf423fa3f9fef1226a5852f9836f90d72d06bd39fc6ab2732b956c6e896ac1d229eed30",
+          "sha256": "edf668369d2d0c425c4d73558600958d17ba959b86bc907d4b596d472e611b51",
+          "sha1": "8c2e95cc65dab8dd11aa33d914d22ce5abde550c",
+          "md5": "98c7db18d6c97ba92556438d891f4e6e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jodd",
+    "module": "jodd-lagarto",
+    "version": "5.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4",
+      "buildId": "kye6ez6gwvh3behforagjqfhyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-core",
+          "version": {
+            "requires": "5.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-lagarto-5.1.5.jar",
+          "url": "jodd-lagarto-5.1.5.jar",
+          "size": 210875,
+          "sha512": "8be5c30d1b3d6cbb13b32948412bf97b593929d24f39e1c58c428615be937f865570b650c179d63ce2da7ce575be21a6c066510b6e5956ebb3b3ef3f98bad878",
+          "sha256": "06d093b4204e690fb3f96d49158d757948fe0bed383e82d8028287a7e429e8c9",
+          "sha1": "7864ac73663e06d8f42972383c866eaa45a1c4af",
+          "md5": "92b4024c3ec35e62b57c103dc26c298c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-log",
+          "version": {
+            "requires": "5.1.5"
+          }
+        },
+        {
+          "group": "org.jodd",
+          "module": "jodd-core",
+          "version": {
+            "requires": "5.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-lagarto-5.1.5.jar",
+          "url": "jodd-lagarto-5.1.5.jar",
+          "size": 210875,
+          "sha512": "8be5c30d1b3d6cbb13b32948412bf97b593929d24f39e1c58c428615be937f865570b650c179d63ce2da7ce575be21a6c066510b6e5956ebb3b3ef3f98bad878",
+          "sha256": "06d093b4204e690fb3f96d49158d757948fe0bed383e82d8028287a7e429e8c9",
+          "sha1": "7864ac73663e06d8f42972383c866eaa45a1c4af",
+          "md5": "92b4024c3ec35e62b57c103dc26c298c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-lagarto-5.1.5-javadoc.jar",
+          "url": "jodd-lagarto-5.1.5-javadoc.jar",
+          "size": 390852,
+          "sha512": "20e8717a6ab177ea366c8b9aa2d89b14ec8774c1f67a92b3ee5f09f3909b0cc38ee6a967183ee0c0cc3a96db3285f8f279ac9eed7f757a166dcb057f21752a56",
+          "sha256": "db7e8835b7c2266add9b0f517c3645b73c3c51618295bcc656151314ed38e820",
+          "sha1": "bebe1362582846223b2a8e7d8ad4d4b251244487",
+          "md5": "0e7eab6d8a97d7842a679a6691f6bd2a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-lagarto-5.1.5-sources.jar",
+          "url": "jodd-lagarto-5.1.5-sources.jar",
+          "size": 126690,
+          "sha512": "0c148df95fdf2b38312395424ddf25bc33d84b66fbfd901231832d6d677ba36e7c88ada5addb6df22ab472cc48c777163f82f52f884d13d4057295f67175f21f",
+          "sha256": "fceee19922046d0a9df63f1680e44558064591a6ac1c4997407074f7a0ef91e2",
+          "sha1": "9a0f8678c8c49b61b10b413b43c4b76462c46193",
+          "md5": "e7bcae5509e950a7ee3b86cac459db19"
+        }
+      ]
+    }
+  ]
+}

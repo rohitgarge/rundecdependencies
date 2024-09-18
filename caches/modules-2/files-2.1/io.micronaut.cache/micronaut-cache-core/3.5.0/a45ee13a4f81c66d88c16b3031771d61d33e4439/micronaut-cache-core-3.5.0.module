@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.cache",
+    "module": "micronaut-cache-core",
+    "version": "3.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime",
+          "version": {
+            "requires": "3.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-cache-core-3.5.0.jar",
+          "url": "micronaut-cache-core-3.5.0.jar",
+          "size": 102017,
+          "sha512": "b818aa74e1b964e5243fb76873bc48324a43191876cacec4007ff110de2ff008e4fa696957ab867e7e8fc58d5674d75d275bf48afba7b1266e5c19d9aac07670",
+          "sha256": "5143960daeb5ac417f01061e0c886659d90aabcd7ed27ef93ae36e5b7107fc8d",
+          "sha1": "7495794ce7142740612cefb331f2c4eddcb00e95",
+          "md5": "2486e8284067dfd088f3cdee68d2c955"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.21"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-bom",
+          "version": {
+            "requires": "3.5.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime",
+          "version": {
+            "requires": "3.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-cache-core-3.5.0.jar",
+          "url": "micronaut-cache-core-3.5.0.jar",
+          "size": 102017,
+          "sha512": "b818aa74e1b964e5243fb76873bc48324a43191876cacec4007ff110de2ff008e4fa696957ab867e7e8fc58d5674d75d275bf48afba7b1266e5c19d9aac07670",
+          "sha256": "5143960daeb5ac417f01061e0c886659d90aabcd7ed27ef93ae36e5b7107fc8d",
+          "sha1": "7495794ce7142740612cefb331f2c4eddcb00e95",
+          "md5": "2486e8284067dfd088f3cdee68d2c955"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-cache-core-3.5.0-sources.jar",
+          "url": "micronaut-cache-core-3.5.0-sources.jar",
+          "size": 51808,
+          "sha512": "1ac5bbb467eea64595f53f59b8a2521a396ff5c8ebde3d581eff21584a096cb6242c11d16c0e83c47bf70950667265f6f47e435cb336d0ac0a09510a0e39c1e6",
+          "sha256": "c27318a77e25309269964c9e4a21b028b6e0895b1728c99dbf8086d086e4186e",
+          "sha1": "8c3902bec608d77f1e31a28697f89137c6dc10a4",
+          "md5": "21a9dbc254d6bb9addd01be12655c8d7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-cache-core-3.5.0-javadoc.jar",
+          "url": "micronaut-cache-core-3.5.0-javadoc.jar",
+          "size": 536063,
+          "sha512": "5e76d57f5cd2fe185f45d4f0264461bf6e859f9607ed90f882316e9afd17cef8aa9c5899fe9b0b8a9ecfa5e2ceaa2dbe9eeff6ba5dcbd4d82436d81083274c39",
+          "sha256": "deb1c78be9d18a7de423f115ac3485e06f2ef6cb82e4921a023fab9fbf35c596",
+          "sha1": "f312d26ad9e8c3e55d9852c10144d52443349757",
+          "md5": "8b900591ae9333fcd75f592749fa36a9"
+        }
+      ]
+    }
+  ]
+}

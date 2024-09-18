@@ -1,0 +1,298 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.grpc",
+    "module": "micronaut-grpc-bom",
+    "version": "3.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-bom",
+          "version": {
+            "requires": "1.54.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-bom",
+          "version": {
+            "requires": "3.21.12"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-services",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protoc",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "protoc-gen-grpc-java",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-annotation",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-client-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-health",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-opentracing",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-server-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-protobuff-support",
+          "version": {
+            "requires": "3.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-bom",
+          "version": {
+            "requires": "1.54.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-bom",
+          "version": {
+            "requires": "3.21.12"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-services",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protoc",
+          "version": {
+            "requires": "3.21.12"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "protoc-gen-grpc-java",
+          "version": {
+            "requires": "1.54.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-annotation",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-client-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-health",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-opentracing",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-server-runtime",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-protobuff-support",
+          "version": {
+            "requires": "3.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-grpc-bom-3.6.0.toml",
+          "url": "micronaut-grpc-bom-3.6.0.toml",
+          "size": 1866,
+          "sha512": "5d0fefbed1d9ae8717b8a4e586d9b6bcba676431ce32c0ed9167f284467e6e44eed5f1592cd48754ab053324e722c4ba32f2af68ad144a6ee0b637b91f103e42",
+          "sha256": "d5558180be6429c2dc6290af17f1c669cd49d3a77b1efb6d790fdc0816c5fb22",
+          "sha1": "05cc19f2cbdbe81b1b862cf50ba95bdfa24d9620",
+          "md5": "abee0e39b44f51257f1f90c978161526"
+        }
+      ]
+    }
+  ]
+}

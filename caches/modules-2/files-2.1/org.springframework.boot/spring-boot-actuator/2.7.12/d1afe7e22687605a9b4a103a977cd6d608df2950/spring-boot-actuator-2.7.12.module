@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-actuator",
+    "version": "2.7.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12.jar",
+          "url": "spring-boot-actuator-2.7.12.jar",
+          "size": 687124,
+          "sha512": "9fc2a84327bb2cdd85780c6c7062b140c3c3aa9f4b8c8ed2355c4fe4f7f59287d11626e43c54d822916f18968a53fc90a05a47b00cd8ad7a3b25341c02f0af1a",
+          "sha256": "43c3fd16fc6d4cd4e16617675e7ae912e6324a8d1be8e1a5514ceb3fe77dcbb5",
+          "sha1": "c5b5961120028a8a7db9b2d5b4f5f926fd0b0b15",
+          "md5": "3cd14fbca5dee6f1f44dbc13531c11a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12.jar",
+          "url": "spring-boot-actuator-2.7.12.jar",
+          "size": 687124,
+          "sha512": "9fc2a84327bb2cdd85780c6c7062b140c3c3aa9f4b8c8ed2355c4fe4f7f59287d11626e43c54d822916f18968a53fc90a05a47b00cd8ad7a3b25341c02f0af1a",
+          "sha256": "43c3fd16fc6d4cd4e16617675e7ae912e6324a8d1be8e1a5514ceb3fe77dcbb5",
+          "sha1": "c5b5961120028a8a7db9b2d5b4f5f926fd0b0b15",
+          "md5": "3cd14fbca5dee6f1f44dbc13531c11a4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12-javadoc.jar",
+          "url": "spring-boot-actuator-2.7.12-javadoc.jar",
+          "size": 1414219,
+          "sha512": "4efe8a8a4a21f48845bf53f974780ccfc2e6e60ba9bd526bfa996a0628ee5969bbf9cc4a9d3755c8d02d26132fee4d0232bc5895a2351168eddeafd57acbf629",
+          "sha256": "b54cfee4e727cdf73cc5d8fa12290da4e65e63871be40e71bb9c9dfd590f02c7",
+          "sha1": "62c1fdc43b7d4fc163b3f7444378840b964fb7d2",
+          "md5": "1a38e532f4817d72a786efcccfe8d148"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12-sources.jar",
+          "url": "spring-boot-actuator-2.7.12-sources.jar",
+          "size": 478393,
+          "sha512": "7572ecaf1c06d28e9d880d0c1abdc4f5c228ed61569d3929c7028a956cfd5e0f67ac5e91bb424e4954a8a1b316283faf70ae6cb42f23e67f681f3786512e17da",
+          "sha256": "20d4dd48cc272ae32c8f788875d975d8d310d4123a661604ede8a3fc28baedad",
+          "sha1": "f58de01af97c9f37dfd1c01f68c8b1d0e73edd5e",
+          "md5": "a13233c02b165fce6b879b774636843c"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12.jar",
+          "url": "spring-boot-actuator-2.7.12.jar",
+          "size": 687124,
+          "sha512": "9fc2a84327bb2cdd85780c6c7062b140c3c3aa9f4b8c8ed2355c4fe4f7f59287d11626e43c54d822916f18968a53fc90a05a47b00cd8ad7a3b25341c02f0af1a",
+          "sha256": "43c3fd16fc6d4cd4e16617675e7ae912e6324a8d1be8e1a5514ceb3fe77dcbb5",
+          "sha1": "c5b5961120028a8a7db9b2d5b4f5f926fd0b0b15",
+          "md5": "3cd14fbca5dee6f1f44dbc13531c11a4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-actuator-maven-optional",
+          "version": "2.7.12"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.7.12.jar",
+          "url": "spring-boot-actuator-2.7.12.jar",
+          "size": 687124,
+          "sha512": "9fc2a84327bb2cdd85780c6c7062b140c3c3aa9f4b8c8ed2355c4fe4f7f59287d11626e43c54d822916f18968a53fc90a05a47b00cd8ad7a3b25341c02f0af1a",
+          "sha256": "43c3fd16fc6d4cd4e16617675e7ae912e6324a8d1be8e1a5514ceb3fe77dcbb5",
+          "sha1": "c5b5961120028a8a7db9b2d5b4f5f926fd0b0b15",
+          "md5": "3cd14fbca5dee6f1f44dbc13531c11a4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-actuator-maven-optional",
+          "version": "2.7.12"
+        }
+      ]
+    }
+  ]
+}

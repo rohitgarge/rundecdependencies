@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.serde</groupId>
+  <artifactId>micronaut-serde-bom</artifactId>
+  <version>1.5.3</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Serialization</name>
+  <description>Enables serialization/deserialization in Micronaut applications using build time information</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-serialization.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-serialization.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-serialization.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <jakarta.json.bind.api.version>2.0.0</jakarta.json.bind.api.version>
+    <glassfish.jakarta.json.version>2.0.1</glassfish.jakarta.json.version>
+    <micronaut.serde.version>1.5.3</micronaut.serde.version>
+    <bson.version>4.8.1</bson.version>
+    <jakarta.json.api.version>2.0.1</jakarta.json.api.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>bson</artifactId>
+        <version>${bson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.glassfish</groupId>
+        <artifactId>jakarta.json</artifactId>
+        <version>${glassfish.jakarta.json.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>jakarta.json</groupId>
+        <artifactId>jakarta.json-api</artifactId>
+        <version>${jakarta.json.api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>jakarta.json.bind</groupId>
+        <artifactId>jakarta.json.bind-api</artifactId>
+        <version>${jakarta.json.bind.api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-api</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-bson</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-jackson</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-jsonp</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-oracle-jdbc-json</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-processor</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.serde</groupId>
+        <artifactId>micronaut-serde-support</artifactId>
+        <version>${micronaut.serde.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

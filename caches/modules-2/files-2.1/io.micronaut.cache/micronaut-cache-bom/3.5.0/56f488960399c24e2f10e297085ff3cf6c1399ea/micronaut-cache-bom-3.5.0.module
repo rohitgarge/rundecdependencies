@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.cache",
+    "module": "micronaut-cache-bom",
+    "version": "3.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "2.9.3"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache-clustered",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "com.hazelcast",
+          "module": "hazelcast",
+          "version": {
+            "requires": "4.2.5"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-client-hotrod",
+          "version": {
+            "requires": "12.1.12.Final"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-core",
+          "version": {
+            "requires": "12.1.12.Final"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-caffeine",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-ehcache",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-hazelcast",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-infinispan",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-management",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-noop",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-tck",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "2.9.3"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache-clustered",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "com.hazelcast",
+          "module": "hazelcast",
+          "version": {
+            "requires": "4.2.5"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-client-hotrod",
+          "version": {
+            "requires": "12.1.12.Final"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-core",
+          "version": {
+            "requires": "12.1.12.Final"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-caffeine",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-ehcache",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-hazelcast",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-infinispan",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-management",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-noop",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-tck",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-cache-bom-3.5.0.toml",
+          "url": "micronaut-cache-bom-3.5.0.toml",
+          "size": 1874,
+          "sha512": "9e117302d306e42aa5f241995517842fa2c739934aa0c4f9eb5db56b2f083b5e8f2dba40be9f92ca0aa20634b279b866c1b43c850fba4a36852614c8dfe9d405",
+          "sha256": "b5a71900f63147c2051586991c01e8b8188f592c6a383cbb6ce1e40522287050",
+          "sha1": "f18c240d47231a64f1b66b0825eacd6767f654fa",
+          "md5": "2f5fa8461bb77ceafcda2bd59442c113"
+        }
+      ]
+    }
+  ]
+}

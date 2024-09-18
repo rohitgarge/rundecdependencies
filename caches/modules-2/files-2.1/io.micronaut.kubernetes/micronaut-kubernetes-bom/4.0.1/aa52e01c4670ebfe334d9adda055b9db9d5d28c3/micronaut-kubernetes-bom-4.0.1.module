@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.kubernetes",
+    "module": "micronaut-kubernetes-bom",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-processor",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-reactor",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava2",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava3",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-discovery-client",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-informer",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-operator",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-processor",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-reactor",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava2",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava3",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-discovery-client",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-informer",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-operator",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-kubernetes-bom-4.0.1.toml",
+          "url": "micronaut-kubernetes-bom-4.0.1.toml",
+          "size": 1554,
+          "sha512": "e2c670877fdab83442afccacf11fe8aaeaf6d419d57176a24212d1a79497ced4876d8f21b6cbdae7dab0d1aa8425b9a43635b35bc9f69738f274130bcd04cdb4",
+          "sha256": "cd4f7436667600cca84c04d2ac9e419d7e858ebc86af5fd35bd235f3b546045f",
+          "sha1": "af0881ca055ac9980aa4e80e4c3dfa31159b7200",
+          "md5": "fd6f90f7b10dda7a4a2c820c58e88a00"
+        }
+      ]
+    }
+  ]
+}

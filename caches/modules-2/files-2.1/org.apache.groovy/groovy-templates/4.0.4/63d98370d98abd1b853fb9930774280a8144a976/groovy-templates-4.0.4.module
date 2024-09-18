@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-templates",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-templates-4.0.4-groovydoc.jar",
+          "url": "groovy-templates-4.0.4-groovydoc.jar",
+          "size": 107405,
+          "sha512": "9bba200ab5901fbc19cb3669135647a63a67f4b8829585152dee0f701a655ec48c2d3dc44017c6dbf87ba1a8ec3766f2a2fb389d22f6d878fc2726f2fa78ccca",
+          "sha256": "bda778ff1cd6fb178d92a1499c6ac2b7c49300091dd4607a9e6407e358d7b1f7",
+          "sha1": "5af4fa64c1a6d358dd49c5363093bd4f463bae02",
+          "md5": "a60728d1e2b48f562813d2b8bd77680c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-templates-4.0.4-javadoc.jar",
+          "url": "groovy-templates-4.0.4-javadoc.jar",
+          "size": 185619,
+          "sha512": "96b66446ecfac940849529af95badcb9906d080814d1f958d186e0ec77da1449b4fa2bab548b8545c8e12172f843035efc3a572116f4eb95fa9e94f2f61ba54c",
+          "sha256": "2f2ad46efee09b90e29b6238b59f0e899be7748967acf139474972a254fa168c",
+          "sha1": "7f868712477d37b94b970c13d9250cb2d32702f8",
+          "md5": "5bbb033ef5dece9d29d498a55161384f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-templates-4.0.4-sources.jar",
+          "url": "groovy-templates-4.0.4-sources.jar",
+          "size": 57644,
+          "sha512": "a8dea3acc1b1160d4356d77c77351f0a1e53c47603ec1a73a4dabdbcfe547a1185b2e3515e8223b09ff348434861b8fe1ed81848d77ada00af92f5cde925cf8e",
+          "sha256": "920cb3923c53bf443d9e676d4a05daea4b482681cc527709b4bc640de7e66ab5",
+          "sha1": "954b2eb052efc55e97766a72c21b3785def72e0b",
+          "md5": "a01b16ed613d790356bc91aa4b80d5df"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-templates-4.0.4.jar",
+          "url": "groovy-templates-4.0.4.jar",
+          "size": 95069,
+          "sha512": "ca2ca041f70212a3e60aaee739844d203e027d5a977bf41aecea7507c4ee38df988e2a5db5c56ca5db9a46f9f678ee8fc948264385a4d87a08a7b26c8dae9280",
+          "sha256": "ce6231939e94467a420d8333ca318cedc9e9b289735311295b13340112e687ff",
+          "sha1": "619246fac1644d9cc5e952e3f059739b3dc34e8c",
+          "md5": "04efd8f56d791f8abf4c3e89642b1d1e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-templates",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-templates",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-templates-4.0.4.jar",
+          "url": "groovy-templates-4.0.4.jar",
+          "size": 95069,
+          "sha512": "ca2ca041f70212a3e60aaee739844d203e027d5a977bf41aecea7507c4ee38df988e2a5db5c56ca5db9a46f9f678ee8fc948264385a4d87a08a7b26c8dae9280",
+          "sha256": "ce6231939e94467a420d8333ca318cedc9e9b289735311295b13340112e687ff",
+          "sha1": "619246fac1644d9cc5e952e3f059739b3dc34e8c",
+          "md5": "04efd8f56d791f8abf4c3e89642b1d1e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-templates",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-templates",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

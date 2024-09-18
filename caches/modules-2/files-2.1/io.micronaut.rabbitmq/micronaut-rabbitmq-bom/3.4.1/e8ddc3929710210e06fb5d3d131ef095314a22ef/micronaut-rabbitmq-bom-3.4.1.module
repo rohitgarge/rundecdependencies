@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.rabbitmq",
+    "module": "micronaut-rabbitmq-bom",
+    "version": "3.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.rabbitmq",
+          "module": "amqp-client",
+          "version": {
+            "requires": "5.16.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rabbitmq",
+          "module": "micronaut-rabbitmq",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.rabbitmq",
+          "module": "amqp-client",
+          "version": {
+            "requires": "5.16.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rabbitmq",
+          "module": "micronaut-rabbitmq",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-rabbitmq-bom-3.4.1.toml",
+          "url": "micronaut-rabbitmq-bom-3.4.1.toml",
+          "size": 539,
+          "sha512": "3faa9e5925e8210991bffba1a31968e1c276c1e42667e4b7b559714e096a28f7ba4531cd21cdee1081a0c55d35e2dc79c96ef14abda76b394830f81e165ade02",
+          "sha256": "91425c30a27589a70e52b9a802cbdc4da724c39fa4a07d3be8ee0ffafb30c76e",
+          "sha1": "a521bc262357173a161caab590568bc75ddc03b5",
+          "md5": "c8eed6f12555da0c93869a40bf16362e"
+        }
+      ]
+    }
+  ]
+}

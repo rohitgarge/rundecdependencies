@@ -1,0 +1,542 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.testresources",
+    "module": "micronaut-test-resources-bom",
+    "version": "1.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers-bom",
+          "version": {
+            "requires": "1.17.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-build-tools",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-client",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-elasticsearch",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-embedded",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hashicorp-vault",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hivemq",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-kafka",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-mongodb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-neo4j",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-pool",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-rabbitmq",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-redis",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-server",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-testcontainers",
+          "version": {
+            "requires": "1.2.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers-bom",
+          "version": {
+            "requires": "1.17.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-build-tools",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-client",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-elasticsearch",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-embedded",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hashicorp-vault",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hibernate-reactive-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-hivemq",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-jdbc-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-kafka",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-mongodb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-neo4j",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-core",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mariadb",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mssql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-mysql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-oracle-xe",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-pool",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-r2dbc-postgresql",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-rabbitmq",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-redis",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-server",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-testcontainers",
+          "version": {
+            "requires": "1.2.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-test-resources-bom-1.2.5.toml",
+          "url": "micronaut-test-resources-bom-1.2.5.toml",
+          "size": 5988,
+          "sha512": "6b26c862dce0a401940550b6bfb11ba058db9ca10ad0a2dc714d7043a8a17f7dfa52338a6ebd9c06d081f3e27328e88deabe1bfbecf18cc7e330bb85d63ed60e",
+          "sha256": "cbd8e41913e26d60746fe8c7747fb8d814c077dcd0cd2fdc7b8fe6e2a898f131",
+          "sha1": "b0b8567a6b936201d7f4beaa65caf656e8741d6a",
+          "md5": "424066f1f5318b7d03798e06678aed32"
+        }
+      ]
+    }
+  ]
+}

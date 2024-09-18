@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.coherence",
+    "module": "micronaut-coherence-bom",
+    "version": "3.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-client",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-test",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-client",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-grpc-test",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ]
+    }
+  ]
+}

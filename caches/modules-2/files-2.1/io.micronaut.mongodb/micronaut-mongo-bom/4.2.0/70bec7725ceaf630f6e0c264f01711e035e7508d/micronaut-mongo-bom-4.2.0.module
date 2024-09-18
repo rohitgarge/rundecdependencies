@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.mongodb",
+    "module": "micronaut-mongo-bom",
+    "version": "4.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-core",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-reactivestreams",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-reactive",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-sync",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-core",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-reactivestreams",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-reactive",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-sync",
+          "version": {
+            "requires": "4.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-mongo-bom-4.2.0.toml",
+          "url": "micronaut-mongo-bom-4.2.0.toml",
+          "size": 1012,
+          "sha512": "68fffbc3b3fceef3922c12dbe255f303e4cac7894740ac3496d970fc41b4fe17ff1573054802cb0ca6959df0bdf1c97c912850cf08e63b93ce9e01c4f7334fbc",
+          "sha256": "4f36f246b2bc2100129d4d0f2ae59e4479a296a4b5b63cc05ece280ae7f986eb",
+          "sha1": "758ec3514981fff710c222972cf1ce5d489b0e3a",
+          "md5": "1eab4180cdfe314c1ec04edd3e8e7911"
+        }
+      ]
+    }
+  ]
+}

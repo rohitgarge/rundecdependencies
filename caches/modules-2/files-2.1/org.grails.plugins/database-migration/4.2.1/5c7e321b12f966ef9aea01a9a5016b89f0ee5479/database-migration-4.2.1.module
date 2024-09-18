@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "database-migration",
+    "version": "4.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.19.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.liquibase.ext",
+          "module": "liquibase-hibernate5",
+          "version": {
+            "requires": "4.19.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-core"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-entitymanager"
+            },
+            {
+              "group": "org.liquibase",
+              "module": "liquibase-core"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-envers"
+            },
+            {
+              "group": "com.h2database",
+              "module": "h2"
+            },
+            {
+              "group": "org.liquibase",
+              "module": "liquibase-test-harness"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-shell",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "database-migration-4.2.1-plain.jar",
+          "url": "database-migration-4.2.1-plain.jar",
+          "size": 413946,
+          "sha512": "026400965950e1fbeba1c6dd40c412e01f02d86321dc3aff756ea70665bbd743488d86ed93bcbfd9c9d24d1bc650f2edac37964cfc548b3be267110e3b00a4aa",
+          "sha256": "fe07f9a5b171385f6f8b03e657060b7b73575a6c9c5caf4ebad0be10a7971ec6",
+          "sha1": "879a2eb71561b3922201f14df9382ec09d415e55",
+          "md5": "3d0f4604d1e895ecec17ef8974494e5e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.19.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.liquibase.ext",
+          "module": "liquibase-hibernate5",
+          "version": {
+            "requires": "4.19.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-core"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-entitymanager"
+            },
+            {
+              "group": "org.liquibase",
+              "module": "liquibase-core"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "hibernate-envers"
+            },
+            {
+              "group": "com.h2database",
+              "module": "h2"
+            },
+            {
+              "group": "org.liquibase",
+              "module": "liquibase-test-harness"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-shell",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "database-migration-4.2.1-plain.jar",
+          "url": "database-migration-4.2.1-plain.jar",
+          "size": 413946,
+          "sha512": "026400965950e1fbeba1c6dd40c412e01f02d86321dc3aff756ea70665bbd743488d86ed93bcbfd9c9d24d1bc650f2edac37964cfc548b3be267110e3b00a4aa",
+          "sha256": "fe07f9a5b171385f6f8b03e657060b7b73575a6c9c5caf4ebad0be10a7971ec6",
+          "sha1": "879a2eb71561b3922201f14df9382ec09d415e55",
+          "md5": "3d0f4604d1e895ecec17ef8974494e5e"
+        }
+      ]
+    }
+  ]
+}

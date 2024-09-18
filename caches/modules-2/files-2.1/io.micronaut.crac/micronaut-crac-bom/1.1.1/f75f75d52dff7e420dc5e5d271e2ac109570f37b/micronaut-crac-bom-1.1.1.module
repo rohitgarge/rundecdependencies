@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.crac",
+    "module": "micronaut-crac-bom",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.crac",
+          "module": "org-crac",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.crac",
+          "module": "org-crac",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-crac-bom-1.1.1.toml",
+          "url": "micronaut-crac-bom-1.1.1.toml",
+          "size": 480,
+          "sha512": "650cc667e13519b0306e22809b76da4adab0a68b9be7967a5fdf636592a3a54c72722b479cc2f8cb02a365c21458a13a22955a132b1a0130588ca3dcdba823f7",
+          "sha256": "cca37b2348e5b7e796bc65696921b2aadf9947a11be6c1bffebe20b117c6cec6",
+          "sha1": "db60984a03f1ccc6614a9a26ec61122622f7d995",
+          "md5": "85ee28d3e713d9183fc2fd75c2c99984"
+        }
+      ]
+    }
+  ]
+}

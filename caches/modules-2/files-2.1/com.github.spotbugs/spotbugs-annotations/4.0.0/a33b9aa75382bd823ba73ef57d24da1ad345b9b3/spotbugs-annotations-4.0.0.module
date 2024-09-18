@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.spotbugs",
+    "module": "spotbugs-annotations",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1",
+      "buildId": "jh2uo44ajbdpjeeyao5jrlz7lm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spotbugs-annotations-4.0.0.jar",
+          "url": "spotbugs-annotations-4.0.0.jar",
+          "size": 15121,
+          "sha512": "bea1bf9fd6a1ffdae8f0920d466bb46cc05fa14497c6c5962cd24f360e65e70108bba595b87b3d2551db01b5ec8cdef4b2721c4709be4390da2a13423cb0c05e",
+          "sha256": "3adeaad91f7754398de1410795e25296122c317a5e81dca7084aa6c20bd50f1c",
+          "sha1": "abd34fe3fbaa18a3a6db81baa7e6a2edfdd701dd",
+          "md5": "81d6f554409b595450e6dc926de1bb28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spotbugs-annotations-4.0.0.jar",
+          "url": "spotbugs-annotations-4.0.0.jar",
+          "size": 15121,
+          "sha512": "bea1bf9fd6a1ffdae8f0920d466bb46cc05fa14497c6c5962cd24f360e65e70108bba595b87b3d2551db01b5ec8cdef4b2721c4709be4390da2a13423cb0c05e",
+          "sha256": "3adeaad91f7754398de1410795e25296122c317a5e81dca7084aa6c20bd50f1c",
+          "sha1": "abd34fe3fbaa18a3a6db81baa7e6a2edfdd701dd",
+          "md5": "81d6f554409b595450e6dc926de1bb28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.mqtt",
+    "module": "micronaut-mqtt-bom",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.mqttv5.client",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-core",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-ssl",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqttv3",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqttv5",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.mqttv5.client",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-core",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-ssl",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqttv3",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqttv5",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-mqtt-bom-2.3.0.toml",
+          "url": "micronaut-mqtt-bom-2.3.0.toml",
+          "size": 996,
+          "sha512": "aab50de64837d7ee5c8ba7cd2a12eca0ff2d04ed71cb672ae0ef08074ca8d8e08a37181d64f3ebda7cb3c6b6289494875595607bf1527f82bca249e377900b8e",
+          "sha256": "e79a9ff3dcc5e8020b8f4de4c664dcbb7c2c050fddd730b16074e9f38de69d66",
+          "sha1": "e298f96fbf5ba452293693a5b657bfd32309c757",
+          "md5": "04e3875077cf0f311f0e3f7a32dced17"
+        }
+      ]
+    }
+  ]
+}

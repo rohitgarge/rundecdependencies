@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.picocli",
+    "module": "micronaut-picocli-bom",
+    "version": "4.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-codegen",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-codegen",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-picocli-bom-4.2.1.toml",
+          "url": "micronaut-picocli-bom-4.2.1.toml",
+          "size": 608,
+          "sha512": "de72d11ece4fa1d60b804e0246708e9c086d5facd7b26fd983a09397dc065e114c89105a45dc6c766a4be5bb5e7788c64f860ea79c451aad2b57f1f28553103f",
+          "sha256": "0364edb5fe68a9361fd2811e9b104b7d442c4802d670003068e254968b6eefea",
+          "sha1": "a5c802635b4feb07669b7529de06c2096b3bca0f",
+          "md5": "dd9c797b51385dbee09478cd823b2d6a"
+        }
+      ]
+    }
+  ]
+}

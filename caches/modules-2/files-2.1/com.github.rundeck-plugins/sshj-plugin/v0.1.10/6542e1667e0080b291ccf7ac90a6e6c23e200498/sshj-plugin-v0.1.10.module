@@ -1,0 +1,108 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.2"
+    }
+  },
+  "component" : {
+    "group" : "com.github.rundeck-plugins",
+    "module" : "sshj-plugin",
+    "version" : "v0.1.10",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "sshj-plugin-v0.1.10.jar",
+      "url" : "sshj-plugin-v0.1.10.jar",
+      "size" : 5574543,
+      "sha512" : "14500bd8b735029b8118168a36143385a40a8f1fda1032bb9885beebcee28121277d017409a21e9e5e41b0b78e4d499873d9c8e4126574dbfe45b7fdfc1ff103",
+      "sha256" : "7c1e245fa7c217e859854895edc611c7b11da9c373943bd34a9b4afb1a7559ef",
+      "sha1" : "cf93aa0f291b14c826dda3a3c326bdf4c9e5bac4",
+      "md5" : "34ed2d148db8da319f81f8acdf18200a"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.rundeck",
+      "module" : "rundeck-core",
+      "version" : {
+        "requires" : "5.0.1-20240115"
+      }
+    }, {
+      "group" : "org.slf4j",
+      "module" : "slf4j-api",
+      "version" : {
+        "requires" : "1.7.26"
+      }
+    }, {
+      "group" : "com.hierynomus",
+      "module" : "sshj",
+      "version" : {
+        "requires" : "0.35.0"
+      }
+    }, {
+      "group" : "com.hierynomus",
+      "module" : "asn-one",
+      "version" : {
+        "requires" : "0.6.0"
+      }
+    }, {
+      "group" : "net.i2p.crypto",
+      "module" : "eddsa",
+      "version" : {
+        "requires" : "0.3.0"
+      }
+    }, {
+      "group" : "org.bouncycastle",
+      "module" : "bcpkix-jdk15on",
+      "version" : {
+        "requires" : "1.61"
+      }
+    }, {
+      "group" : "org.bouncycastle",
+      "module" : "bcprov-jdk15on",
+      "version" : {
+        "requires" : "1.61"
+      }
+    }, {
+      "group" : "commons-io",
+      "module" : "commons-io",
+      "version" : {
+        "requires" : "2.6"
+      }
+    }, {
+      "group" : "net.sf.expectit",
+      "module" : "expectit-core",
+      "version" : {
+        "requires" : "0.9.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "sshj-plugin-v0.1.10.jar",
+      "url" : "sshj-plugin-v0.1.10.jar",
+      "size" : 5574543,
+      "sha512" : "14500bd8b735029b8118168a36143385a40a8f1fda1032bb9885beebcee28121277d017409a21e9e5e41b0b78e4d499873d9c8e4126574dbfe45b7fdfc1ff103",
+      "sha256" : "7c1e245fa7c217e859854895edc611c7b11da9c373943bd34a9b4afb1a7559ef",
+      "sha1" : "cf93aa0f291b14c826dda3a3c326bdf4c9e5bac4",
+      "md5" : "34ed2d148db8da319f81f8acdf18200a"
+    } ]
+  } ]
+}

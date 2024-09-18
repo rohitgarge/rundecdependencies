@@ -1,0 +1,250 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-ant",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-ant-4.0.4-groovydoc.jar",
+          "url": "groovy-ant-4.0.4-groovydoc.jar",
+          "size": 114807,
+          "sha512": "ce0c12946f25fe19885a5270addf327254f7fde957441c23dacfc0f2f395445c83f1cfbb02276c841fa73d3355b86652527a5ad9dcde67ad304454afeb786243",
+          "sha256": "72dea00bffae8d016885f150bb33c8af855bada1c4b60180408b0c74578e76cf",
+          "sha1": "8a3db4f5ef64eadc58f023534f0c3c22d5c0edd9",
+          "md5": "7fdc300abc3a833805ea5a2ac14fd4e9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-ant-4.0.4-javadoc.jar",
+          "url": "groovy-ant-4.0.4-javadoc.jar",
+          "size": 196183,
+          "sha512": "f5333f841720bf59e60010138af7bd228fb0751f0f59aa7cfd00a571a6b67aba91dad557501eaf5fbfd88d4358646ef870c2921679e3d6d03f2b4bb965f06ddf",
+          "sha256": "29f890c39f8d1d68610b5b7f394dec24dbca922f94d6fc24ad82a370d008818c",
+          "sha1": "2e849130292d46c440158e7d914b01a57e2f5f61",
+          "md5": "fe04a833b9965d58d27027331ee96af0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-ant-4.0.4-sources.jar",
+          "url": "groovy-ant-4.0.4-sources.jar",
+          "size": 55125,
+          "sha512": "991234b265bc3f9cd53cfaf14d46dd23fbfa99d11da405c1fa3930dfa398880dd781cc79a2bd1a3272654ec74f08b4a5b0aa3253d19b52699e2ef5b8be282c5f",
+          "sha256": "f20db6316846d5f9c955ff26e8469be6646ca08e54fdb17d48fde9b1f1f64618",
+          "sha1": "7425aa1172139ea4278cf14a6465cf745683813d",
+          "md5": "0edb588698bbf77eaf77290ab5d0e842"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.12"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-ant-4.0.4.jar",
+          "url": "groovy-ant-4.0.4.jar",
+          "size": 71783,
+          "sha512": "8110369145c80413af53ea510e5ca5e1feae075d36b122cae6108d28614f4eb51125f33d9425c8310f010a4ec21c84349a8c22642821731cee92f6370ef895c6",
+          "sha256": "4aff1a6a9de08005262bc7d35d641186f795e9309a62e80521b0f3220ccc0eff",
+          "sha1": "9bcb6cb1f3c8d2fd64f559a1aaabebc008854d96",
+          "md5": "431dfbd91e0934bb40e9f1f2af0c3df7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-ant",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-ant",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant-junit",
+          "version": {
+            "requires": "1.10.12"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant-launcher",
+          "version": {
+            "requires": "1.10.12"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant-antlr",
+          "version": {
+            "requires": "1.10.12"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-groovydoc",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.12"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-ant-4.0.4.jar",
+          "url": "groovy-ant-4.0.4.jar",
+          "size": 71783,
+          "sha512": "8110369145c80413af53ea510e5ca5e1feae075d36b122cae6108d28614f4eb51125f33d9425c8310f010a4ec21c84349a8c22642821731cee92f6370ef895c6",
+          "sha256": "4aff1a6a9de08005262bc7d35d641186f795e9309a62e80521b0f3220ccc0eff",
+          "sha1": "9bcb6cb1f3c8d2fd64f559a1aaabebc008854d96",
+          "md5": "431dfbd91e0934bb40e9f1f2af0c3df7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-ant",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-ant",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

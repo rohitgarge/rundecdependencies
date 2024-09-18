@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-nio",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-nio-4.0.4-groovydoc.jar",
+          "url": "groovy-nio-4.0.4-groovydoc.jar",
+          "size": 54587,
+          "sha512": "869c51f1f7de8a393464c4dcb4b822c7e415eaab797590c61ac7c2adf2415ce94c3a09095bbc59864abf687fcea17843a00cb055244233071fbb6d1fe9464e4e",
+          "sha256": "33d797d6cb48ae1f9bf16e71df22e88416c2d416459d1720d2ffb0f86214c45e",
+          "sha1": "ab2ece2bbb4e244b5cc039259a5ad04b18d2eb48",
+          "md5": "72f5c8abb67a3111187a660cccaea7b1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-nio-4.0.4-javadoc.jar",
+          "url": "groovy-nio-4.0.4-javadoc.jar",
+          "size": 141623,
+          "sha512": "8e0a37e389825758735e3dfab4bed4184f7c2d895eb6a15a2bd9c074996b47a3bc68ad87b0d1fc2669f95cff8420d8fcb4612cdecf61b6f38db47e0a6ef93948",
+          "sha256": "38e4b3599dbc242565df5930ed380f6b139c702c224d434bbbcead29c1acdccf",
+          "sha1": "b07becec1b03b9e7875d3b47ede55004dbdeb7dd",
+          "md5": "205524ca062611a7382663d80f377637"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-nio-4.0.4-sources.jar",
+          "url": "groovy-nio-4.0.4-sources.jar",
+          "size": 19355,
+          "sha512": "71af6200bb80d61bd368515be27e39110917234ddd919deed2cb9c297cd7b0be06878359401445755101f34dbbf709a720cf491f9e207336e06778fff1e03c78",
+          "sha256": "40ce907e07761fb8d3712307df8878953dd295ab4f71d34c24264b8ef0a989e0",
+          "sha1": "a389e631ff5657becb1f7129705eb2729eebb333",
+          "md5": "e6dd4a2f878fb3fdd0119d523bd83cc5"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-nio-4.0.4.jar",
+          "url": "groovy-nio-4.0.4.jar",
+          "size": 16153,
+          "sha512": "e41f9548e4c7a22d49513c79a673a156422db61d73849a86b785d3f3cb51def210f477b5571df6bbf3391104a614b70d2f72d8642e4971082b8ace8ed3fb8fc0",
+          "sha256": "6a1bcf12ef234c3f29aafad83ee0a79a2f5c9bd807ca1b8f3b708a9d82f5a89a",
+          "sha1": "59a24a28087211a122adb3b7c387b74c3346b7be",
+          "md5": "e10714dad5854940de1a244c046c36ff"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-nio",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-nio",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-nio-4.0.4.jar",
+          "url": "groovy-nio-4.0.4.jar",
+          "size": 16153,
+          "sha512": "e41f9548e4c7a22d49513c79a673a156422db61d73849a86b785d3f3cb51def210f477b5571df6bbf3391104a614b70d2f72d8642e4971082b8ace8ed3fb8fc0",
+          "sha256": "6a1bcf12ef234c3f29aafad83ee0a79a2f5c9bd807ca1b8f3b708a9d82f5a89a",
+          "sha1": "59a24a28087211a122adb3b7c387b74c3346b7be",
+          "md5": "e10714dad5854940de1a244c046c36ff"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-nio",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-nio",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

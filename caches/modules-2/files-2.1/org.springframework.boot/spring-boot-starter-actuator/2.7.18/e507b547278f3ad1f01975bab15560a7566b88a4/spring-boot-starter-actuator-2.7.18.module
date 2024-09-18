@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-actuator",
+    "version": "2.7.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.18"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-actuator-autoconfigure",
+          "version": {
+            "requires": "2.7.18"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.9.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18.jar",
+          "url": "spring-boot-starter-actuator-2.7.18.jar",
+          "size": 4808,
+          "sha512": "e4fa2e981cebf3e60900f45a1894bc81581f8ba498ec5729c3e60313c9f9035e390df83e295ec65955636b9098715ec9cf8d4bec45989c2cd44f5e3613fbad4a",
+          "sha256": "8ed4e833a4ad08afbc3a305699666cb1e58b37e7843fb373c94f5a3dce67951f",
+          "sha1": "ac6d614d1d0503dfec26110c801902d48bd22628",
+          "md5": "ff0ee7695232501c46862309f99942aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.18"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-actuator-autoconfigure",
+          "version": {
+            "requires": "2.7.18"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.9.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18.jar",
+          "url": "spring-boot-starter-actuator-2.7.18.jar",
+          "size": 4808,
+          "sha512": "e4fa2e981cebf3e60900f45a1894bc81581f8ba498ec5729c3e60313c9f9035e390df83e295ec65955636b9098715ec9cf8d4bec45989c2cd44f5e3613fbad4a",
+          "sha256": "8ed4e833a4ad08afbc3a305699666cb1e58b37e7843fb373c94f5a3dce67951f",
+          "sha1": "ac6d614d1d0503dfec26110c801902d48bd22628",
+          "md5": "ff0ee7695232501c46862309f99942aa"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18.jar",
+          "url": "spring-boot-starter-actuator-2.7.18.jar",
+          "size": 4808,
+          "sha512": "e4fa2e981cebf3e60900f45a1894bc81581f8ba498ec5729c3e60313c9f9035e390df83e295ec65955636b9098715ec9cf8d4bec45989c2cd44f5e3613fbad4a",
+          "sha256": "8ed4e833a4ad08afbc3a305699666cb1e58b37e7843fb373c94f5a3dce67951f",
+          "sha1": "ac6d614d1d0503dfec26110c801902d48bd22628",
+          "md5": "ff0ee7695232501c46862309f99942aa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-starter-actuator-maven-optional",
+          "version": "2.7.18"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18.jar",
+          "url": "spring-boot-starter-actuator-2.7.18.jar",
+          "size": 4808,
+          "sha512": "e4fa2e981cebf3e60900f45a1894bc81581f8ba498ec5729c3e60313c9f9035e390df83e295ec65955636b9098715ec9cf8d4bec45989c2cd44f5e3613fbad4a",
+          "sha256": "8ed4e833a4ad08afbc3a305699666cb1e58b37e7843fb373c94f5a3dce67951f",
+          "sha1": "ac6d614d1d0503dfec26110c801902d48bd22628",
+          "md5": "ff0ee7695232501c46862309f99942aa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-starter-actuator-maven-optional",
+          "version": "2.7.18"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18-javadoc.jar",
+          "url": "spring-boot-starter-actuator-2.7.18-javadoc.jar",
+          "size": 4748,
+          "sha512": "d460e3c7d033419d6f624641678cb02c8e00e77d360c03dae1197903e7103301ae49df74c6154e111a088a3935f506986fc13ecaaa148d2df5ba772a861ced4e",
+          "sha256": "e54652c4b40bed9feb3210ce15ec902d203e7b26a1ec4cde1e923a6bd0dc8c39",
+          "sha1": "7f353221156db0f6f3cc724862d60bdfd3833613",
+          "md5": "c286e36c84649a96ffe151bd37888c3f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.7.18-sources.jar",
+          "url": "spring-boot-starter-actuator-2.7.18-sources.jar",
+          "size": 4746,
+          "sha512": "f8061b23e646c311e58678c1b888030dee026cba90ca92f9485c0e953625b502518be8fdea09894fb67c4dff36009a51d5c6bc5bbc9f8f0ccb0be901f0c75848",
+          "sha256": "02351bc89d28e395c4de6aab7f7fd09153b2c1b6b4a49c832ce78ba15beb3fa1",
+          "sha1": "7916c00f34b9b2f56cac7bf01280ed1f35ef09dc",
+          "md5": "09a330517a0aea25b8ef84dec01287f1"
+        }
+      ]
+    }
+  ]
+}

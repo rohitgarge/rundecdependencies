@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.problem</groupId>
+  <artifactId>micronaut-problem-json-bom</artifactId>
+  <version>2.6.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Problem JSON</name>
+  <description>Produce application/problem+json responses from a Micronaut application.</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-problem-json.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-problem-json.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-problem-json.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>sergiodelamo</id>
+      <name>Sergio del Amo</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.problem.json.version>2.6.0</micronaut.problem.json.version>
+    <zalando.problem.version>0.27.1</zalando.problem.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.zalando</groupId>
+        <artifactId>problem</artifactId>
+        <version>${zalando.problem.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.problem</groupId>
+        <artifactId>micronaut-problem-json</artifactId>
+        <version>${micronaut.problem.json.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

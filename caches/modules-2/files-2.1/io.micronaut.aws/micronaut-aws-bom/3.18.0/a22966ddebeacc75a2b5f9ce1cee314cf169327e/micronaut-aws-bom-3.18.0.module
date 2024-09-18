@@ -1,0 +1,508 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.aws",
+    "module": "micronaut-aws-bom",
+    "version": "3.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-bom",
+          "version": {
+            "requires": "1.12.510"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "bom",
+          "version": {
+            "requires": "2.20.107"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk-core",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk-lambda-support",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.510"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-lambda-java-core",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-lambda-java-events",
+          "version": {
+            "requires": "3.11.2"
+          }
+        },
+        {
+          "group": "com.amazonaws.serverless",
+          "module": "aws-serverless-java-container-core",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "2.20.107"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-alexa",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-alexa-httpserver",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-apigateway",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-cdk",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-cloudwatch-logging",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-common",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-distributed-configuration",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-parameter-store",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-sdk-v1",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-sdk-v2",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-secretsmanager",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-service-discovery",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-ua",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-alexa",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-api-proxy",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-api-proxy-test",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-custom-runtime",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-test",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-client-aws",
+          "version": {
+            "requires": "3.18.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-bom",
+          "version": {
+            "requires": "1.12.510"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "bom",
+          "version": {
+            "requires": "2.20.107"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk-core",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazon.alexa",
+          "module": "ask-sdk-lambda-support",
+          "version": {
+            "requires": "2.71.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.510"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-lambda-java-core",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-lambda-java-events",
+          "version": {
+            "requires": "3.11.2"
+          }
+        },
+        {
+          "group": "com.amazonaws.serverless",
+          "module": "aws-serverless-java-container-core",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "2.20.107"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-alexa",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-alexa-httpserver",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-apigateway",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-cdk",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-cloudwatch-logging",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-common",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-distributed-configuration",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-parameter-store",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-sdk-v1",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-sdk-v2",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-secretsmanager",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-service-discovery",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-ua",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-alexa",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-api-proxy",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-api-proxy-test",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-custom-runtime",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-aws-test",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-function-client-aws",
+          "version": {
+            "requires": "3.18.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-aws-bom-3.18.0.toml",
+          "url": "micronaut-aws-bom-3.18.0.toml",
+          "size": 3944,
+          "sha512": "610b000a2972747f0ebdd787af9638b2cc45d2f860e8a24718f83d72dcb24c6c65dbb642ffcce59e00a4977c25188c501c9b0a095f7c9d61f7e470f7c111a5a5",
+          "sha256": "f2834397db28f192460fade5971363d8aeef13f5178edb255ea357cc291f4bcc",
+          "sha1": "45c88c870966d88767d305d2bcebdf0f2d269ee5",
+          "md5": "f69bed099921ac2b584665464e7f45bb"
+        }
+      ]
+    }
+  ]
+}

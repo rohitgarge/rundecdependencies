@@ -1,0 +1,311 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-datastore-gorm-hibernate5",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.27"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "com.h2database",
+              "module": "h2"
+            }
+          ]
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "6.2.5.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "2.0.1.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-hibernate5-8.0.0.jar",
+          "url": "grails-datastore-gorm-hibernate5-8.0.0.jar",
+          "size": 556470,
+          "sha512": "b82175f1e78c945864830607960430b5d65fb68debde62fcf517dde93a37e5824d62c177aca068c812464db67d7e7fa73d8b9ee7a67eb8b1810f16418035410f",
+          "sha256": "e5b895ebefe02ea0bbaa34158a962fcc21411fa21c8c394f99ceeadbd88faaff",
+          "sha1": "a7467ab2bc18e8eeeb1e499074b285d53a62e3bf",
+          "md5": "cfde980e65d3b5b5aea9170272150fbf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.27"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "com.h2database",
+              "module": "h2"
+            }
+          ]
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "6.2.5.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "2.0.1.Final"
+          }
+        },
+        {
+          "group": "javax.el",
+          "module": "javax.el-api",
+          "version": {
+            "requires": "3.0.1-b06"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.sun.xml.bind",
+          "module": "jaxb-impl",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-hibernate5-8.0.0.jar",
+          "url": "grails-datastore-gorm-hibernate5-8.0.0.jar",
+          "size": 556470,
+          "sha512": "b82175f1e78c945864830607960430b5d65fb68debde62fcf517dde93a37e5824d62c177aca068c812464db67d7e7fa73d8b9ee7a67eb8b1810f16418035410f",
+          "sha256": "e5b895ebefe02ea0bbaa34158a962fcc21411fa21c8c394f99ceeadbd88faaff",
+          "sha1": "a7467ab2bc18e8eeeb1e499074b285d53a62e3bf",
+          "md5": "cfde980e65d3b5b5aea9170272150fbf"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-datastore-gorm-hibernate5-8.0.0-javadoc.jar",
+          "url": "grails-datastore-gorm-hibernate5-8.0.0-javadoc.jar",
+          "size": 719632,
+          "sha512": "e562de2aca1cae7bbc07232e8961306fd27f51b4f53ed34ef174b736406af6423b8bbfe8b5f6293adf45515df3d4accd2f5405353c97d16b341ceda9f9e7cc49",
+          "sha256": "533a96306bf2a2a10b032907f8f322acb94d8665386ea7d2f2f7c679fec26414",
+          "sha1": "a1dba4e1aefe2f63b01c2c7d1433b871de8572ca",
+          "md5": "6a53dd538046d2d9e215d3687002e3d5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-datastore-gorm-hibernate5-8.0.0-sources.jar",
+          "url": "grails-datastore-gorm-hibernate5-8.0.0-sources.jar",
+          "size": 209724,
+          "sha512": "b11de0b003ac9f3eeb845691617574f6a9b98813ea580c08c9742dd1a478c3c3438fde98da28f1440576daf7113a7b0a9ce594250af585bf85257925b10ce3ad",
+          "sha256": "76c362b1acc86382f6f16e9422c957b77617bec749fb2b9d6332a95a2a6d216b",
+          "sha1": "7b654e306650b515ec9d55421e32e6b9787c8ada",
+          "md5": "c583a042ab3cce895549a0b4ce0adaed"
+        }
+      ]
+    }
+  ]
+}

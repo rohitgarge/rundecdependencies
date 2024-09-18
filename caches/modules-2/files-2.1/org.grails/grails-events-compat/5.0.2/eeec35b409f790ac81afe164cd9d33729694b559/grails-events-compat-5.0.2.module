@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-events-compat",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-events-compat-5.0.2.jar",
+          "url": "grails-events-compat-5.0.2.jar",
+          "size": 19869,
+          "sha512": "d9e200a1d68a9ec3a77fb6f1d73dc296c59175ef424f1756b7cd7ee689347e4d76b658364421fc144d3b97e9e00e86e21d7efdea249ff53ba97a4fd22f7e2d39",
+          "sha256": "d60980f106638a4f5b26c23834b3af39c6790cd0f3761072028720b02e10d677",
+          "sha1": "8b1496270df4ad1d381705fe67c9025532d63d05",
+          "md5": "76a5cdcc77184dc95bd0d392c18d7465"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events-transform",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.19"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-events-compat-5.0.2.jar",
+          "url": "grails-events-compat-5.0.2.jar",
+          "size": 19869,
+          "sha512": "d9e200a1d68a9ec3a77fb6f1d73dc296c59175ef424f1756b7cd7ee689347e4d76b658364421fc144d3b97e9e00e86e21d7efdea249ff53ba97a4fd22f7e2d39",
+          "sha256": "d60980f106638a4f5b26c23834b3af39c6790cd0f3761072028720b02e10d677",
+          "sha1": "8b1496270df4ad1d381705fe67c9025532d63d05",
+          "md5": "76a5cdcc77184dc95bd0d392c18d7465"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-compat-5.0.2-sources.jar",
+          "url": "grails-events-compat-5.0.2-sources.jar",
+          "size": 8423,
+          "sha512": "08f892a55ee7da6570eda1fec50d24a15bc687b9921e78a43f460b70bac9b0ce45b05b85b5ae4d5809d161ad3c84a37da78dd3650145d0c679d306a2dcb33f5e",
+          "sha256": "6ad43c695fd3026fdf75430a530d9618a8dcc33a02a127953fd53daa49a6fb82",
+          "sha1": "705cbb03700205a12a1fc24ab3fd7068500b3e43",
+          "md5": "5deb31948518d8a047d8c681ab69e553"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-compat-5.0.2-javadoc.jar",
+          "url": "grails-events-compat-5.0.2-javadoc.jar",
+          "size": 325832,
+          "sha512": "cc81b4458e22a16750b36fd5868f53f2c05c6038eeb1d97f8505e1267a24cf907d020802a68be07bd330418420afb05a696e479ec0cd2c8d1183df9babbc9d88",
+          "sha256": "0d6e6beadbce47d0f5273a446924a16a4c8a00394967bcd8cbf67d96cebac07f",
+          "sha1": "270bee2f4d257f188c9b432b64f347c0249a68b4",
+          "md5": "f5e42b737fea020fe5cdff0ea255a5d8"
+        }
+      ]
+    }
+  ]
+}

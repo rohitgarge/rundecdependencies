@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-implicit-assertions",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-implicit-assertions-5.1.jar",
+          "url": "geb-implicit-assertions-5.1.jar",
+          "size": 34381,
+          "sha512": "306b506e7819a75e940cb03753e6fee68db9532219209c75fe152638565b220c68ac4b08d619c7e649ff97ac3a737f115bba084a16c85bad8ce0a9654c40bdbe",
+          "sha256": "f824417b9e62c7c463df822f96dd8f146139516a9cfd71a73c60929f96f5e17d",
+          "sha1": "22a0e15dc6b3f2c6e256738d9d87fd2e2b2417d1",
+          "md5": "645ec5609d08b7359907b0eb68768262"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-implicit-assertions-5.1.jar",
+          "url": "geb-implicit-assertions-5.1.jar",
+          "size": 34381,
+          "sha512": "306b506e7819a75e940cb03753e6fee68db9532219209c75fe152638565b220c68ac4b08d619c7e649ff97ac3a737f115bba084a16c85bad8ce0a9654c40bdbe",
+          "sha256": "f824417b9e62c7c463df822f96dd8f146139516a9cfd71a73c60929f96f5e17d",
+          "sha1": "22a0e15dc6b3f2c6e256738d9d87fd2e2b2417d1",
+          "md5": "645ec5609d08b7359907b0eb68768262"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-implicit-assertions-5.1-javadoc.jar",
+          "url": "geb-implicit-assertions-5.1-javadoc.jar",
+          "size": 48268,
+          "sha512": "4ad1b339c374c38ec2e1749c676014b5f59be494c6f32f7e911b1383274ad8ce602d7d3ed6b05627f7ddb82d03fa1295dd4185c38f2ffea6e90acf241e223649",
+          "sha256": "326f87995a6204230c02f33a719259595de2c50870d288f3ce4159a0016144c7",
+          "sha1": "d60c673b6d12b893fc706a921a17a54423a6376a",
+          "md5": "1ccc58f6bce39c626cf575a443f07a50"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-implicit-assertions-5.1-sources.jar",
+          "url": "geb-implicit-assertions-5.1-sources.jar",
+          "size": 8869,
+          "sha512": "4011758602b2c7f32c7f4e84787e733d33b36e45de36b5766571ab48ede7cecb26d68dd3726fdec275ff8c3e2728bb97b6bc4c7f80d6a2023736f410a7e6a97a",
+          "sha256": "e84d36e8898fc1b91f67808df415523e75ab295c74fc644955085dc52c32814a",
+          "sha1": "6c352f97d6de147f7e98e90c436927227cd0e90a",
+          "md5": "5ac3ffffe18239baaee9c19c4943db42"
+        }
+      ]
+    }
+  ]
+}

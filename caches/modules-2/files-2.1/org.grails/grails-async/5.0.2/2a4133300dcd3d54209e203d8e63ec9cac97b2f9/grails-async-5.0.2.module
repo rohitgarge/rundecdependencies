@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-async",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-async-5.0.2.jar",
+          "url": "grails-async-5.0.2.jar",
+          "size": 66394,
+          "sha512": "809e8913d0ea2dae3fc9d40adedfc5e49c6f5010aef19db0c633fb6967d812b5668e7b02ab7cd831c30761e725c44744d116ce55a81abb348b850276ee15622c",
+          "sha256": "6c26076929abc937994538228dabc0b4b2780e998d5d293abc2a5a2d10f92476",
+          "sha1": "81f9170d176fefcea7b01056180b154f7574b045",
+          "md5": "6e1bf305bf294eec76e0e37d29ad27d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.19"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-async-5.0.2.jar",
+          "url": "grails-async-5.0.2.jar",
+          "size": 66394,
+          "sha512": "809e8913d0ea2dae3fc9d40adedfc5e49c6f5010aef19db0c633fb6967d812b5668e7b02ab7cd831c30761e725c44744d116ce55a81abb348b850276ee15622c",
+          "sha256": "6c26076929abc937994538228dabc0b4b2780e998d5d293abc2a5a2d10f92476",
+          "sha1": "81f9170d176fefcea7b01056180b154f7574b045",
+          "md5": "6e1bf305bf294eec76e0e37d29ad27d0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-async-5.0.2-sources.jar",
+          "url": "grails-async-5.0.2-sources.jar",
+          "size": 25345,
+          "sha512": "13da3f16f84f2c21a3aa45fe6bc1fadb82dd52adf432fe771dd1c67eacd36dd58f91c41ffa1f07b94a4d8a95799fa6479b8cfb635f7c8dfce61b550bdf1abb50",
+          "sha256": "e820cd3659a54a4af79bf0ac7a62f379abfa5aaa6782df1e6bef06ef4ea57285",
+          "sha1": "e7bdc5d14f992d89fb22906bb1b479e80697971a",
+          "md5": "5345da8164cdd642ac8ab1ad3bf0ca84"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-async-5.0.2-javadoc.jar",
+          "url": "grails-async-5.0.2-javadoc.jar",
+          "size": 310645,
+          "sha512": "3b3282eadab75b0193539787cc68b5b9245b825c21e579048ab7c7d07e8088c8cd6fb29907b03895fb1e825d0076baa1a5aace30d2a857af980a88723877e02e",
+          "sha256": "7109358765b0a67e245b4196db38fbd5f907753c12a3ca61997f33be8db43e0b",
+          "sha1": "91162c446a61fb8d9dea1a56aa87ec9ecd586fd3",
+          "md5": "7f2b58b30bee7935b8a5e34e3a6d837d"
+        }
+      ]
+    }
+  ]
+}

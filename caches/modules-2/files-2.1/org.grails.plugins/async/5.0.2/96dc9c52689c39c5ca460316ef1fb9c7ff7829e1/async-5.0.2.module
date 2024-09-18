@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "async",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-async",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-5.0.2.jar",
+          "url": "async-5.0.2.jar",
+          "size": 57877,
+          "sha512": "cad2a80cef398a44122dad348ca6129c10f4334340dac188c6c5b1cb85fb44d886ea9b5bf72954148b19ccce17079901033ea49fe15a0ceadc48a22ed665630c",
+          "sha256": "83400e83274ea67a12a994b3803cc5adf6eda969824f81555a242986f2346f6e",
+          "sha1": "9886bc583d20e617a33081a87f1c8c22824b343f",
+          "md5": "9a29467455c46dbf990f4221ccf680ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-controllers",
+          "version": {
+            "requires": "6.1.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-async",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-5.0.2.jar",
+          "url": "async-5.0.2.jar",
+          "size": 57877,
+          "sha512": "cad2a80cef398a44122dad348ca6129c10f4334340dac188c6c5b1cb85fb44d886ea9b5bf72954148b19ccce17079901033ea49fe15a0ceadc48a22ed665630c",
+          "sha256": "83400e83274ea67a12a994b3803cc5adf6eda969824f81555a242986f2346f6e",
+          "sha1": "9886bc583d20e617a33081a87f1c8c22824b343f",
+          "md5": "9a29467455c46dbf990f4221ccf680ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "async-5.0.2-sources.jar",
+          "url": "async-5.0.2-sources.jar",
+          "size": 18963,
+          "sha512": "73c9ced6e6b95b849335cdbc916d6269595cf7e32c7740f15a25b57100b69ffee2da6a152bff446fd831a867a3537281670ae7cac1e41ddb7c31b7b126679639",
+          "sha256": "0e5507936147ab8bb14eb7f3a7f41f3341318306a845ed8fc3253a7a6edcf16d",
+          "sha1": "226a581fb7fa32fae45b526b88a4b48f3f5243f9",
+          "md5": "6e7d1e12756aaf4fa371b301a18e81b3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "async-5.0.2-javadoc.jar",
+          "url": "async-5.0.2-javadoc.jar",
+          "size": 97422,
+          "sha512": "c1da961dfb52058675e6a9e7eda9e91993e4085b50c54f2803db2097f607e6c2b9a8d01f866166425ec9a5285a0ba81ed3df1b0b2e1367b66539e30bb60a4e46",
+          "sha256": "99778392aaa090d8d5885d81655884072f37a1416718036f7314756a284761c7",
+          "sha1": "2b7e95483b1a6704b2ed0574acbfce70b5710603",
+          "md5": "77347a234adca96de2021c910f788ab3"
+        }
+      ]
+    }
+  ]
+}

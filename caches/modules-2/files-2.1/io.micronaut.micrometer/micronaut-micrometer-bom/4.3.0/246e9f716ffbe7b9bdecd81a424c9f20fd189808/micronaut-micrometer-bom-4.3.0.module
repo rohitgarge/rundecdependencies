@@ -1,0 +1,362 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.micrometer",
+    "module": "micronaut-micrometer-bom",
+    "version": "4.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-annotation",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-core",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-appoptics",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-atlas",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-azure-monitor",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-cloudwatch",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-datadog",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-dynatrace",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-elastic",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-ganglia",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-graphite",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-humio",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-influx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-jmx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-kairos",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-new-relic",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-new-relic-telemetry",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-prometheus",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-signalfx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-stackdriver",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-statsd",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-wavefront",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-annotation",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-core",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-appoptics",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-atlas",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-azure-monitor",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-cloudwatch",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-datadog",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-dynatrace",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-elastic",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-ganglia",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-graphite",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-humio",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-influx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-jmx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-kairos",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-new-relic",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-new-relic-telemetry",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-prometheus",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-signalfx",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-stackdriver",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-statsd",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-registry-wavefront",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-micrometer-bom-4.3.0.toml",
+          "url": "micronaut-micrometer-bom-4.3.0.toml",
+          "size": 3918,
+          "sha512": "c106fc394ea4da43fe315bc7d231f0cd7f5e56c6773e93d650bfd4d3794d60c0935fc279b22902ce9194e16509bed5d2d4d2355de850470ede9c33133326bfd1",
+          "sha256": "00babf37bea2b215824fc1f21c5d58ee30b84ad0bab6c2fa9f1a458454c9a77d",
+          "sha1": "0d67f9cc7c924a1b7cda551de5a29ee097228a1c",
+          "md5": "c10dfa1ec9bb05991590b51068a677aa"
+        }
+      ]
+    }
+  ]
+}

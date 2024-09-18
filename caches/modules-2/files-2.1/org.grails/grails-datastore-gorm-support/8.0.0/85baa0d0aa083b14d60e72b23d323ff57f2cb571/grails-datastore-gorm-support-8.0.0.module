@@ -1,0 +1,414 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-datastore-gorm-support",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.springframework",
+              "module": "spring-web"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-aspects"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-expression"
+            },
+            {
+              "group": "org.hibernate.javax.persistence",
+              "module": "hibernate-jpa-2.1-api"
+            },
+            {
+              "group": "com.googlecode.concurrentlinkedhashmap",
+              "module": "concurrentlinkedhashmap-lru"
+            },
+            {
+              "group": "commons-io",
+              "module": "commons-io"
+            },
+            {
+              "group": "commons-validator",
+              "module": "commons-validator"
+            },
+            {
+              "group": "org.aspectj",
+              "module": "aspectjrt"
+            },
+            {
+              "group": "xalan",
+              "module": "serializer"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-bootstrap"
+            },
+            {
+              "group": "asm",
+              "module": "asm"
+            },
+            {
+              "group": "cglib",
+              "module": "cglib"
+            },
+            {
+              "group": "org.aspectj",
+              "module": "aspectjweaver"
+            },
+            {
+              "group": "oro",
+              "module": "oro"
+            },
+            {
+              "group": "cglib",
+              "module": "cglib-nodep"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-aop"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            },
+            {
+              "group": "commons-lang",
+              "module": "commons-lang"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context-support"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-bootstrap",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.ant",
+              "module": "ant-junit"
+            },
+            {
+              "group": "org.fusesource.jansi",
+              "module": "jansi"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-trax"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-ant"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-xml"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "net.java.dev.jna",
+              "module": "jna"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            },
+            {
+              "group": "org.codehaus.gant",
+              "module": "gant_groovy1.8"
+            },
+            {
+              "group": "jline",
+              "module": "jline"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-support-8.0.0.jar",
+          "url": "grails-datastore-gorm-support-8.0.0.jar",
+          "size": 13058,
+          "sha512": "d93597fa654cc5f14d5645ea4da73a3f6d7c13bf6bea36a9fe99c218eb85b92cf811be33d6bf34d1fe6dbce4f98c5a79d298ca0054394ddc3625be28eeacd44b",
+          "sha256": "ee2978362234c5112b24791e553c4dbde052eccbb8ad0d9c2611a83144a3ac20",
+          "sha1": "947145055ed0652382b0a044294ce2708a508820",
+          "md5": "06a6633c33890aaf639d0ed49a5dfff7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.springframework",
+              "module": "spring-web"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-aspects"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-expression"
+            },
+            {
+              "group": "org.hibernate.javax.persistence",
+              "module": "hibernate-jpa-2.1-api"
+            },
+            {
+              "group": "com.googlecode.concurrentlinkedhashmap",
+              "module": "concurrentlinkedhashmap-lru"
+            },
+            {
+              "group": "commons-io",
+              "module": "commons-io"
+            },
+            {
+              "group": "commons-validator",
+              "module": "commons-validator"
+            },
+            {
+              "group": "org.aspectj",
+              "module": "aspectjrt"
+            },
+            {
+              "group": "xalan",
+              "module": "serializer"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-bootstrap"
+            },
+            {
+              "group": "asm",
+              "module": "asm"
+            },
+            {
+              "group": "cglib",
+              "module": "cglib"
+            },
+            {
+              "group": "org.aspectj",
+              "module": "aspectjweaver"
+            },
+            {
+              "group": "oro",
+              "module": "oro"
+            },
+            {
+              "group": "cglib",
+              "module": "cglib-nodep"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-aop"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            },
+            {
+              "group": "commons-lang",
+              "module": "commons-lang"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context-support"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-bootstrap",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.ant",
+              "module": "ant-junit"
+            },
+            {
+              "group": "org.fusesource.jansi",
+              "module": "jansi"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-trax"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-ant"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-xml"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "net.java.dev.jna",
+              "module": "jna"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            },
+            {
+              "group": "org.codehaus.gant",
+              "module": "gant_groovy1.8"
+            },
+            {
+              "group": "jline",
+              "module": "jline"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-support-8.0.0.jar",
+          "url": "grails-datastore-gorm-support-8.0.0.jar",
+          "size": 13058,
+          "sha512": "d93597fa654cc5f14d5645ea4da73a3f6d7c13bf6bea36a9fe99c218eb85b92cf811be33d6bf34d1fe6dbce4f98c5a79d298ca0054394ddc3625be28eeacd44b",
+          "sha256": "ee2978362234c5112b24791e553c4dbde052eccbb8ad0d9c2611a83144a3ac20",
+          "sha1": "947145055ed0652382b0a044294ce2708a508820",
+          "md5": "06a6633c33890aaf639d0ed49a5dfff7"
+        }
+      ]
+    }
+  ]
+}

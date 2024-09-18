@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.flyway",
+    "module": "micronaut-flyway-bom",
+    "version": "5.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-sqlserver",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway",
+          "version": {
+            "requires": "5.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-sqlserver",
+          "version": {
+            "requires": "8.5.8"
+          }
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway",
+          "version": {
+            "requires": "5.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-flyway-bom-5.3.0.toml",
+          "url": "micronaut-flyway-bom-5.3.0.toml",
+          "size": 689,
+          "sha512": "98cea0d4ffe6cc0605d420c2d13bc42316f4c450af313dba586ce0ae72ab91edb484efeeaad4cc723a050534fbeb8b537dc8744dfbf4329f974dc17d45ca6221",
+          "sha256": "250f4ad4986b534c924e3e4c191068bcd29f8b85be748bb6d512f0f2152246a4",
+          "sha1": "8cbc53ff4d0b9bb0a95ca85d43c481dc889592e6",
+          "md5": "7ecf70669cdd544a96023789dadeb5d0"
+        }
+      ]
+    }
+  ]
+}

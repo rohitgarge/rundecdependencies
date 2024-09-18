@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.objectstorage",
+    "module": "micronaut-object-storage-bom",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-aws",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-azure",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-gcp",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-oracle-cloud",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-aws",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-azure",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-gcp",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-oracle-cloud",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-object-storage-bom-1.1.0.toml",
+          "url": "micronaut-object-storage-bom-1.1.0.toml",
+          "size": 1117,
+          "sha512": "abfc868a47dbe7db6bee93537104f3bab82af79c30452c6e2351c4f3c124aa3eadb0f329b5c76b541cee0f2966a33ec4a105dd3f57604a69c753e1df863248f5",
+          "sha256": "7ad133c31918e2b2889fdb7a9bdabfe5e511b957bd16ca05cb6ef4509df924d3",
+          "sha1": "c2aee33b24213c35ffb42c5cfe4a49f21b58491f",
+          "md5": "b2f8e5e4228f60add21326257ff9552a"
+        }
+      ]
+    }
+  ]
+}

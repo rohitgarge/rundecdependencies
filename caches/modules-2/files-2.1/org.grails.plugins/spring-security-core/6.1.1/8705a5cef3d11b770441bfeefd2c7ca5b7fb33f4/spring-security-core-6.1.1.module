@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "spring-security-core",
+    "version": "6.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core",
+          "version": {
+            "requires": "5.8.9"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-expression"
+            },
+            {
+              "group": "*",
+              "module": "spring-aop"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-web",
+          "version": {
+            "requires": "5.8.9"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "spring-web"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-security-core-6.1.1.jar",
+          "url": "spring-security-core-6.1.1.jar",
+          "size": 583548,
+          "sha512": "108ee2ba903796bb6289a6cc96f6add27174885377c24b90264e7c75bdd7885201ed317bc037faf506205b86afda33076308ca21998122ee9f608cdbe962e36e",
+          "sha256": "769c1e144d577e6ece31e05ade45dde9a2fa3f53b321aba1f9998ed8456d5059",
+          "sha1": "b848a79022c1cf0737b93504afafd2bbfdfd5065",
+          "md5": "f9de22b8da0f07492875f30c072d48c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails.plugins",
+          "module": "async",
+          "version": {
+            "requires": "5.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core",
+          "version": {
+            "requires": "5.8.9"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-expression"
+            },
+            {
+              "group": "*",
+              "module": "spring-aop"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-web",
+          "version": {
+            "requires": "5.8.9"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "spring-web"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-security-core-6.1.1.jar",
+          "url": "spring-security-core-6.1.1.jar",
+          "size": 583548,
+          "sha512": "108ee2ba903796bb6289a6cc96f6add27174885377c24b90264e7c75bdd7885201ed317bc037faf506205b86afda33076308ca21998122ee9f608cdbe962e36e",
+          "sha256": "769c1e144d577e6ece31e05ade45dde9a2fa3f53b321aba1f9998ed8456d5059",
+          "sha1": "b848a79022c1cf0737b93504afafd2bbfdfd5065",
+          "md5": "f9de22b8da0f07492875f30c072d48c0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-core-6.1.1-javadoc.jar",
+          "url": "spring-security-core-6.1.1-javadoc.jar",
+          "size": 376280,
+          "sha512": "f9a1e5a8d3afc330fb64ac447504b9f747ef1d365b29d390b3ea1b4b081caad606c28879d689cafdb2383218af35217304156ef273356f615fafe00a36c6031d",
+          "sha256": "e0d3fec48c23ae88e0df86fa627b79aa0708899384f68ef8385af0d68508f5fe",
+          "sha1": "4db77dbe9fea6ee28099736a890b5667b72e2aab",
+          "md5": "da903adc45b474ec024f4216562f3857"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-core-6.1.1-sources.jar",
+          "url": "spring-security-core-6.1.1-sources.jar",
+          "size": 127508,
+          "sha512": "b5d90f737099832c0630c796fc7f35406826267073c5d904d645ae83a94a31f3e1d2d62e81cbf288d3639819e57f6efe50d71f0b668108b79c8bff5112f92116",
+          "sha256": "a237f1053601150b5ec2093e5d425e64be4efcb6c52422cf04e64f81dcfdedf1",
+          "sha1": "b83b340c6c68041c9073e6efe885031823e5036c",
+          "md5": "35ffd6c7128e2531f85804dcfcfe9c31"
+        }
+      ]
+    }
+  ]
+}

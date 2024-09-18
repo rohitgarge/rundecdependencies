@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-common",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.13.0.jar",
+          "url": "opentelemetry-sdk-common-1.13.0.jar",
+          "size": 32673,
+          "sha512": "f4b7528fa445518093e7c34f438395bf23867934f428d45e38a716005683bf4f2d1892abd6a44267f25c403700c736a045338a6f2451c8b2246a53dfae1d5536",
+          "sha256": "1d77e482a911c0f4855f011bc3f506a0b246699b7793ec415e48bdde78193061",
+          "sha1": "1da9c40ece22166bea9952b95b7e0295e2cdf944",
+          "md5": "bf40ec0febd2acfb911272f3cbbc0b86"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.13.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.13.0.jar",
+          "url": "opentelemetry-sdk-common-1.13.0.jar",
+          "size": 32673,
+          "sha512": "f4b7528fa445518093e7c34f438395bf23867934f428d45e38a716005683bf4f2d1892abd6a44267f25c403700c736a045338a6f2451c8b2246a53dfae1d5536",
+          "sha256": "1d77e482a911c0f4855f011bc3f506a0b246699b7793ec415e48bdde78193061",
+          "sha1": "1da9c40ece22166bea9952b95b7e0295e2cdf944",
+          "md5": "bf40ec0febd2acfb911272f3cbbc0b86"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.13.0-javadoc.jar",
+          "url": "opentelemetry-sdk-common-1.13.0-javadoc.jar",
+          "size": 147205,
+          "sha512": "6ac789a9dda20c30b858f0570e0c55b820fe9f3d17550fb95859983c81711a3c4c1fb188e2977a085468a73c41421fdf6b50bbeff26284180a5aedae5af2a04b",
+          "sha256": "b6b30453158cf25b2c90ee4769c687e668c4f6eac5ad486763c24bb8b2c13c86",
+          "sha1": "f7df0c703d48fda377873f68780ecfbe6d807fe9",
+          "md5": "f5b862785fdbc4f28ec3651bef25bcf1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.13.0-sources.jar",
+          "url": "opentelemetry-sdk-common-1.13.0-sources.jar",
+          "size": 24897,
+          "sha512": "a702747a8491a8ac486f44cf92521699813583c3c9e798ddc05776d3b2e720d9effd1a591a4e2a37ce0fbd63dca6680cc2f70022cb4223c8b077fa63b38286f4",
+          "sha256": "44025b6dbd79316a356f870fa0fcf498cd5d0fd80809f146c78aa38e6f7c7734",
+          "sha1": "4964250ba745d1122b3e9fe6e8b3f89d239db5f0",
+          "md5": "e5c97920a14205e1887f44ad0aaf3d05"
+        }
+      ]
+    }
+  ]
+}

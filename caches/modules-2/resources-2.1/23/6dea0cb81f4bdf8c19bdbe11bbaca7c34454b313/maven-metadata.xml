@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.grails</groupId>
+  <artifactId>grails-bom</artifactId>
+  <version>3.3.0.BUILD-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20170726.105249</timestamp>
+      <buildNumber>106</buildNumber>
+    </snapshot>
+    <lastUpdated>20170726105249</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.3.0.BUILD-20170726.105249-106</value>
+        <updated>20170726105249</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

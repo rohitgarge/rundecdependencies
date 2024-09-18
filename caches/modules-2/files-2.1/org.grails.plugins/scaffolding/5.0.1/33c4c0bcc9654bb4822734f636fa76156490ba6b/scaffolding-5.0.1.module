@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "scaffolding",
+    "version": "5.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-dependencies",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "fields",
+          "version": {
+            "requires": "3.0.0.RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "scaffolding-5.0.1-plain.jar",
+          "url": "scaffolding-5.0.1-plain.jar",
+          "size": 93754,
+          "sha512": "0d2a8f68cfab872cd6c5a9d673a18c524a674839fbd8c88d27cdd43a09f14c1aa6e2a93d88a44f16c2cf56fb66cd7b4ae4de3a1a19d97f484d86bfb2f04b6416",
+          "sha256": "2ed5eb2ce64381314a6cd69db8d01ea545833175efbb47015b3422f06db5c52d",
+          "sha1": "78ac46681f0df6ae088467cfbf44830356809769",
+          "md5": "409591f39b2d8f8708c285fc513c37a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-dependencies",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "fields",
+          "version": {
+            "requires": "3.0.0.RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "scaffolding-5.0.1-plain.jar",
+          "url": "scaffolding-5.0.1-plain.jar",
+          "size": 93754,
+          "sha512": "0d2a8f68cfab872cd6c5a9d673a18c524a674839fbd8c88d27cdd43a09f14c1aa6e2a93d88a44f16c2cf56fb66cd7b4ae4de3a1a19d97f484d86bfb2f04b6416",
+          "sha256": "2ed5eb2ce64381314a6cd69db8d01ea545833175efbb47015b3422f06db5c52d",
+          "sha1": "78ac46681f0df6ae088467cfbf44830356809769",
+          "md5": "409591f39b2d8f8708c285fc513c37a1"
+        }
+      ]
+    }
+  ]
+}

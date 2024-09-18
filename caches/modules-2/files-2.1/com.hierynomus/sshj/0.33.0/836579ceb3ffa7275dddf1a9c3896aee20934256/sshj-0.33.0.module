@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hierynomus",
+    "module": "sshj",
+    "version": "0.33.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sshj-0.33.0.jar",
+          "url": "sshj-0.33.0.jar",
+          "size": 559891,
+          "sha512": "2be0bfabafcf3957cf2635c8c5a5e7a5633858f0b47b7ea89d5cb4913f11291fbe988492a8d0ddaa36cba17a1731f715c8cb3acfd788f012e40d00b7b72d3560",
+          "sha256": "a24008f16bf2051472d16267fe398527993b90c7444162c94789aaff7726c0ed",
+          "sha1": "710aa8a6ee78e28597271ada7262076a7a71aab6",
+          "md5": "aebf4acc3ea781643573cc32cefa4958"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "com.hierynomus",
+          "module": "asn-one",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "net.i2p.crypto",
+          "module": "eddsa",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sshj-0.33.0.jar",
+          "url": "sshj-0.33.0.jar",
+          "size": 559891,
+          "sha512": "2be0bfabafcf3957cf2635c8c5a5e7a5633858f0b47b7ea89d5cb4913f11291fbe988492a8d0ddaa36cba17a1731f715c8cb3acfd788f012e40d00b7b72d3560",
+          "sha256": "a24008f16bf2051472d16267fe398527993b90c7444162c94789aaff7726c0ed",
+          "sha1": "710aa8a6ee78e28597271ada7262076a7a71aab6",
+          "md5": "aebf4acc3ea781643573cc32cefa4958"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sshj-0.33.0-javadoc.jar",
+          "url": "sshj-0.33.0-javadoc.jar",
+          "size": 1751637,
+          "sha512": "a6da77f5fbb874aebbf0af446f9d9648cc305c07806c226ab0a83a0890f35a66a9194c062ac2f14f57928e7a34b43fc48307b5673eea88eefbe687f865f4ccbf",
+          "sha256": "9f54198d6d370346bff015976cc18b94085b51b96e93e399f310aa4f0d0dfad2",
+          "sha1": "271f2ce7b748af92fdc9fa11c6c028dd4c087ac2",
+          "md5": "fc85f2079bf30bdd3f3d11dfcea17f0b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sshj-0.33.0-sources.jar",
+          "url": "sshj-0.33.0-sources.jar",
+          "size": 383090,
+          "sha512": "27cb89415b1997a402d238d43c057da292f7408a36e6526a34d5a602061f027ffedc110b6602dc7473406fc9dcda2cdf7a0c92b2037220d362806fa35a3ee8dc",
+          "sha256": "e1d8874278bb7e99fbfe0a3f15a8564d87dc4a3215bbd424b0a242937680674d",
+          "sha1": "c3273fbf8ab70e0ebb815f2489ae0d003cb8e88a",
+          "md5": "c0c575d75c8f909116e2393adf37ba41"
+        }
+      ]
+    }
+  ]
+}

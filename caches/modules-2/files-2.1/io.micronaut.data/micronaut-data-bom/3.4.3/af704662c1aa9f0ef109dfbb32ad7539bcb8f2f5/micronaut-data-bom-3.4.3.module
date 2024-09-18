@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.data",
+    "module": "micronaut-data-bom",
+    "version": "3.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-model",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-processor",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-jpa",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-jdbc",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-model",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-mongodb",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-processor",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-r2dbc",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-runtime",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring-jpa",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx-hibernate",
+          "version": {
+            "requires": "3.4.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-model",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-processor",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-jpa",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-jdbc",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-model",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-mongodb",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-processor",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-r2dbc",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-runtime",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring-jpa",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx-hibernate",
+          "version": {
+            "requires": "3.4.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-data-bom-3.4.3.toml",
+          "url": "micronaut-data-bom-3.4.3.toml",
+          "size": 1899,
+          "sha512": "9baaf308d9ee4f0f3c7a676ad231bc4753a51a9dd0bd8c46a1890ddcccbbcdcbe162fe437521549b95d744933b7861d43cd93fe9f5a4741f592d5520f7a615b8",
+          "sha256": "a6162bd862e6bcedfc53d721f5c2633effcf3e44cf8a7552b0cf476c889c6e0c",
+          "sha1": "b9b6f9baf465cfcaaca12ed907d62b645f5aec82",
+          "md5": "ee7acc63c879b99044df8d731949c75f"
+        }
+      ]
+    }
+  ]
+}

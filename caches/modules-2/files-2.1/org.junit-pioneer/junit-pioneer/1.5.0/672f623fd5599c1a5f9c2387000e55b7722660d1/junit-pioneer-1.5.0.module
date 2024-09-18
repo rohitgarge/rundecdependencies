@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.junit-pioneer",
+    "module": "junit-pioneer",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.5.0.jar",
+          "url": "junit-pioneer-1.5.0.jar",
+          "size": 144820,
+          "sha512": "7810741281561ddafbee822674c980d0efcd12b99ce38260c676c3ea71e7cb420a5a4696fea790aa58354cd0e8bbd49719cc90666a365005923413596a937660",
+          "sha256": "fe364ae7fbd1fde54ae5d3c05ff87f48add2683652345436a5113ac2c700da58",
+          "sha1": "e8648aa96c8ad06adc4f960decf360fbe4390d51",
+          "md5": "991c16170b486c253305b06b0264c63e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api"
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params"
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-commons"
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher"
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-pioneer-1.5.0.jar",
+          "url": "junit-pioneer-1.5.0.jar",
+          "size": 144820,
+          "sha512": "7810741281561ddafbee822674c980d0efcd12b99ce38260c676c3ea71e7cb420a5a4696fea790aa58354cd0e8bbd49719cc90666a365005923413596a937660",
+          "sha256": "fe364ae7fbd1fde54ae5d3c05ff87f48add2683652345436a5113ac2c700da58",
+          "sha1": "e8648aa96c8ad06adc4f960decf360fbe4390d51",
+          "md5": "991c16170b486c253305b06b0264c63e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.5.0-javadoc.jar",
+          "url": "junit-pioneer-1.5.0-javadoc.jar",
+          "size": 231603,
+          "sha512": "5311391b9afb3c91244bde9806a0bf41eb9ee4118533b556050b8e5f6c9bdae46fc9d55afae5eba4308df7fd89c331085ac2489cc795f34550d4890311e95f4a",
+          "sha256": "7a9ed9956a0bc27772029d78492aecba28fd91364b4934cf5e20b59b13ad421b",
+          "sha1": "dd4c33b79ef3c102296e78c83e05d6dcf41c320d",
+          "md5": "f272ffd43a3051723e54400b6a2c89cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.5.0-sources.jar",
+          "url": "junit-pioneer-1.5.0-sources.jar",
+          "size": 117014,
+          "sha512": "71e2e4c241c579add743e354d9bfcdb291e3cab6204abee6e37d73cee2c8ec2ab4a680058d06ca15d897cd83cbf23fdc6c4f598404ec54543d28371f28a56abd",
+          "sha256": "8a6e14c349326c80e6cd38b86acfdd43c1097837aec0080ad03943875306c25e",
+          "sha1": "dbc6c59b12688a2e15fcf46ab468c751ff057072",
+          "md5": "3b659a3b3fec170e28fe68a3cf245c4e"
+        }
+      ]
+    }
+  ]
+}

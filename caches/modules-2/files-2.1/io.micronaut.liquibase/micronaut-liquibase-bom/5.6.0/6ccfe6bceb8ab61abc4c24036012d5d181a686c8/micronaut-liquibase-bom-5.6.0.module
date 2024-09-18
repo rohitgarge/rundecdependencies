@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.liquibase",
+    "module": "micronaut-liquibase-bom",
+    "version": "5.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase",
+          "version": {
+            "requires": "5.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.18.0"
+          }
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase",
+          "version": {
+            "requires": "5.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-liquibase-bom-5.6.0.toml",
+          "url": "micronaut-liquibase-bom-5.6.0.toml",
+          "size": 546,
+          "sha512": "7d05d0e4dcd0784626cb321fa34e0bef0d28f54932ced8a03980c0c77d8e924c62e9563e753a97b239ba6d7206088fc73c37bf71826d6e3cf5984dc2d98819d7",
+          "sha256": "2e8cb27785866414d997e2f177d65b79beb7812f8fd47fc0e11b37d732d99f08",
+          "sha1": "69130941172a6494d4ced931cceeb3684550c8eb",
+          "md5": "8ecd8ea79f72fd52765415205f255979"
+        }
+      ]
+    }
+  ]
+}

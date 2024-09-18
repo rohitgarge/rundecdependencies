@@ -1,0 +1,490 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.openapi",
+    "module": "micronaut-openapi",
+    "version": "4.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.62.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains",
+              "module": "annotations"
+            }
+          ]
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.4"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-4.8.7.jar",
+          "url": "micronaut-openapi-4.8.7.jar",
+          "size": 2792260,
+          "sha512": "68f7c87d131d90d18637d7344dd4cdf9d050b7eb07d71e88e52d84c8f859b1eabbbce4b687ef8c8962f8389e14a340f460ff51240ca6bb38c47da317491f7b92",
+          "sha256": "a8a33c06bd71fee3a30f2bba0dc14c974b4f587eb6d25bcdea94af9804957197",
+          "sha1": "3def7df4ab26406310a0bb3c79dd0231d3acaeff",
+          "md5": "105ebfa103ef174c91be9425282518b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.8.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-bom",
+          "version": {
+            "requires": "3.8.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.9"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.62.2"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            },
+            {
+              "group": "org.jetbrains",
+              "module": "annotations"
+            }
+          ]
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.4"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            },
+            {
+              "group": "io.spring.nohttp",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-4.8.7.jar",
+          "url": "micronaut-openapi-4.8.7.jar",
+          "size": 2792260,
+          "sha512": "68f7c87d131d90d18637d7344dd4cdf9d050b7eb07d71e88e52d84c8f859b1eabbbce4b687ef8c8962f8389e14a340f460ff51240ca6bb38c47da317491f7b92",
+          "sha256": "a8a33c06bd71fee3a30f2bba0dc14c974b4f587eb6d25bcdea94af9804957197",
+          "sha1": "3def7df4ab26406310a0bb3c79dd0231d3acaeff",
+          "md5": "105ebfa103ef174c91be9425282518b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-4.8.7-sources.jar",
+          "url": "micronaut-openapi-4.8.7-sources.jar",
+          "size": 2318938,
+          "sha512": "2407c66f3d5d36fba83ca92ef56ffd2d5b1da81b23c6b5b4455d2bc34cdc378cd329e0d2e49e6728de8a6d52f4829b81d2b6473ed6e32d749efd044ec58a93d0",
+          "sha256": "4b1152174b2ecdd1f275f437607977ffe871b21509a833b613b4f73bb3f8dce8",
+          "sha1": "306de8d3d1c4f224484c67691cc69f1477e2fcd3",
+          "md5": "651d87deb1e060daf5df77b32e4b5654"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-4.8.7-javadoc.jar",
+          "url": "micronaut-openapi-4.8.7-javadoc.jar",
+          "size": 736947,
+          "sha512": "13a121da17f31a2a6d5d3828f906366a62f02db2f47f64c26b450223b017151a610daae335dedd686477799aa0ca058d516900266a2d53217bb95dd51ee37f66",
+          "sha256": "a40bbbd30a503bece6293b19ca15cafff5a02d68c502d60688fa7d431a36140c",
+          "sha1": "97db88bc37967b6ff7269ae83525818038e69c8d",
+          "md5": "0bacae52f61d74a345e901cf509ebc82"
+        }
+      ]
+    }
+  ]
+}

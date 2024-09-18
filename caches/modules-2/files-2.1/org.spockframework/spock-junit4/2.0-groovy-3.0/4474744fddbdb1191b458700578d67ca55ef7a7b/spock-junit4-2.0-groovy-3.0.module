@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spockframework",
+    "module": "spock-junit4",
+    "version": "2.0-groovy-3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "smgxmigasvdjngrypor4627xty"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.0-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-junit4-2.0-groovy-3.0.jar",
+          "url": "spock-junit4-2.0-groovy-3.0.jar",
+          "size": 20877,
+          "sha512": "147d6502dc7eb1eb54e5b1810883451609f9fefaf40bba052854108089fd12bef9e35c78a609d7d8a03bef0af5e7f849c73461796b7e8ada2b5b65e5bfc69a3c",
+          "sha256": "43ea5824c5b8cc28a6f36450c4a31a5ee0a562df9f9344375814e4c4df8717b1",
+          "sha1": "67c469b3cc4b9bc2d55df2209eb7dc3e956946fe",
+          "md5": "7ae9493a20c730038f699950751f116f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.0-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-junit4-2.0-groovy-3.0.jar",
+          "url": "spock-junit4-2.0-groovy-3.0.jar",
+          "size": 20877,
+          "sha512": "147d6502dc7eb1eb54e5b1810883451609f9fefaf40bba052854108089fd12bef9e35c78a609d7d8a03bef0af5e7f849c73461796b7e8ada2b5b65e5bfc69a3c",
+          "sha256": "43ea5824c5b8cc28a6f36450c4a31a5ee0a562df9f9344375814e4c4df8717b1",
+          "sha1": "67c469b3cc4b9bc2d55df2209eb7dc3e956946fe",
+          "md5": "7ae9493a20c730038f699950751f116f"
+        }
+      ]
+    }
+  ]
+}

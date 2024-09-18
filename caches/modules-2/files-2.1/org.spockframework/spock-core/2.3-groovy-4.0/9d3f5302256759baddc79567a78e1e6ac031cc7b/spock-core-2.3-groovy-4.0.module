@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spockframework",
+    "module": "spock-core",
+    "version": "2.3-groovy-4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine"
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.3-groovy-4.0.jar",
+          "url": "spock-core-2.3-groovy-4.0.jar",
+          "size": 908336,
+          "sha512": "67a718b2da6fdc3f64e65e68fa789047b3fe7eb66147b4865e311e4bdf68f821dd6c290261f1db9d9ab0ee3505853bfe5772b94c6c2ca364896c6fc6cc92cedb",
+          "sha256": "60a614a7640c4fc9dfd432929a426bd0448f299915924556ae372105a118ff14",
+          "sha1": "8861b2590bb8e4709b052fb4ed6da3de98e734d9",
+          "md5": "9398b3171132bedd81f523e9ea36eeb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine"
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.3-groovy-4.0.jar",
+          "url": "spock-core-2.3-groovy-4.0.jar",
+          "size": 908336,
+          "sha512": "67a718b2da6fdc3f64e65e68fa789047b3fe7eb66147b4865e311e4bdf68f821dd6c290261f1db9d9ab0ee3505853bfe5772b94c6c2ca364896c6fc6cc92cedb",
+          "sha256": "60a614a7640c4fc9dfd432929a426bd0448f299915924556ae372105a118ff14",
+          "sha1": "8861b2590bb8e4709b052fb4ed6da3de98e734d9",
+          "md5": "9398b3171132bedd81f523e9ea36eeb1"
+        }
+      ]
+    }
+  ]
+}

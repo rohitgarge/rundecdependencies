@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.objectstorage</groupId>
+  <artifactId>micronaut-object-storage-bom</artifactId>
+  <version>1.1.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Object Storage</name>
+  <description>Micronaut Object Storage provides a uniform API to create, read and delete objects in the major cloud providers</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-object-storage.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-object-storage.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-object-storage.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>alvarosanchez-mariscal</id>
+      <name>Alvaro Sanchez-Mariscal</name>
+    </developer>
+    <developer>
+      <id>pavolgressa</id>
+      <name>Pavol Gressa</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.object.storage.version>1.1.0</micronaut.object.storage.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.micronaut.objectstorage</groupId>
+        <artifactId>micronaut-object-storage-aws</artifactId>
+        <version>${micronaut.object.storage.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.objectstorage</groupId>
+        <artifactId>micronaut-object-storage-azure</artifactId>
+        <version>${micronaut.object.storage.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.objectstorage</groupId>
+        <artifactId>micronaut-object-storage-core</artifactId>
+        <version>${micronaut.object.storage.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.objectstorage</groupId>
+        <artifactId>micronaut-object-storage-gcp</artifactId>
+        <version>${micronaut.object.storage.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.objectstorage</groupId>
+        <artifactId>micronaut-object-storage-oracle-cloud</artifactId>
+        <version>${micronaut.object.storage.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

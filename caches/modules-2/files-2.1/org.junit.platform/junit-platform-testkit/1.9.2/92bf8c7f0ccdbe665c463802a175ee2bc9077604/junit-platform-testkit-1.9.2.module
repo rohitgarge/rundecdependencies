@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.junit.platform",
+    "module": "junit-platform-testkit",
+    "version": "1.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.23.1"
+          }
+        },
+        {
+          "group": "org.opentest4j",
+          "module": "opentest4j",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher",
+          "version": {
+            "requires": "1.9.2"
+          }
+        },
+        {
+          "group": "org.apiguardian",
+          "module": "apiguardian-api",
+          "version": {
+            "requires": "1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-platform-testkit-1.9.2.jar",
+          "url": "junit-platform-testkit-1.9.2.jar",
+          "size": 44396,
+          "sha512": "4660d431e7ba86c313223223a3acc4f049a61402ef9fd5c4b4733dcfe7df3e3405fe59ddb633d346077b6ad208002e65f22c38b956bee583fc4cae43c48b7651",
+          "sha256": "d4dbb5ee464046954c6929fccaf3339deb2e795b827d15fb696eaf5f19cd3e4c",
+          "sha1": "126897804683d6b5c3278333b0fbdb37d0a35586",
+          "md5": "336c377bd9c149ed765d68533c8fce77"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.23.1"
+          }
+        },
+        {
+          "group": "org.opentest4j",
+          "module": "opentest4j",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher",
+          "version": {
+            "requires": "1.9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-platform-testkit-1.9.2.jar",
+          "url": "junit-platform-testkit-1.9.2.jar",
+          "size": 44396,
+          "sha512": "4660d431e7ba86c313223223a3acc4f049a61402ef9fd5c4b4733dcfe7df3e3405fe59ddb633d346077b6ad208002e65f22c38b956bee583fc4cae43c48b7651",
+          "sha256": "d4dbb5ee464046954c6929fccaf3339deb2e795b827d15fb696eaf5f19cd3e4c",
+          "sha1": "126897804683d6b5c3278333b0fbdb37d0a35586",
+          "md5": "336c377bd9c149ed765d68533c8fce77"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-platform-testkit-1.9.2-javadoc.jar",
+          "url": "junit-platform-testkit-1.9.2-javadoc.jar",
+          "size": 173593,
+          "sha512": "7315f7b5b45ed361b66bed64113fd4f93d1586c93bb888da2476cc72883d66975ff95f52c7a97fcc73ee0966dfe82c4fa4adb08ab005cb33235d9caead34f9f7",
+          "sha256": "f5db06a0c2531d3c47194a9a2e81791771f1ec3014ae73308e5296a00575369a",
+          "sha1": "5afc0d89b5f879542c7e3fb05452a7a85ee164c7",
+          "md5": "09fb1c1490959df9cf9c29f1187d973f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-platform-testkit-1.9.2-sources.jar",
+          "url": "junit-platform-testkit-1.9.2-sources.jar",
+          "size": 32099,
+          "sha512": "4def04e464253e3ecd6a41ddb3abd8b0e1e0b83751d397f801e85b33a7f132b9136e0029b4baec6f5dbdab46a4abe634b44c4d79aa945aedfa7092b34460fac9",
+          "sha256": "190f4d47d6af7f6abd896dc715d4252af13796c28b22f9738e2b9af588c176c1",
+          "sha1": "6a6c4202c4f309ae298ca4698872ad1623c2300a",
+          "md5": "1d5f11530273a7a4fbfd3a06cb3d0c0a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gradle",
+    "module": "gradle-tooling-api",
+    "version": "7.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-tooling-api-7.3-20210825160000+0000-sources.jar",
+          "url": "gradle-tooling-api-7.3-20210825160000+0000-sources.jar",
+          "size": 4894975,
+          "sha512": "adf44c80e6d941cd73468b926955a967ef78425d3db6068281d4d4984caf46640369478bd22ef4f7e00e9f4a90462af38d2edc5f119527928f8ad7b8fbcde439",
+          "sha256": "8550e2aa9c085516234469e9f8ce61b285115db23da05107a6c9ffc55caabdf1",
+          "sha1": "55683b570fbbacb058444523b6e05e8f3ec02d38",
+          "md5": "687f284912becdc4b9892c362be6e9c1"
+        },
+        {
+          "name": "gradle-tooling-api-7.3-20210825160000+0000-sources.jar",
+          "url": "gradle-tooling-api-7.3-20210825160000+0000-sources.jar",
+          "size": 4894975,
+          "sha512": "adf44c80e6d941cd73468b926955a967ef78425d3db6068281d4d4984caf46640369478bd22ef4f7e00e9f4a90462af38d2edc5f119527928f8ad7b8fbcde439",
+          "sha256": "8550e2aa9c085516234469e9f8ce61b285115db23da05107a6c9ffc55caabdf1",
+          "sha1": "55683b570fbbacb058444523b6e05e8f3ec02d38",
+          "md5": "687f284912becdc4b9892c362be6e9c1"
+        }
+      ]
+    },
+    {
+      "name": "shadedRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-tooling-api-7.3-20210825160000+0000.jar",
+          "url": "gradle-tooling-api-7.3-20210825160000+0000.jar",
+          "size": 2407313,
+          "sha512": "3b27cc2995ff68941f5729761f1b2d6a491c1bf81a392d374778674c261c391923cf24984f9d40683a7c8574af12a5b9e08a86ee5ae89d224511c31eed19b0ac",
+          "sha256": "8fc6481dff538e854feddf40a04d6d95eed13ea0a144ea3b48ff10e6fd783ac3",
+          "sha1": "176b4bdcb4ebae21c712e16a9430a4494dce39bc",
+          "md5": "37f80c6282c47b4fac95d2a538535109"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-tooling-api-7.3-20210825160000+0000-javadoc.jar",
+          "url": "gradle-tooling-api-7.3-20210825160000+0000-javadoc.jar",
+          "size": 1792210,
+          "sha512": "2a1b297e69e6370df1d36a16662f3b3b37c7101e2f70bc066da4e31434471b68339b06ea0b8858bba1c23db98b32849fde522b5a40e311c798ceda522be8e48a",
+          "sha256": "4003312e023a56205ef3c44616fd34305091012970935145e9e27bffb1f8f71b",
+          "sha1": "16f6464765e2a7e1c1ae5fc7a4d54a4310366ca1",
+          "md5": "d3db794bd4977ac1da54e9bc1468e8cb"
+        }
+      ]
+    }
+  ]
+}

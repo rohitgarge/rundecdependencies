@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.chatbots</groupId>
+  <artifactId>micronaut-chatbots-bom</artifactId>
+  <version>1.0.0-M1</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Chatbots</name>
+  <description>Ease the creation of Telegram, Google Chat, Discord chatbots with the Micronaut Framework</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-chatbots.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-chatbots.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-chatbots.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>sergiodelamo</id>
+      <name>Sergio del Amo</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.chatbots.version>1.0.0-M1</micronaut.chatbots.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-api</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-azure-function</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-core</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-gcp-function</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-http</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-basecamp-lambda</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-core</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-google-api</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-http</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-lambda</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-api</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-azure-function</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-core</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-gcp-function</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-http</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.chatbots</groupId>
+        <artifactId>micronaut-chatbots-telegram-lambda</artifactId>
+        <version>${micronaut.chatbots.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

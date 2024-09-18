@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-web-sitemesh",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "opensymphony",
+          "module": "sitemesh",
+          "version": {
+            "requires": "2.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-sitemesh-6.0.0.jar",
+          "url": "grails-web-sitemesh-6.0.0.jar",
+          "size": 50270,
+          "sha512": "35d2ae8b745570ac431749663097d0815a3c45c5508a308578ff3b34ca90b1b7f0ab7b8e3328c3e86db80b756e4260aa600a89d71c67b663f89065bfc222c16f",
+          "sha256": "8261eda87ba4506b222c1f70098abb9e5439fc3eff02e6485df0b899faa3d178",
+          "sha1": "7c282978a909ef600392e96668618f89855bac5b",
+          "md5": "1ff0745fb1a9b402a044b84aca5ec228"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "opensymphony",
+          "module": "sitemesh",
+          "version": {
+            "requires": "2.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-sitemesh-6.0.0.jar",
+          "url": "grails-web-sitemesh-6.0.0.jar",
+          "size": 50270,
+          "sha512": "35d2ae8b745570ac431749663097d0815a3c45c5508a308578ff3b34ca90b1b7f0ab7b8e3328c3e86db80b756e4260aa600a89d71c67b663f89065bfc222c16f",
+          "sha256": "8261eda87ba4506b222c1f70098abb9e5439fc3eff02e6485df0b899faa3d178",
+          "sha1": "7c282978a909ef600392e96668618f89855bac5b",
+          "md5": "1ff0745fb1a9b402a044b84aca5ec228"
+        }
+      ]
+    }
+  ]
+}

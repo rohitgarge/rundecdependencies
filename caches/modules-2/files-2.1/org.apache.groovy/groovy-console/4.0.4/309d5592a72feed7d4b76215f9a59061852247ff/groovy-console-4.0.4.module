@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-console",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-console-4.0.4-groovydoc.jar",
+          "url": "groovy-console-4.0.4-groovydoc.jar",
+          "size": 275052,
+          "sha512": "66be811329eda5edcf0c4bb7231c0d28f10d0fd723de9280d9ae0d65a454b0545aa6fda415432c59eb6ff529363e55d55e9e33f1cc7405e03f463b7e8f50f9cb",
+          "sha256": "e1a0df7cc4ba941f572e843667e4ca8878c98283ab2ca676ca73c9906d4c7431",
+          "sha1": "0ac495db62a2ad37bee70bb6ccf351133affc7bd",
+          "md5": "b9f84c897fadac3c146e62b93356329b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-console-4.0.4-javadoc.jar",
+          "url": "groovy-console-4.0.4-javadoc.jar",
+          "size": 192904,
+          "sha512": "7d162ffaab58654db44b35e549f0cd17bc2af072c1eda9ac660619d8bc52c47c2109b685097ecb6f2a0a1e09d4fbaf58bf2f42314247501482b3b070a4cf8090",
+          "sha256": "c7b5ccaf99dd45e8134debb4e6eb58bae8bee46d30e3d00cf6234006297171e1",
+          "sha1": "b11102059381f6acad842d9e96ceba5701a1a6ec",
+          "md5": "ea229d99334cff8415edc184e7e1e717"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-console-4.0.4-sources.jar",
+          "url": "groovy-console-4.0.4-sources.jar",
+          "size": 147126,
+          "sha512": "30a0ddd75e52276b95c89c70d29971420a4d47633203636332e3d6b07c27898854b8085d31fe84594867b392984a681ea8de009afe1287f1a63de601af1e3b58",
+          "sha256": "4d6358a9e4bef2104c01637beec7ac3c79df5694710439d495063a2fe7216a98",
+          "sha1": "071125b92968f825739f562d12d49cc03a1527ae",
+          "md5": "4e1a61ea29e36128e0e7addf535f66c8"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-console-4.0.4.jar",
+          "url": "groovy-console-4.0.4.jar",
+          "size": 882051,
+          "sha512": "15709899623e75d4c4cf05d8cad55bb359119f54bff7b23a21aa321b60152ce96df9f41754062a61817d842ef65b80f5059780e7133f9d8d52e788acb5dde2bc",
+          "sha256": "152f2e1c143396e044853bdc073c32e2e1e4c8cdb03ea784af7fea1cb90b02a9",
+          "sha1": "44e6b36ef58cafe266d2801dee6904087bac8d1f",
+          "md5": "5f3e22a892ed70ba8fcb89fe38b2942c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-console",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-console",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-core",
+          "version": {
+            "requires": "3.24.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.abego.treelayout",
+          "module": "org.abego.treelayout.core",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-swing",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.ivy",
+          "module": "ivy",
+          "version": {
+            "requires": "2.5.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-console-4.0.4.jar",
+          "url": "groovy-console-4.0.4.jar",
+          "size": 882051,
+          "sha512": "15709899623e75d4c4cf05d8cad55bb359119f54bff7b23a21aa321b60152ce96df9f41754062a61817d842ef65b80f5059780e7133f9d8d52e788acb5dde2bc",
+          "sha256": "152f2e1c143396e044853bdc073c32e2e1e4c8cdb03ea784af7fea1cb90b02a9",
+          "sha1": "44e6b36ef58cafe266d2801dee6904087bac8d1f",
+          "md5": "5f3e22a892ed70ba8fcb89fe38b2942c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-console",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-console",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.tracing",
+    "module": "micronaut-tracing-bom",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-jaeger",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-zipkin",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-jaeger",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-zipkin",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-tracing-bom-4.1.1.toml",
+          "url": "micronaut-tracing-bom-4.1.1.toml",
+          "size": 688,
+          "sha512": "497d1b2e920c73f174625c171e91fb4e022906c322ca94aca0dd2ccb909911f9ec291c7bd7544f4752fd0b1a4adfabc9161568a4eebc86d490001ec2197ebb9c",
+          "sha256": "ed8fb14c39236788b4d5865868f966b0606fa2efbdde8952739447df141c79bd",
+          "sha1": "1a84c6089413c06784f2ef8fbce53a904161994e",
+          "md5": "de26b3a1e4cb4833c1d2fa5ae0919741"
+        }
+      ]
+    }
+  ]
+}

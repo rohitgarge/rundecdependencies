@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bertramlabs.plugins",
+    "module": "asset-pipeline-grails",
+    "version": "3.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "62wfpxmncvhhnl4bgo6xmvr2ne"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asset-pipeline-grails-3.4.3.jar",
+          "url": "asset-pipeline-grails-3.4.3.jar",
+          "size": 136794,
+          "sha512": "2730a44373fba221c3f2cfb2d9f943c8e6fdf23d08e515dbf321121e398b365a0f7140ce21731049f93662ab7d8fe3e1b9da807d39d973ff7b8b5ac3ba24cd2a",
+          "sha256": "b74e595dfa6951382d6436c945995cfa36c8d87bbe82628adc4c2926578e8220",
+          "sha1": "c8fce04d6e50c1b0e0e532ea962d064e759e8443",
+          "md5": "c0b3789aa3d18824a0490064d61e3577"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-dependencies"
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-core",
+          "version": {
+            "requires": "3.4.3"
+          },
+          "excludes": [
+            {
+              "group": "org.mozilla",
+              "module": "rhino"
+            },
+            {
+              "group": "com.google.javascript",
+              "module": "closure-compiler-unshaded"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "asset-pipeline-grails-3.4.3.jar",
+          "url": "asset-pipeline-grails-3.4.3.jar",
+          "size": 136794,
+          "sha512": "2730a44373fba221c3f2cfb2d9f943c8e6fdf23d08e515dbf321121e398b365a0f7140ce21731049f93662ab7d8fe3e1b9da807d39d973ff7b8b5ac3ba24cd2a",
+          "sha256": "b74e595dfa6951382d6436c945995cfa36c8d87bbe82628adc4c2926578e8220",
+          "sha1": "c8fce04d6e50c1b0e0e532ea962d064e759e8443",
+          "md5": "c0b3789aa3d18824a0490064d61e3577"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-pipeline-grails-3.4.3-sources.jar",
+          "url": "asset-pipeline-grails-3.4.3-sources.jar",
+          "size": 20682,
+          "sha512": "f4444ba250449abc6468141928f281dcefe9a78cf4a8c44e3a29706abd12c02858751f8851e4215b8639894354cc0a6c09e07a1fb05bb9dc98ea0c48d3440bb4",
+          "sha256": "58fa5043e71179ee50338949e978ccccaa6e51de5eec0d6dc82a33a95f5b0475",
+          "sha1": "ce3dc15ea762467ed5c2f39c6cbd13f81213dc40",
+          "md5": "9bb5296d6b490788ed026c777b728b67"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-pipeline-grails-3.4.3-javadoc.jar",
+          "url": "asset-pipeline-grails-3.4.3-javadoc.jar",
+          "size": 90233,
+          "sha512": "80d74134e748e7e5901b62d78efa3118408ea960623f7886d100f187add098c552585df28c7d91878f4dd7e684acd286cb38151578cda5f22fbc1b2d4278919a",
+          "sha256": "7df1561ea6642800e172789e9ef9bce460f0bbe0408916fcfbd2c20554b724d8",
+          "sha1": "39dac0c97e3ace97456479849411238e8afd5253",
+          "md5": "8efb15afcca7c5453d20725a439f4f2c"
+        }
+      ]
+    }
+  ]
+}

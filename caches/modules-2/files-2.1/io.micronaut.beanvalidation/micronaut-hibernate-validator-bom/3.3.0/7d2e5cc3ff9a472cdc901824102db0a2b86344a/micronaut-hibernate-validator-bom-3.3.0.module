@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.beanvalidation",
+    "module": "micronaut-hibernate-validator-bom",
+    "version": "3.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.beanvalidation",
+          "module": "micronaut-hibernate-validator",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.beanvalidation",
+          "module": "micronaut-hibernate-validator",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-hibernate-validator-bom-3.3.0.toml",
+          "url": "micronaut-hibernate-validator-bom-3.3.0.toml",
+          "size": 514,
+          "sha512": "b930e1a170d7f64ea19e27e0aef488f5c6f9838857cda9ade672b1296c393a7ff73fa0e7740dc158e5150922e78138ed9f359dbcc595b2c200cc67817990f8b7",
+          "sha256": "146f747621598cb693b084dd4631d7dc58250836ad0bfcf8e181f2ab1d3b69c4",
+          "sha1": "1ceeb854d3485017f0d23f2e8cff3f527520af3a",
+          "md5": "de6bc09204a29000300cac45f9f167eb"
+        }
+      ]
+    }
+  ]
+}

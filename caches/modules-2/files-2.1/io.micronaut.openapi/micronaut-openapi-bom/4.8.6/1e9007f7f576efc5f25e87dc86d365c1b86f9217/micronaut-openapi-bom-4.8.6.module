@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.openapi",
+    "module": "micronaut-openapi-bom",
+    "version": "4.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.62.2"
+          }
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.4"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-core",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi",
+          "version": {
+            "requires": "4.8.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.62.2"
+          }
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.4"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-core",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi",
+          "version": {
+            "requires": "4.8.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-bom-4.8.6.toml",
+          "url": "micronaut-openapi-bom-4.8.6.toml",
+          "size": 1359,
+          "sha512": "01648c9d8c493bb6ebbddc20fd05f7df2ce011559387a8ff4e44df3337443641a1b09afbec22693a925d09c6d2c4cd872e98f06f5c067e619251eb955ca3c55c",
+          "sha256": "5df47a7b083f5b1c1252ba5b6833d66521031064300dd794c25985b7be7fee6d",
+          "sha1": "0f71acc7e53370a6add1f4a9367cc2b7f648c60a",
+          "md5": "7f70179267e0385889f972c9bff3cb58"
+        }
+      ]
+    }
+  ]
+}

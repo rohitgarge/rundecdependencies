@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-router",
+    "version": "3.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-router-3.10.3.jar",
+          "url": "micronaut-router-3.10.3.jar",
+          "size": 188569,
+          "sha512": "26303474736faa1360655d1852c544e04bc5556fee3bde47c511ac737bb95d291a1c1f6feb95ce63831659f50fc26aad9d2e1711f30494430d096020518d52c3",
+          "sha256": "2e8e566d9beff5c665a8cb1d3a5f608695df08b8090b8e9dd18ec119b403ae1b",
+          "sha1": "faa74dab935e0656f918ea401ab0debc58aef2dd",
+          "md5": "70e2616935c01d70aacf4075b8e3b353"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-router-3.10.3.jar",
+          "url": "micronaut-router-3.10.3.jar",
+          "size": 188569,
+          "sha512": "26303474736faa1360655d1852c544e04bc5556fee3bde47c511ac737bb95d291a1c1f6feb95ce63831659f50fc26aad9d2e1711f30494430d096020518d52c3",
+          "sha256": "2e8e566d9beff5c665a8cb1d3a5f608695df08b8090b8e9dd18ec119b403ae1b",
+          "sha1": "faa74dab935e0656f918ea401ab0debc58aef2dd",
+          "md5": "70e2616935c01d70aacf4075b8e3b353"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-router-3.10.3-sources.jar",
+          "url": "micronaut-router-3.10.3-sources.jar",
+          "size": 91292,
+          "sha512": "e75e446210c629a95ee3f3a86054bd7fb52b5110e81dc8a326b94af0ca32c7c49b44524869888e33a0f61aeaaaf3d9084faaae6d3de4654a383b1abc2ea4b18d",
+          "sha256": "7256a7555fdbc9fb7178666e5224cc919cf7266d8195af590ce958bee3584d16",
+          "sha1": "2bc3c575647cc2fa8c802ac611c3df810be253ea",
+          "md5": "6c09f734ba525547a7e7c9d5c18ecceb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-router-3.10.3-javadoc.jar",
+          "url": "micronaut-router-3.10.3-javadoc.jar",
+          "size": 546812,
+          "sha512": "6fc97d3e6b1fc8c46113d117e66ac1560c110c5dd1945806de6df5e2d5548b2b545074df0dcae46e72f87e7def590b5648bd1ec813cd25ee0a6e82ecde4e9c21",
+          "sha256": "631e8334e078fdfa8332d798f50fbaa3fd3d5ccdfbe29bfba06aff69a1dfd49d",
+          "sha1": "12373420e3fc8d471f016b8082d8714abcd53be7",
+          "md5": "c3fc149536f89c96b6145ff1c11b539e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-router-3.10.3-all.jar",
+          "url": "micronaut-router-3.10.3-all.jar",
+          "size": 189294,
+          "sha512": "258cc2f491f45b42cbd021cfc6bae3f73b5c28d167b0e77c69161794f344817d053be11c0572b047060d553b6a48424f89f55f01c04a9c6a3d2a6254ee998df5",
+          "sha256": "2bb970f3494d9f220e6a6210acbc1741d19fef4c02914138a31dd90fbad7d4c5",
+          "sha1": "799bf036ed9ca3d3af726f9ebff3f91f3b71b527",
+          "md5": "0478a48defd44d2fbf9ce3a627f7b968"
+        }
+      ]
+    }
+  ]
+}

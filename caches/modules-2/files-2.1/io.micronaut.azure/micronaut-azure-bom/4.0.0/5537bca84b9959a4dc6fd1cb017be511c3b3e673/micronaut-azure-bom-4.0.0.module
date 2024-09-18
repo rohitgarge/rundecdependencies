@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.azure",
+    "module": "micronaut-azure-bom",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.2.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.39.0"
+          }
+        },
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-cosmos",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-secret-manager",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.2.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.39.0"
+          }
+        },
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-cosmos",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-secret-manager",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-azure-bom-4.0.0.toml",
+          "url": "micronaut-azure-bom-4.0.0.toml",
+          "size": 1412,
+          "sha512": "ee58676154a9ddaf5ed48bb1ff97171ead9e76e6de0131532b48fa3eee49abe317a774f441f2bcbec5f6a1be7cd5a692f4f52a35a6e36a63167611f83841de84",
+          "sha256": "bbdbebb43a7b2ea518711158ef3108eeb7253218e3bdd0c0d4695be9f12b0511",
+          "sha1": "4557148a2dab97b1e06c48ab1e05fbfc2d5a077c",
+          "md5": "f4c8f6f2e94d2cd0a7cb1c388530d264"
+        }
+      ]
+    }
+  ]
+}

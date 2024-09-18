@@ -1,0 +1,302 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-web-fileupload",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.27"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "commons-fileupload",
+          "module": "commons-fileupload",
+          "version": {
+            "requires": "1.5"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-fileupload-6.0.0.jar",
+          "url": "grails-web-fileupload-6.0.0.jar",
+          "size": 2110,
+          "sha512": "9b0cea53be88d9e6c6c5882fcfcb4f437a92dd5f226b974f2a021daee54692311847ff977c9a3ca27c5fa96baf80797ede7a5fcd055c8d449912cf773fb18c2f",
+          "sha256": "aea66e54cf70e24f63dc6eb053cd525b8526d7d5b34a61cd6639a3ef55f8c23b",
+          "sha1": "9e1b2862079320f9d35d25f1990a8e0974ea144d",
+          "md5": "d6478343bc3d72d3b3dc476efd946edc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.27"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "commons-fileupload",
+          "module": "commons-fileupload",
+          "version": {
+            "requires": "1.5"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-fileupload-6.0.0.jar",
+          "url": "grails-web-fileupload-6.0.0.jar",
+          "size": 2110,
+          "sha512": "9b0cea53be88d9e6c6c5882fcfcb4f437a92dd5f226b974f2a021daee54692311847ff977c9a3ca27c5fa96baf80797ede7a5fcd055c8d449912cf773fb18c2f",
+          "sha256": "aea66e54cf70e24f63dc6eb053cd525b8526d7d5b34a61cd6639a3ef55f8c23b",
+          "sha1": "9e1b2862079320f9d35d25f1990a8e0974ea144d",
+          "md5": "d6478343bc3d72d3b3dc476efd946edc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-web-fileupload-6.0.0-javadoc.jar",
+          "url": "grails-web-fileupload-6.0.0-javadoc.jar",
+          "size": 307499,
+          "sha512": "228b3b1e7aeab1a8705082b86225e63ad8650ab15e3f9bdb710d3941bea634d1bdacd6800b6f3baf81e96ee52a6c904371c072ed381ea2de5c1c6ff9b8dc1bf3",
+          "sha256": "209124e94195ac9263d5c53e1d3495913eefd137c860ba6c0add6cbfeb9f4cc5",
+          "sha1": "e19e51c66286f1d1df399770d1fc37ae4f8fd707",
+          "md5": "5a7016cabb77c202bbe47ff2f0e40a4c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-web-fileupload-6.0.0-sources.jar",
+          "url": "grails-web-fileupload-6.0.0-sources.jar",
+          "size": 1943,
+          "sha512": "a9a34f786071b27dc59dd36b2296ff79cf57d8f3b9304660f19dad2a30a375ced5bd84ce28e7d4fc5f587cbc0f762e79279db1cbfc220e377dc6fe2c3d79817c",
+          "sha256": "c1697dba4e73f2fe09186ded87486853f5f8b700e2c2e1810f880fd281c86504",
+          "sha1": "e5420ba578605b09de7f78b98c6eb73c8d4d28c0",
+          "md5": "c1921d0d0fa4f25f320a50f63f91cca2"
+        }
+      ]
+    }
+  ]
+}

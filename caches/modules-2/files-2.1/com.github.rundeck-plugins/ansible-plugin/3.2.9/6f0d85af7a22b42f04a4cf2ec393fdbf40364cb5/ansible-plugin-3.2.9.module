@@ -1,0 +1,72 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.2"
+    }
+  },
+  "component" : {
+    "group" : "com.github.rundeck-plugins",
+    "module" : "ansible-plugin",
+    "version" : "3.2.9",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "ansible-plugin-3.2.9.jar",
+      "url" : "ansible-plugin-3.2.9.jar",
+      "size" : 342332,
+      "sha512" : "ee90e2567e975f9f5928bfc729c1ab7c3f7357f51e650b445c4e48ff77f310a39b3b1132d478b175b81dc85a2e76ca286317cc665d655551b208eb9fa5b722af",
+      "sha256" : "996286548c138ad37ad56e29b5d697fe77d09cc7791d3a9f9c6c90ba02579186",
+      "sha1" : "ec53c84ce4380755b8ba6ca22f9785b645f3a391",
+      "md5" : "948974fce0db20726f1a4458b99a4f8f"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.rundeck",
+      "module" : "rundeck-core",
+      "version" : {
+        "requires" : "4.17.2-rc1-20231025"
+      }
+    }, {
+      "group" : "org.codehaus.groovy",
+      "module" : "groovy-all",
+      "version" : {
+        "requires" : "3.0.9"
+      }
+    }, {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.10.1"
+      }
+    } ],
+    "files" : [ {
+      "name" : "ansible-plugin-3.2.9.jar",
+      "url" : "ansible-plugin-3.2.9.jar",
+      "size" : 342332,
+      "sha512" : "ee90e2567e975f9f5928bfc729c1ab7c3f7357f51e650b445c4e48ff77f310a39b3b1132d478b175b81dc85a2e76ca286317cc665d655551b208eb9fa5b722af",
+      "sha256" : "996286548c138ad37ad56e29b5d697fe77d09cc7791d3a9f9c6c90ba02579186",
+      "sha1" : "ec53c84ce4380755b8ba6ca22f9785b645f3a391",
+      "md5" : "948974fce0db20726f1a4458b99a4f8f"
+    } ]
+  } ]
+}

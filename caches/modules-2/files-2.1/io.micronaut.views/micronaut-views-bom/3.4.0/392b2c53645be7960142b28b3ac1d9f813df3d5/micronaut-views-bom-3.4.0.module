@@ -1,0 +1,278 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.views",
+    "module": "micronaut-views-bom",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.31"
+          }
+        },
+        {
+          "group": "com.github.jknack",
+          "module": "handlebars",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.fizzed",
+          "module": "rocker-runtime",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.template",
+          "module": "soy",
+          "version": {
+            "requires": "2022-03-02"
+          }
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.0.15.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-freemarker",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-handlebars",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jte",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-pebble",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-rocker",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-soy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-thymeleaf",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-velocity",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.31"
+          }
+        },
+        {
+          "group": "com.github.jknack",
+          "module": "handlebars",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.fizzed",
+          "module": "rocker-runtime",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.template",
+          "module": "soy",
+          "version": {
+            "requires": "2022-03-02"
+          }
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.0.15.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-freemarker",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-handlebars",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jte",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-pebble",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-rocker",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-soy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-thymeleaf",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-velocity",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-views-bom-3.4.0.toml",
+          "url": "micronaut-views-bom-3.4.0.toml",
+          "size": 1406,
+          "sha512": "89f9775d75a3a068d7c7c54b78dbfb76cb0b980693a452445f88784226d22e9b8e2a940d28a48eb6618835aea1bb2026bdb5eb5568a8a4299707a430dae1dc91",
+          "sha256": "2d0e2a9c5e3f0a8ef0448a4757788d72b77af31c383bc297500787a111ef9205",
+          "sha1": "5bab6bb45b3e275fb9fe87f0a846336f9208ad06",
+          "md5": "e90f3d6a79afeb0a67a12a4a2d6c4581"
+        }
+      ]
+    }
+  ]
+}

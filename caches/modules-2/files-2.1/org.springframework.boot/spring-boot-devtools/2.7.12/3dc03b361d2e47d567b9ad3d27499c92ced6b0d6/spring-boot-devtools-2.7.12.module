@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-devtools",
+    "version": "2.7.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.7.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12.jar",
+          "url": "spring-boot-devtools-2.7.12.jar",
+          "size": 235107,
+          "sha512": "009d7010d93fe1de4fe143d866829d0b01e11101323d06d65058c61f324bff2dccead3756d0cbcd62c3de170a6e3cd944c5559971318c54ca4841671ca140160",
+          "sha256": "a061b2e8212c38c4258b7c0cc62675a7cac6cdb832293d8b03525c4f10c44817",
+          "sha1": "691fe47344acf45ca2845fba67b87064b74fb69e",
+          "md5": "84d8c7cc6c4b442dc297a49db222f9b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.7.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12.jar",
+          "url": "spring-boot-devtools-2.7.12.jar",
+          "size": 235107,
+          "sha512": "009d7010d93fe1de4fe143d866829d0b01e11101323d06d65058c61f324bff2dccead3756d0cbcd62c3de170a6e3cd944c5559971318c54ca4841671ca140160",
+          "sha256": "a061b2e8212c38c4258b7c0cc62675a7cac6cdb832293d8b03525c4f10c44817",
+          "sha1": "691fe47344acf45ca2845fba67b87064b74fb69e",
+          "md5": "84d8c7cc6c4b442dc297a49db222f9b4"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12.jar",
+          "url": "spring-boot-devtools-2.7.12.jar",
+          "size": 235107,
+          "sha512": "009d7010d93fe1de4fe143d866829d0b01e11101323d06d65058c61f324bff2dccead3756d0cbcd62c3de170a6e3cd944c5559971318c54ca4841671ca140160",
+          "sha256": "a061b2e8212c38c4258b7c0cc62675a7cac6cdb832293d8b03525c4f10c44817",
+          "sha1": "691fe47344acf45ca2845fba67b87064b74fb69e",
+          "md5": "84d8c7cc6c4b442dc297a49db222f9b4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-devtools-maven-optional",
+          "version": "2.7.12"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12.jar",
+          "url": "spring-boot-devtools-2.7.12.jar",
+          "size": 235107,
+          "sha512": "009d7010d93fe1de4fe143d866829d0b01e11101323d06d65058c61f324bff2dccead3756d0cbcd62c3de170a6e3cd944c5559971318c54ca4841671ca140160",
+          "sha256": "a061b2e8212c38c4258b7c0cc62675a7cac6cdb832293d8b03525c4f10c44817",
+          "sha1": "691fe47344acf45ca2845fba67b87064b74fb69e",
+          "md5": "84d8c7cc6c4b442dc297a49db222f9b4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-devtools-maven-optional",
+          "version": "2.7.12"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12-javadoc.jar",
+          "url": "spring-boot-devtools-2.7.12-javadoc.jar",
+          "size": 338573,
+          "sha512": "891d677f463dea348ceddff89d92d23ecd8e18518b0d460923e6707fabd6ba93fb066f50884a29bc2c5400260bf89997e58eb808badaef34a9953efc94c87858",
+          "sha256": "f1e348bb19a58e3e014deab51a4edf32880dec69674cbafcfcbc7008e315f88d",
+          "sha1": "834ce7524623980b53595ebbecc7f1ead76f9735",
+          "md5": "9530ac8144aa5ed3a535de5329cba651"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.7.12-sources.jar",
+          "url": "spring-boot-devtools-2.7.12-sources.jar",
+          "size": 162303,
+          "sha512": "8a86e41302e9e9ad6343e0b28fa9935b2ccfd829577faf334b0612ba3d7dff11f924fa634714894b62d111fcfb3beec857f4cccdec4adea54dadc1b2679978aa",
+          "sha256": "d4fdc9a54a07c43b5b04b15a043a44a0b5a2473f3d21a77fdb18d3e5ec53dbc9",
+          "sha1": "16073385dfd5f4e7f3edc1f1453cb316eedc6ea7",
+          "md5": "b5903edde242711d894bb0a671a45ba9"
+        }
+      ]
+    }
+  ]
+}

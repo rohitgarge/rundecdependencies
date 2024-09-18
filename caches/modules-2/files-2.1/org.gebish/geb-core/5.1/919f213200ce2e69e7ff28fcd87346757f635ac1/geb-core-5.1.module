@@ -1,0 +1,274 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-core",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-api",
+          "version": {
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-ast",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-waiting",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threeten-extra",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-core-5.1.jar",
+          "url": "geb-core-5.1.jar",
+          "size": 702853,
+          "sha512": "89a4521d202a55f9399c18efae9633c203900504fa4c3a2407983b179661ea505c51258161d7c3a5ed6f6fba1d755acd4731db6cf8b71d63b3685c65252f297a",
+          "sha256": "2ea697627aaa8a95a6045db3ac8c40e58f9e48221f018e4c8944caa06a6219a9",
+          "sha1": "8637870276fea3a03ffa2fd8f1700e2e221b09b3",
+          "md5": "ddc354a5e01231d03d31f006abaa6f3e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-lagarto",
+          "version": {
+            "requires": "5.1.5"
+          },
+          "excludes": [
+            {
+              "group": "ch.qos.logback",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-api",
+          "version": {
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-ast",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-waiting",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threeten-extra",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-core-5.1.jar",
+          "url": "geb-core-5.1.jar",
+          "size": 702853,
+          "sha512": "89a4521d202a55f9399c18efae9633c203900504fa4c3a2407983b179661ea505c51258161d7c3a5ed6f6fba1d755acd4731db6cf8b71d63b3685c65252f297a",
+          "sha256": "2ea697627aaa8a95a6045db3ac8c40e58f9e48221f018e4c8944caa06a6219a9",
+          "sha1": "8637870276fea3a03ffa2fd8f1700e2e221b09b3",
+          "md5": "ddc354a5e01231d03d31f006abaa6f3e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-core-5.1-javadoc.jar",
+          "url": "geb-core-5.1-javadoc.jar",
+          "size": 681550,
+          "sha512": "8134bd3fe56b6e02bb30c39cba5a81f893f632a0693df50488a1f3f79b2b2574551a25fda9d61fcc84d406372a14e4c32cabf257c40bf19e59fbfb7fc8a0adab",
+          "sha256": "c9beb023433e968f970cb46df39e0eafba2f0833bce3cba055a994be6418ae43",
+          "sha1": "2089826c2a573deeb0cd83c7f71c1ac886862675",
+          "md5": "adbf88012c4f180cde9d7fd0f3dde01a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-core-5.1-sources.jar",
+          "url": "geb-core-5.1-sources.jar",
+          "size": 173397,
+          "sha512": "7e63a74f4521c2de505a3386dcd3e8add7793c173a39ddc704f1aef8a352a4ea7ea5f0cb890704f87db4abf71c1220969f68defbc3d6a63dba417988a3323cdb",
+          "sha256": "19e8905496767046966737fd940612c91a07d91a535d9b021afebacd4f26bbd7",
+          "sha1": "a564e711b1da37b60937bff172c4ac9815ca5236",
+          "md5": "0df517af6013f0e1a434a8f894de230e"
+        }
+      ]
+    },
+    {
+      "name": "selectApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "geb-core-5.1.jar",
+          "url": "geb-core-5.1.jar",
+          "size": 702853,
+          "sha512": "89a4521d202a55f9399c18efae9633c203900504fa4c3a2407983b179661ea505c51258161d7c3a5ed6f6fba1d755acd4731db6cf8b71d63b3685c65252f297a",
+          "sha256": "2ea697627aaa8a95a6045db3ac8c40e58f9e48221f018e4c8944caa06a6219a9",
+          "sha1": "8637870276fea3a03ffa2fd8f1700e2e221b09b3",
+          "md5": "ddc354a5e01231d03d31f006abaa6f3e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.gebish",
+          "name": "geb-core-select",
+          "version": "5.1"
+        }
+      ]
+    },
+    {
+      "name": "selectRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-support",
+          "version": {
+            "requires": "3.141.59"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-core-5.1.jar",
+          "url": "geb-core-5.1.jar",
+          "size": 702853,
+          "sha512": "89a4521d202a55f9399c18efae9633c203900504fa4c3a2407983b179661ea505c51258161d7c3a5ed6f6fba1d755acd4731db6cf8b71d63b3685c65252f297a",
+          "sha256": "2ea697627aaa8a95a6045db3ac8c40e58f9e48221f018e4c8944caa06a6219a9",
+          "sha1": "8637870276fea3a03ffa2fd8f1700e2e221b09b3",
+          "md5": "ddc354a5e01231d03d31f006abaa6f3e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.gebish",
+          "name": "geb-core-select",
+          "version": "5.1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-astbuilder",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-astbuilder-4.0.4-groovydoc.jar",
+          "url": "groovy-astbuilder-4.0.4-groovydoc.jar",
+          "size": 30060,
+          "sha512": "856aa497087207bfb67f30294ecb15409655a8f874eaac18735796ca85672b604875c0d8943557ad9f00c8f2c80fe6c760ae2f662ddc12a60c7d5836b695eafc",
+          "sha256": "cdbe550315a6f8164412a38e02a682cd8e5600961330ad3d46b89f38adf79865",
+          "sha1": "e37a06700f3ec9de9bbcb284d8009e91a1b5c4b0",
+          "md5": "9b05396087126a784c1005427bee132b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-astbuilder-4.0.4-javadoc.jar",
+          "url": "groovy-astbuilder-4.0.4-javadoc.jar",
+          "size": 112764,
+          "sha512": "76d70a2b51080e213c99811f5d2a72e1621587f4235efb00972fd57066eb6f3979ba3f3ab4e02eb5854d7aabe5ccaa0108b6951aca06db92b496215831a7e45c",
+          "sha256": "bf3843728d1a5d43f4c936517db7bbb697e6daa65cf18939b932e277a5db6f8a",
+          "sha1": "13779fc51f566685ae4e3fca00c3a8678b34c1d3",
+          "md5": "38ddb9db77a2d774615a02c5ee96096d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-astbuilder-4.0.4-sources.jar",
+          "url": "groovy-astbuilder-4.0.4-sources.jar",
+          "size": 9037,
+          "sha512": "0be98f6b2e09e0fe1155d11adeda1e78862c5a118c43e253baa1d921443227c48d7f2ee343908787767c91806a6c64b3dd97591e992d19e775485de98cb7d3bc",
+          "sha256": "ddae8657a0e197e9cd071d00b3e837b51cdf559fdf6e7586a126f788a9127d80",
+          "sha1": "7976a9ab9918f44b0e44a67126c15a667d4f6efc",
+          "md5": "beea612cf70b339b8e70a994a8f2dec9"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-astbuilder-4.0.4.jar",
+          "url": "groovy-astbuilder-4.0.4.jar",
+          "size": 6235,
+          "sha512": "e17141b38a9aa203acf00bfcb5caa05ec7a71d66d4ef0e5ca843ca2907df769797357587c2fbc0d1e4cba38b2adc8c4577b705703324b137a36e6e0b2e163dc8",
+          "sha256": "8306404a3d6ce34733c12dec1ce73d03280255fcb92f20296caebe6f51499d7e",
+          "sha1": "3227c1809923a9871b76f8d87fade5c3476a9b8c",
+          "md5": "aa23a9e4f787ea45230482830f22efa9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-astbuilder",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-astbuilder",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-astbuilder-4.0.4.jar",
+          "url": "groovy-astbuilder-4.0.4.jar",
+          "size": 6235,
+          "sha512": "e17141b38a9aa203acf00bfcb5caa05ec7a71d66d4ef0e5ca843ca2907df769797357587c2fbc0d1e4cba38b2adc8c4577b705703324b137a36e6e0b2e163dc8",
+          "sha256": "8306404a3d6ce34733c12dec1ce73d03280255fcb92f20296caebe6f51499d7e",
+          "sha1": "3227c1809923a9871b76f8d87fade5c3476a9b8c",
+          "md5": "aa23a9e4f787ea45230482830f22efa9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-astbuilder",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-astbuilder",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.azure",
+    "module": "micronaut-azure-bom",
+    "version": "3.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-azure-bom-3.2.3.toml",
+          "url": "micronaut-azure-bom-3.2.3.toml",
+          "size": 817,
+          "sha512": "e7845e6922d8ce5a8cd14eca32f8a82b5f0c074bee018b0671d4ec014de532d59edae96b390f786369e3a5d958d1a2a28ad9d8413716a03efd6dd01dc3fccdd5",
+          "sha256": "c73133c19f32dce2fcee615cdc43763694bee9e382e2840e06dafa9175c3f003",
+          "sha1": "84fa18c0261de95f1cc26bdf1e9c97dd6078b98c",
+          "md5": "aafdf5b03737d42a13b556e03591bf4b"
+        }
+      ]
+    }
+  ]
+}

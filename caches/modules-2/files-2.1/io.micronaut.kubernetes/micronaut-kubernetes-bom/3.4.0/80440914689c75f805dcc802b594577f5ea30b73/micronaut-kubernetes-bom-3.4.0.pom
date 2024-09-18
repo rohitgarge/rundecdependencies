@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.kubernetes</groupId>
+  <artifactId>micronaut-kubernetes-bom</artifactId>
+  <version>3.4.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Kubernetes</name>
+  <description>Integration between Micronaut and Kubernetes</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-kubernetes.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-kubernetes.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-kubernetes.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>alvarosanchez-mariscal</id>
+      <name>Alvaro Sanchez-Mariscal</name>
+    </developer>
+    <developer>
+      <id>pavolgressa</id>
+      <name> Pavol Gressa</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.kubernetes.version>3.4.0</micronaut.kubernetes.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-client</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-client-processor</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-client-reactor</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-client-rxjava2</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-client-rxjava3</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-discovery-client</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-informer</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kubernetes</groupId>
+        <artifactId>micronaut-kubernetes-operator</artifactId>
+        <version>${micronaut.kubernetes.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

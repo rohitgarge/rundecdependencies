@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.kotlin</groupId>
+  <artifactId>micronaut-kotlin-bom</artifactId>
+  <version>3.2.2</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Kotlin Integrations</name>
+  <description>Includes extensions to Micronaut for Kotlin</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-kotlin.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-kotlin.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-kotlin.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.kotlin.version>3.2.2</micronaut.kotlin.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.micronaut.kotlin</groupId>
+        <artifactId>micronaut-kotlin-extension-functions</artifactId>
+        <version>${micronaut.kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kotlin</groupId>
+        <artifactId>micronaut-kotlin-runtime</artifactId>
+        <version>${micronaut.kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.kotlin</groupId>
+        <artifactId>micronaut-ktor</artifactId>
+        <version>${micronaut.kotlin.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

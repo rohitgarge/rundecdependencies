@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.nebula</groupId>
+  <artifactId>gradle-extra-configurations-plugin</artifactId>
+  <version>7.0.0</version>
+  <name>gradle-extra-configurations-plugin</name>
+  <description>Plugins to add provided and optional configurations</description>
+  <url>https://github.com/nebula-plugins/gradle-extra-configurations-plugin</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nebula-plugins</id>
+      <name>Nebula Plugins Maintainers</name>
+      <email>nebula-plugins-oss@netflix.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/nebula-plugins/gradle-extra-configurations-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.nebula</groupId>
+      <artifactId>nebula-gradle-interop</artifactId>
+      <version>1.0.11</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.nebula#gradle-extra-configurations-plugin;7.0.0</nebula_Implementation_Title>
+    <nebula_Implementation_Version>7.0.0</nebula_Implementation_Version>
+    <nebula_Built_Status>release</nebula_Built_Status>
+    <nebula_Built_By>runner</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Timezone>Etc/UTC</nebula_Build_Timezone>
+    <nebula_Build_Date_UTC>2021-09-13T19:11:28.965Z</nebula_Build_Date_UTC>
+    <nebula_Build_Date>2021-09-13_19:11:28</nebula_Build_Date>
+    <nebula_Gradle_Version>7.2</nebula_Gradle_Version>
+    <nebula_Module_Owner>nebula-plugins-oss@netflix.com</nebula_Module_Owner>
+    <nebula_Module_Email>nebula-plugins-oss@netflix.com</nebula_Module_Email>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/nebula-plugins/gradle-extra-configurations-plugin</nebula_Module_Origin>
+    <nebula_Change>c14cbeb</nebula_Change>
+    <nebula_Full_Change>c14cbeb060ee23f56fba62fa189c427dd32ee652</nebula_Full_Change>
+    <nebula_Branch>c14cbeb060ee23f56fba62fa189c427dd32ee652</nebula_Branch>
+    <nebula_Build_Host>https://github.com</nebula_Build_Host>
+    <nebula_Build_Job>__run_2</nebula_Build_Job>
+    <nebula_Build_Number>6</nebula_Build_Number>
+    <nebula_Build_Id>1230888377</nebula_Build_Id>
+    <nebula_Build_Url>https://github.com/nebula-plugins/gradle-extra-configurations-plugin/actions/runs/1230888377</nebula_Build_Url>
+    <nebula_Created_By>1.8.0_302-b08 (Azul Systems, Inc.)</nebula_Created_By>
+    <nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK>
+    <nebula_Build_Java_Version>1.8.0_302</nebula_Build_Java_Version>
+  </properties>
+</project>

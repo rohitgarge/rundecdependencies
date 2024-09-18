@@ -1,0 +1,598 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.sql",
+    "module": "micronaut-sql-bom",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jdbi",
+          "module": "jdbi3-bom",
+          "version": {
+            "requires": "3.30.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-dbcp2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.200"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-jcache",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-micrometer",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate.reactive",
+          "module": "hibernate-reactive-core",
+          "version": {
+            "requires": "1.1.9.Final"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.github.jasync-sql",
+          "module": "jasync-mysql",
+          "version": {
+            "requires": "2.1.23"
+          }
+        },
+        {
+          "group": "com.github.jasync-sql",
+          "module": "jasync-postgresql",
+          "version": {
+            "requires": "2.1.23"
+          }
+        },
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.15.12"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "2.7.6"
+          }
+        },
+        {
+          "group": "com.microsoft.sqlserver",
+          "module": "mssql-jdbc",
+          "version": {
+            "requires": "9.4.1.jre8"
+          }
+        },
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "8.0.32"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ojdbc8",
+          "version": {
+            "requires": "21.7.0.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.5.4"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jdbc",
+          "version": {
+            "requires": "10.0.23"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ucp",
+          "version": {
+            "requires": "21.7.0.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-codegen",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-mssql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-mysql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-oracle-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-pg-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-rx-java2",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-jpa",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-jpa-spring",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-reactive",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jasync-sql",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-dbcp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-hikari",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-tomcat",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-ucp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jooq",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-vertx-mysql-client",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-vertx-pg-client",
+          "version": {
+            "requires": "4.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jdbi",
+          "module": "jdbi3-bom",
+          "version": {
+            "requires": "3.30.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-dbcp2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.200"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-jcache",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-micrometer",
+          "version": {
+            "requires": "5.6.15.Final"
+          }
+        },
+        {
+          "group": "org.hibernate.reactive",
+          "module": "hibernate-reactive-core",
+          "version": {
+            "requires": "1.1.9.Final"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.github.jasync-sql",
+          "module": "jasync-mysql",
+          "version": {
+            "requires": "2.1.23"
+          }
+        },
+        {
+          "group": "com.github.jasync-sql",
+          "module": "jasync-postgresql",
+          "version": {
+            "requires": "2.1.23"
+          }
+        },
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.15.12"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "2.7.6"
+          }
+        },
+        {
+          "group": "com.microsoft.sqlserver",
+          "module": "mssql-jdbc",
+          "version": {
+            "requires": "9.4.1.jre8"
+          }
+        },
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "8.0.32"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ojdbc8",
+          "version": {
+            "requires": "21.7.0.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.5.4"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jdbc",
+          "version": {
+            "requires": "10.0.23"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ucp",
+          "version": {
+            "requires": "21.7.0.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-codegen",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-mssql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-mysql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-oracle-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-pg-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-rx-java2",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sql-client",
+          "version": {
+            "requires": "4.3.4"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-jpa",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-jpa-spring",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-hibernate-reactive",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jasync-sql",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-dbcp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-hikari",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-tomcat",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-ucp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jooq",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-vertx-mysql-client",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-vertx-pg-client",
+          "version": {
+            "requires": "4.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-sql-bom-4.8.1.toml",
+          "url": "micronaut-sql-bom-4.8.1.toml",
+          "size": 4541,
+          "sha512": "a08b22c2d59a0a8dcd54c9a7cfddd4aa74c4e7dc74bf672713dc52852d708e59ea91674c339b1b8d9b3aa8e497704d44a2dcdeb8909a51216cc0781de2ee2781",
+          "sha256": "a9f30f44c0fa4bad69f882ff93c297a058e7f50a523998cc3035c0953ded5975",
+          "sha1": "1ed1326a4cff3efd014812dc84c7cb9d334b2d86",
+          "md5": "92deafa077d8e3a88732980f1bfc41af"
+        }
+      ]
+    }
+  ]
+}

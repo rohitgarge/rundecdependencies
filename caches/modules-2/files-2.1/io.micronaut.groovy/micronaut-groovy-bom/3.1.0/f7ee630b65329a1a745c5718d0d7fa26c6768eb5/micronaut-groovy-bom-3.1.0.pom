@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.groovy</groupId>
+  <artifactId>micronaut-groovy-bom</artifactId>
+  <version>3.1.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Groovy</name>
+  <description>Projects that enhance the Micronaut and Groovy language experience</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-groovy.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-groovy.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-groovy.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.groovy.version>3.1.0</micronaut.groovy.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-function-groovy</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-gorm-common</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-graphql-gorm</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-hibernate-gorm</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-mongo-gorm</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-multitenancy-gorm</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-neo4j-gorm</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.groovy</groupId>
+        <artifactId>micronaut-runtime-groovy</artifactId>
+        <version>${micronaut.groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-bom</artifactId>
+        <version>3.0.10</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

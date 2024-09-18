@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-taglib",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-encoder",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-taglib-6.0.0.jar",
+          "url": "grails-taglib-6.0.0.jar",
+          "size": 96506,
+          "sha512": "ff53fadedd2cd6b8b7ae7f4359ef5cc6065f4bded06cf9101bd4c555cc12246855287155acc490950ca9d3bb83bf9038347b895cdbcc687a10eab778755b171a",
+          "sha256": "f0046977386de380ebd2ead76a6440c651d0258ecfd7bd99af15f8f021474dd9",
+          "sha1": "347fac8c4640c9e945b6921707f0e58eedf13667",
+          "md5": "f10b2efb669539ca2b9dd1c0a41a8995"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-encoder",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-taglib-6.0.0.jar",
+          "url": "grails-taglib-6.0.0.jar",
+          "size": 96506,
+          "sha512": "ff53fadedd2cd6b8b7ae7f4359ef5cc6065f4bded06cf9101bd4c555cc12246855287155acc490950ca9d3bb83bf9038347b895cdbcc687a10eab778755b171a",
+          "sha256": "f0046977386de380ebd2ead76a6440c651d0258ecfd7bd99af15f8f021474dd9",
+          "sha1": "347fac8c4640c9e945b6921707f0e58eedf13667",
+          "md5": "f10b2efb669539ca2b9dd1c0a41a8995"
+        }
+      ]
+    }
+  ]
+}

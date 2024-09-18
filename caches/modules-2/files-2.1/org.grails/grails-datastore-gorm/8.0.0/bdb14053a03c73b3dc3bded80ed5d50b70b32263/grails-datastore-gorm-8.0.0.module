@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-datastore-gorm",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-core",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-validation",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-8.0.0.jar",
+          "url": "grails-datastore-gorm-8.0.0.jar",
+          "size": 955068,
+          "sha512": "495378c3e26938dbaa262ac57e2ede3a56db54c6f1abe670736d081af202ec4de1a5dba7268bdd834636fd95e76730c6cc92f306ec9d2407b58d8d68a7091d26",
+          "sha256": "74b41b7fb363c09989f9b75bb1d6a4b011c77a42b055a653c859c1427de64b3b",
+          "sha1": "e90cd335f40d4c18618cf0c667d67e099d73523c",
+          "md5": "35e99307bf274829d3ae30767f10114e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "javax.el",
+          "module": "javax.el-api",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-core",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-validation",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.el",
+          "version": {
+            "requires": "3.0.1-b12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-8.0.0.jar",
+          "url": "grails-datastore-gorm-8.0.0.jar",
+          "size": 955068,
+          "sha512": "495378c3e26938dbaa262ac57e2ede3a56db54c6f1abe670736d081af202ec4de1a5dba7268bdd834636fd95e76730c6cc92f306ec9d2407b58d8d68a7091d26",
+          "sha256": "74b41b7fb363c09989f9b75bb1d6a4b011c77a42b055a653c859c1427de64b3b",
+          "sha1": "e90cd335f40d4c18618cf0c667d67e099d73523c",
+          "md5": "35e99307bf274829d3ae30767f10114e"
+        }
+      ]
+    }
+  ]
+}

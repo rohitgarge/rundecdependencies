@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.rxjava2",
+    "module": "micronaut-rxjava2-bom",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-http-client",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-http-server-netty",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-http-client",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-http-server-netty",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-rxjava2-bom-1.3.0.toml",
+          "url": "micronaut-rxjava2-bom-1.3.0.toml",
+          "size": 815,
+          "sha512": "ce63f15868c3f97c96526e1e14fdaf982037da4efe02a54da9758e8374d3719d8944b743442b97263985d877c4db8e729dbe201a7bd4b70db1a6aadf44675bd0",
+          "sha256": "f5fe25fae0d846e9fd826314c4edcfdfb0c04ec7df5f2413e3b158959eb6596d",
+          "sha1": "4be55d332237e2a069fdcc98a945e285a4f45ae7",
+          "md5": "03e1bac03cfc592d80a6598568d00f4f"
+        }
+      ]
+    }
+  ]
+}

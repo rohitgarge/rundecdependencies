@@ -1,0 +1,302 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-plugin-databinding",
+    "version": "6.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.31"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web",
+          "version": {
+            "requires": "6.1.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-plugin-databinding-6.1.2.jar",
+          "url": "grails-plugin-databinding-6.1.2.jar",
+          "size": 315817,
+          "sha512": "c21a12806d31b26e5d1ed57d9e7ff23fb7cbb60ae0bc3dea75fa8c0c1aeb990b77d9087aa999c3b36f001f045f4f6b2dd322b376ac69b305bb063c8b99d54c0e",
+          "sha256": "e82e2230e5178361d0ec92ca2a2e0136e45e749dcb057c93ec2a57e883c53da5",
+          "sha1": "e698b792c611f930d55469a6d86274834ba34dfe",
+          "md5": "b01b19e878f6f38f5cd0295d1f1779b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.31"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web",
+          "version": {
+            "requires": "6.1.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-plugin-databinding-6.1.2.jar",
+          "url": "grails-plugin-databinding-6.1.2.jar",
+          "size": 315817,
+          "sha512": "c21a12806d31b26e5d1ed57d9e7ff23fb7cbb60ae0bc3dea75fa8c0c1aeb990b77d9087aa999c3b36f001f045f4f6b2dd322b376ac69b305bb063c8b99d54c0e",
+          "sha256": "e82e2230e5178361d0ec92ca2a2e0136e45e749dcb057c93ec2a57e883c53da5",
+          "sha1": "e698b792c611f930d55469a6d86274834ba34dfe",
+          "md5": "b01b19e878f6f38f5cd0295d1f1779b0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-plugin-databinding-6.1.2-javadoc.jar",
+          "url": "grails-plugin-databinding-6.1.2-javadoc.jar",
+          "size": 324454,
+          "sha512": "2d4c08534d0be80369f8b21f2fc4b88cb79770b7867aa2de860c85884a554ad6b3d2c0776b6156fb0d4e2a62c89e93ebba48a969f56eb280cf02afeb16b154d5",
+          "sha256": "d6946d67cda3114ec9d8dc637242202c536336aea2d8581eeb917a2ca43103ae",
+          "sha1": "f57e50ad32097e075c59f065cd482f1daa5b554e",
+          "md5": "b7788b2d73d234273f518276dfff4fae"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-plugin-databinding-6.1.2-sources.jar",
+          "url": "grails-plugin-databinding-6.1.2-sources.jar",
+          "size": 10972,
+          "sha512": "98259d1b2d1802420eed70191934d7e374ff852bb5c869fb6e511134d9085c7a6203b3cd180cc9e8c1f05395299771c81346d24aa59ced98934156010285a28e",
+          "sha256": "e3e1040d0645451144a2d3f74e813fe1f16fa053205f9106da6316783b909979",
+          "sha1": "cd2b6dc28a70873832c7c9149e952f8c8ea5eb22",
+          "md5": "5f63d81a601a53e3bfe6f56c0b0bdbdd"
+        }
+      ]
+    }
+  ]
+}

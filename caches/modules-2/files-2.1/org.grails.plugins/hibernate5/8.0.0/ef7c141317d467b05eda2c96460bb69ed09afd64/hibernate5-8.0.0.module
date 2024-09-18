@@ -1,0 +1,337 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "hibernate5",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.27"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-web",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-support",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-hibernate5",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "javax.transaction",
+              "module": "jta"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-core"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-core"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-tx"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-bootstrap"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate5-8.0.0-plain.jar",
+          "url": "hibernate5-8.0.0-plain.jar",
+          "size": 57291,
+          "sha512": "438f1096251b79d249ac0c1a3a40f466fb9f7016a47e869934d6e9c86ebc105d297527c36bca03c1331978907fd0e365715a2fd92bd5d6905ea1bb7e3a1fd4ef",
+          "sha256": "be96160e03448d8a404c878ddc490ee85acaa40eb70debfb41e0e8c47da66e45",
+          "sha1": "79c4f1a9b0e8d1284b5cf661fde41c6cdaac10ed",
+          "md5": "f5a6edff791ae2f27a081cd85afe426e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.12"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.27"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.15.Final"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-web",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-support",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm-hibernate5",
+          "version": {
+            "requires": "8.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "javax.transaction",
+              "module": "jta"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-core"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-core"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-tx"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context"
+            },
+            {
+              "group": "org.grails",
+              "module": "grails-bootstrap"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate5-8.0.0-plain.jar",
+          "url": "hibernate5-8.0.0-plain.jar",
+          "size": 57291,
+          "sha512": "438f1096251b79d249ac0c1a3a40f466fb9f7016a47e869934d6e9c86ebc105d297527c36bca03c1331978907fd0e365715a2fd92bd5d6905ea1bb7e3a1fd4ef",
+          "sha256": "be96160e03448d8a404c878ddc490ee85acaa40eb70debfb41e0e8c47da66e45",
+          "sha1": "79c4f1a9b0e8d1284b5cf661fde41c6cdaac10ed",
+          "md5": "f5a6edff791ae2f27a081cd85afe426e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hibernate5-8.0.0-javadoc.jar",
+          "url": "hibernate5-8.0.0-javadoc.jar",
+          "size": 82077,
+          "sha512": "79d8d393e8365a6d7a377ec4e7ed872775574bdfca66bf0c3ebc6b22738ccc7099a76ed7b1735404717c52be86ba63d8641523de5b287da0c96fa7cee94990dd",
+          "sha256": "f0347a12b03b86ccbf94ef35fd297cfdec24fa817eb725a0e9baddbf2e768ce8",
+          "sha1": "f80aed25510f187f2d991d303d237b8a207a2fa4",
+          "md5": "d3bf463d717a5b648c617ca95208ee9e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hibernate5-8.0.0-sources.jar",
+          "url": "hibernate5-8.0.0-sources.jar",
+          "size": 15940,
+          "sha512": "8390f5bc67b3b44ff91edcff4f77ac109c5d9fb7707fc95620f57cfb2ffa0b124a8810b6450197ad82c3a2f3886a989e09083a82b7566f16e48fd72eb2a65dda",
+          "sha256": "bf820b79db0752736b7190059264024ddf7bcaaa08311ee37bc7799f0874fb9b",
+          "sha1": "80b03e350b972d2fdba005402545cda21c80f8a4",
+          "md5": "ed04ecca65067aedd63f21e32fa18343"
+        }
+      ]
+    }
+  ]
+}

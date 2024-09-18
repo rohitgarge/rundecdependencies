@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-tx",
+    "version": "5.3.34",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.34"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.34"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-tx-5.3.34.jar",
+          "url": "spring-tx-5.3.34.jar",
+          "size": 333518,
+          "sha512": "56716acfb6ec8a27e88f3128d0aa00382ae302231e801d95d123ff0da077f6f21759bad829d88d93885ba4089fffa5111b9055ce4fad2afec29190b08ad6bf36",
+          "sha256": "2351e4d7e2e2baa43297aa592518a3b18a35d07ae20225b3672c583d774146ed",
+          "sha1": "0cee6b1d12d87780cbf3cf2b8781d058c7c0e492",
+          "md5": "9fcefda037d6185b8687aab31aa28c6d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.34"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.34"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-tx-5.3.34.jar",
+          "url": "spring-tx-5.3.34.jar",
+          "size": 333518,
+          "sha512": "56716acfb6ec8a27e88f3128d0aa00382ae302231e801d95d123ff0da077f6f21759bad829d88d93885ba4089fffa5111b9055ce4fad2afec29190b08ad6bf36",
+          "sha256": "2351e4d7e2e2baa43297aa592518a3b18a35d07ae20225b3672c583d774146ed",
+          "sha1": "0cee6b1d12d87780cbf3cf2b8781d058c7c0e492",
+          "md5": "9fcefda037d6185b8687aab31aa28c6d"
+        }
+      ]
+    }
+  ]
+}

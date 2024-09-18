@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-web-gsp",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-gsp",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-taglib",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-sitemesh",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-web-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-gsp-6.0.0.jar",
+          "url": "grails-web-gsp-6.0.0.jar",
+          "size": 86532,
+          "sha512": "827c23d881a94be90790c34d63d0b428f64c5539c3553134f34ddf7aca7987ca4328474e27dfc01a884cbf326e96aec2816274ce9648699d1e5aef971f9f64ce",
+          "sha256": "2a8fea8271631e9d2ba580dd03c481f10f66c06aeed6ec448016a672eb5653d4",
+          "sha1": "bcb56ef44a3fa46537a2ec2702c6cfb3a72a13bd",
+          "md5": "23844cc86c031b05bde12923bae663bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-gsp",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-common",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-taglib",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-sitemesh",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-web-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-gsp-6.0.0.jar",
+          "url": "grails-web-gsp-6.0.0.jar",
+          "size": 86532,
+          "sha512": "827c23d881a94be90790c34d63d0b428f64c5539c3553134f34ddf7aca7987ca4328474e27dfc01a884cbf326e96aec2816274ce9648699d1e5aef971f9f64ce",
+          "sha256": "2a8fea8271631e9d2ba580dd03c481f10f66c06aeed6ec448016a672eb5653d4",
+          "sha1": "bcb56ef44a3fa46537a2ec2702c6cfb3a72a13bd",
+          "md5": "23844cc86c031b05bde12923bae663bb"
+        }
+      ]
+    }
+  ]
+}

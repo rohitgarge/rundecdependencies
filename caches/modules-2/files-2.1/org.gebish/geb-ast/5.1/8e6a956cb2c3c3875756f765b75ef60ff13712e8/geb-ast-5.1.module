@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-ast",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-macro"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-ast-5.1.jar",
+          "url": "geb-ast-5.1.jar",
+          "size": 12034,
+          "sha512": "4e30fe684b72d6d84425b594dc62fcf2a79bde442f43b3246ebed7278976aad742a6337b6f587e7a84f879d910edaebdf7c2c622821e3a3540e8fa236cbe7670",
+          "sha256": "8fe655c677ceb1e33ca0eb219bebb5ac1b173b74dd93d739386ceaf85d94a1c2",
+          "sha1": "0011c6ca3408d0bcdd2f0dea360b2ea43eb43606",
+          "md5": "4b17aebfefa4729fbe43fbc22a96400c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-macro"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-ast-5.1.jar",
+          "url": "geb-ast-5.1.jar",
+          "size": 12034,
+          "sha512": "4e30fe684b72d6d84425b594dc62fcf2a79bde442f43b3246ebed7278976aad742a6337b6f587e7a84f879d910edaebdf7c2c622821e3a3540e8fa236cbe7670",
+          "sha256": "8fe655c677ceb1e33ca0eb219bebb5ac1b173b74dd93d739386ceaf85d94a1c2",
+          "sha1": "0011c6ca3408d0bcdd2f0dea360b2ea43eb43606",
+          "md5": "4b17aebfefa4729fbe43fbc22a96400c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-ast-5.1-javadoc.jar",
+          "url": "geb-ast-5.1-javadoc.jar",
+          "size": 45611,
+          "sha512": "912e0ebb8c5b1fd7fba4cd49a85b911b89e6c17f0b293dee076d176593316c2a39b943be78a9a3ff021a74ae612aef7a75d59b90e270506d29aefd77768e683b",
+          "sha256": "befdc0b1f3e0cca1d361117abd486cd60adaf63fca001077bf8c13b379317c82",
+          "sha1": "0784c5981c812e7504b3ae6363c0e4d570a1f67c",
+          "md5": "0e61401dbd307652950a0fb52150ee38"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-ast-5.1-sources.jar",
+          "url": "geb-ast-5.1-sources.jar",
+          "size": 5509,
+          "sha512": "081844bea7bb519002162409ff679ecacb03a3f1bd7fdad5fc6a56801382768dc425041ab30ea571e7022c439e9093cd459e0d7706d069536d1b8fcc8d576bc1",
+          "sha256": "6279bb0facb55682119e35b14e44b5ec8f8a21c287f3a0816d0bf45aeecee260",
+          "sha1": "037420d2c059c8c0083e9b31f2db098f67148e58",
+          "md5": "1af4ac5e78d0d164d68f268d04db7537"
+        }
+      ]
+    }
+  ]
+}

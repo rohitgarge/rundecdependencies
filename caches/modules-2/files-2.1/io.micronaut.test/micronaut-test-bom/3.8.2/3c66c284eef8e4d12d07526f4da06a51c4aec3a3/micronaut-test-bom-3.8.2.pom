@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.test</groupId>
+  <artifactId>micronaut-test-bom</artifactId>
+  <version>3.8.2</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Test</name>
+  <description>Testing Framework Extensions for Micronaut</description>
+  <url>http://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-test.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-test.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-test.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <mockk.version>1.12.8</mockk.version>
+    <kotest.version>4.6.4</kotest.version>
+    <rest.assured.version>5.3.0</rest.assured.version>
+    <assertj.version>3.23.1</assertj.version>
+    <micronaut.test.version>3.8.2</micronaut.test.version>
+    <junit.version>5.9.2</junit.version>
+    <mockito.version>4.9.0</mockito.version>
+    <hamcrest.version>2.2</hamcrest.version>
+    <spock.version>2.1-groovy-3.0</spock.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>${assertj.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest</artifactId>
+        <version>${hamcrest.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.kotest</groupId>
+        <artifactId>kotest-assertions-core-jvm</artifactId>
+        <version>${kotest.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.kotest</groupId>
+        <artifactId>kotest-runner-junit5-jvm</artifactId>
+        <version>${kotest.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>${mockito.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-junit-jupiter</artifactId>
+        <version>${mockito.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.mockk</groupId>
+        <artifactId>mockk</artifactId>
+        <version>${mockk.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-core</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-junit5</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-kotest</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-kotest5</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-rest-assured</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.test</groupId>
+        <artifactId>micronaut-test-spock</artifactId>
+        <version>${micronaut.test.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured-bom</artifactId>
+        <version>${rest.assured.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.spockframework</groupId>
+        <artifactId>spock-bom</artifactId>
+        <version>${spock.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

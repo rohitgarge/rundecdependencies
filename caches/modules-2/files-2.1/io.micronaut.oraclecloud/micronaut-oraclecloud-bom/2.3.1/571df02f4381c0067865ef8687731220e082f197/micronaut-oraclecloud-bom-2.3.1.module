@@ -1,0 +1,1972 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.oraclecloud",
+    "module": "micronaut-oraclecloud-bom",
+    "version": "2.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-circuitbreaker",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-audit",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerengine",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-core",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-database",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dns",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-email",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-filestorage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identity",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loadbalancer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-resteasy-client-configurator",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-graalvm",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcesearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-keymanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-announcementsservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-healthchecks",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waas",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-streaming",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcemanager",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-monitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ons",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-autoscaling",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-budget",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-workrequests",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-limits",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-functions",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-events",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dts",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oce",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oda",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-analytics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-integration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplace",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apigateway",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-applicationmigration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datacatalog",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataflow",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datascience",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-nosql",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-secrets",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vault",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bds",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-encryption",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cims",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datasafe",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mysql",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataintegration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocvp",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usageapi",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-blockchain",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingingestion",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-logging",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loganalytics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementdashboard",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-sch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingsearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementagent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudguard",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opsi",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computeinstanceagent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-optimizer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-tenantmanagercontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-rover",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-artifacts",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmsynthetics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-goldengate",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmcontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmtraces",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkloadbalancer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vulnerabilityscanning",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemigration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicecatalog",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ailanguage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-operatoraccesscontrol",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bastion",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-genericartifactscontent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jms",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-devops",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aianomalydetection",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservicedataplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmconfig",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waf",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificates",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificatesmanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasetools",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemanagerproxy",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-appmgmtcontrol",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ospgateway",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydataplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-visualbuilder",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubusage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubsubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osuborganizationsubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubbillingschedule",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dashboardservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-threatintelligence",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aivision",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aispeech",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataconnectivity",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-stackmonitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemesh",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-adm",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-licensemanager",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-onesubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-governancerulescontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waa",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkfirewall",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vnmonitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emwarehouse",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lockbox",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fusionapps",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mediaservices",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opa",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opensearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "api",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "testing-junit4",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-atp",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-common",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http-test",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-netty",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-logging",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-micrometer",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-reactor",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-rxjava2",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-vault",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-circuitbreaker",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-audit",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerengine",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-core",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-database",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dns",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-email",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-filestorage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identity",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loadbalancer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-resteasy-client-configurator",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-graalvm",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcesearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-keymanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-announcementsservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-healthchecks",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waas",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-streaming",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcemanager",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-monitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ons",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-autoscaling",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-budget",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-workrequests",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-limits",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-functions",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-events",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dts",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oce",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oda",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-analytics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-integration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplace",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apigateway",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-applicationmigration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datacatalog",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataflow",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datascience",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-nosql",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-secrets",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vault",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bds",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-encryption",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cims",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datasafe",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mysql",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataintegration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocvp",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usageapi",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-blockchain",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingingestion",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-logging",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loganalytics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementdashboard",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-sch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingsearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementagent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudguard",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opsi",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computeinstanceagent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-optimizer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-tenantmanagercontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-rover",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-artifacts",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmsynthetics",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-goldengate",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmcontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmtraces",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkloadbalancer",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vulnerabilityscanning",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemigration",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicecatalog",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ailanguage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-operatoraccesscontrol",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bastion",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-genericartifactscontent",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jms",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-devops",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aianomalydetection",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservicedataplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmconfig",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waf",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificates",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificatesmanagement",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasetools",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemanagerproxy",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-appmgmtcontrol",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ospgateway",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydataplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-visualbuilder",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubusage",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubsubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osuborganizationsubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubbillingschedule",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dashboardservice",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-threatintelligence",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aivision",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aispeech",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataconnectivity",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-stackmonitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemesh",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-adm",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-licensemanager",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-onesubscription",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-governancerulescontrolplane",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waa",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkfirewall",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vnmonitoring",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emwarehouse",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lockbox",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fusionapps",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mediaservices",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opa",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opensearch",
+          "version": {
+            "requires": "2.41.0"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "api",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "testing-junit4",
+          "version": {
+            "requires": "1.0.150"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-atp",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-common",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http-test",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-netty",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-logging",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-micrometer",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-reactor",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-rxjava2",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-vault",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-oraclecloud-bom-2.3.1.toml",
+          "url": "micronaut-oraclecloud-bom-2.3.1.toml",
+          "size": 2175,
+          "sha512": "0d1a03913668587279028eef3bbc8184297d41dda2c048f32d0e6068b4d61161471ab9c9115ce98e3b007fa1fed09ba22d782b74e68cb607688e1e99fe9c4c46",
+          "sha256": "b23633facffc71da64b7a6f6fae3ad3079b8d6c9ebdfddd39c88af43c02aac2b",
+          "sha1": "259bd1dfc8ad390a6fecbd4ca5f50f30cfd58b80",
+          "md5": "7b2e2dabc5775a07221f51eed801b5f3"
+        }
+      ]
+    }
+  ]
+}

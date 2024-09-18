@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-waiting",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.gebish",
+          "module": "geb-implicit-assertions",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-exceptions",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-waiting-5.1.jar",
+          "url": "geb-waiting-5.1.jar",
+          "size": 9998,
+          "sha512": "2e633c84d5db719f787128dc5fc656eb83ff028791933e57110cfb7125e974fe0ff9dc370df0c7edacb6c371090d9c6a027b414e25c271c1143ce33c40f7638c",
+          "sha256": "e88d1b600f0ebf6ab9d8027f1ca048cb2bf5fb3020344db840decb96bd52335b",
+          "sha1": "742c3d97e42e66a2ba330fb58fdebe8a2815efbc",
+          "md5": "360ffa3cf95f9d31058fd47c20dca718"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.gebish",
+          "module": "geb-implicit-assertions",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-exceptions",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-waiting-5.1.jar",
+          "url": "geb-waiting-5.1.jar",
+          "size": 9998,
+          "sha512": "2e633c84d5db719f787128dc5fc656eb83ff028791933e57110cfb7125e974fe0ff9dc370df0c7edacb6c371090d9c6a027b414e25c271c1143ce33c40f7638c",
+          "sha256": "e88d1b600f0ebf6ab9d8027f1ca048cb2bf5fb3020344db840decb96bd52335b",
+          "sha1": "742c3d97e42e66a2ba330fb58fdebe8a2815efbc",
+          "md5": "360ffa3cf95f9d31058fd47c20dca718"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-waiting-5.1-javadoc.jar",
+          "url": "geb-waiting-5.1-javadoc.jar",
+          "size": 39988,
+          "sha512": "a6e0f47b68a5639574217d974f7d1e6f6628f49141c09744e719d6efbb1e46176b6167fa8decd0e34609d26fc2f302e1248f09f16ef8aad73fba43c6732abc9e",
+          "sha256": "0e88f86aa98af2d91dd3031491ab67aa63ecc11c7f10630974a60ea41ff81eac",
+          "sha1": "c8cd2145c508eb9d7b2bf08ace1800abc8e78d5c",
+          "md5": "9f81918a872342eeb64a8588dd4d1e45"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-waiting-5.1-sources.jar",
+          "url": "geb-waiting-5.1-sources.jar",
+          "size": 4759,
+          "sha512": "65190dc9ad70feda9dac4c4ef4308eaaac2605a329314a796b03ae87f46db3b715838ae477776107f5044fa9f264d77aa869403424c51795416397666f015471",
+          "sha256": "7d99acf08a099c084879cbadeec7f1300f7cec65a0afadf8c280dff9489cd3cf",
+          "sha1": "91fecec5138f22d89dc17091daaf35be6cb38c9e",
+          "md5": "36a49899e49f73c843e90262fe0e0008"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bertramlabs.plugins",
+    "module": "asset-pipeline-gradle",
+    "version": "3.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "62wfpxmncvhhnl4bgo6xmvr2ne"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-core",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "com.google.javascript",
+          "module": "closure-compiler-unshaded",
+          "version": {
+            "requires": "v20210106"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asset-pipeline-gradle-3.4.3.jar",
+          "url": "asset-pipeline-gradle-3.4.3.jar",
+          "size": 48633,
+          "sha512": "4cc885fb3da645125c8a650c68a0f9c0d018fdedab5dcaa53b6a24e4a4030bdc6b3e2c751f3a4e506e56aa22a8ab25ce5e2c8ee9076addf0064cfada6d4c932c",
+          "sha256": "a9106c2916411d276bf84b938f94db7136d93f6400366410082e14c8150a6347",
+          "sha1": "3a9c6b62b3a0eb12a2892557472fdab64ff6f646",
+          "md5": "f0a47bd43034813a66ac055cc18c11ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-core",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "com.google.javascript",
+          "module": "closure-compiler-unshaded",
+          "version": {
+            "requires": "v20210106"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asset-pipeline-gradle-3.4.3.jar",
+          "url": "asset-pipeline-gradle-3.4.3.jar",
+          "size": 48633,
+          "sha512": "4cc885fb3da645125c8a650c68a0f9c0d018fdedab5dcaa53b6a24e4a4030bdc6b3e2c751f3a4e506e56aa22a8ab25ce5e2c8ee9076addf0064cfada6d4c932c",
+          "sha256": "a9106c2916411d276bf84b938f94db7136d93f6400366410082e14c8150a6347",
+          "sha1": "3a9c6b62b3a0eb12a2892557472fdab64ff6f646",
+          "md5": "f0a47bd43034813a66ac055cc18c11ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-pipeline-gradle-3.4.3-sources.jar",
+          "url": "asset-pipeline-gradle-3.4.3-sources.jar",
+          "size": 9152,
+          "sha512": "4aa84a74b5b8280918d22925660a961fdb0149451c687b6745ae8153ee7201bded981f965be28909ed3d79153c294c79b828f9c00a64feec55bfb4bcec00067b",
+          "sha256": "7a153a678637837a94821b638551988d14682b7888b4d92625942659d9625c0f",
+          "sha1": "4106b0d12adcb2832b3c30c62cd99bf91200d01d",
+          "md5": "a3bcf62edc0ed807ecc15b7285407368"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-pipeline-gradle-3.4.3-javadoc.jar",
+          "url": "asset-pipeline-gradle-3.4.3-javadoc.jar",
+          "size": 261,
+          "sha512": "4d8706dfd80ad87d284eb8caa17557f8f11b60a6747aa33d292f5eb55508cb191c8e12fac5f10c63c8a9a4103d08b39036829cb3268fc471d63f2ee694416e15",
+          "sha256": "f2fac75928dc924e9ca12b256aafc3e40f12bf12f50320c45577649c848a9b64",
+          "sha1": "bcc9f870b63b945b73c26444c86115759a8f4327",
+          "md5": "ba46570dd71232386e3a7b582b47e777"
+        }
+      ]
+    }
+  ]
+}

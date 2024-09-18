@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "gsp",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-web-gsp-taglib",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-codecs",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gsp-6.0.0-plain.jar",
+          "url": "gsp-6.0.0-plain.jar",
+          "size": 329403,
+          "sha512": "ddca456c65ba70efaf085f97381746b8f1c1ef4cbe8e53f3531d919672407c89ef290acafe23ce25758fd57779570f798923220ddceb4c31c0fb692c835467cb",
+          "sha256": "8c5c38b0f847c152ee635eef9d757850f84229b6a21dc808a0852007e87c99f6",
+          "sha1": "ddc8593b64322659bf11ab599ea707d6e6729265",
+          "md5": "56ac46fed3c60b2ddaa65ab808db31e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-web-gsp-taglib",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-codecs",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-jsp",
+          "version": {
+            "requires": "6.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gsp-6.0.0-plain.jar",
+          "url": "gsp-6.0.0-plain.jar",
+          "size": 329403,
+          "sha512": "ddca456c65ba70efaf085f97381746b8f1c1ef4cbe8e53f3531d919672407c89ef290acafe23ce25758fd57779570f798923220ddceb4c31c0fb692c835467cb",
+          "sha256": "8c5c38b0f847c152ee635eef9d757850f84229b6a21dc808a0852007e87c99f6",
+          "sha1": "ddc8593b64322659bf11ab599ea707d6e6729265",
+          "md5": "56ac46fed3c60b2ddaa65ab808db31e2"
+        }
+      ]
+    }
+  ]
+}

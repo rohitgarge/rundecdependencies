@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rundeck-plugins</groupId>
+  <artifactId>py-winrm-plugin</artifactId>
+  <version>2.1.3</version>
+  <packaging>zip</packaging>
+  <name>rundeck-plugins/py-winrm-plugin</name>
+  <url>https://github.com/rundeck-plugins/py-winrm-plugin</url>
+  <inceptionYear>2017</inceptionYear>
+  <developers>
+    <developer>
+      <id>rundeck-plugins</id>
+      <name>rundeck-plugins</name>
+      <email>product@rundeck.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/rundeck-plugins/py-winrm-plugin.git</connection>
+    <developerConnection>scm:git://github.com/rundeck-plugins/py-winrm-plugin.git</developerConnection>
+    <url>git://github.com/rundeck-plugins/py-winrm-plugin.git</url>
+  </scm>
+</project>

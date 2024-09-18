@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adaptc.gradle</groupId>
+  <artifactId>nexus-workflow</artifactId>
+  <version>0.6</version>
+  <name>Nexus Workflow Gradle Plugin</name>
+  <description>Gradle plugin for staging, closing, and promoting Nexus repositories.</description>
+  <url>http://github.com/adaptivecomputing/plugins-gradle</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bsaville</id>
+      <name>Brian Saville</name>
+      <email>bsaville@adaptivecomputing.com</email>
+      <organization>Adaptive Computing, Inc.</organization>
+      <organizationUrl>http://adaptivecomputing.com</organizationUrl>
+      <timezone>-7</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/adaptivecomputing/plugins-gradle.git</connection>
+    <developerConnection>scm:git:https://github.com/adaptivecomputing/plugins-gradle.git</developerConnection>
+    <url>http://github.com/adaptivecomputing/plugins-gradle</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.spockframework</groupId>
+      <artifactId>spock-core</artifactId>
+      <version>0.7-groovy-1.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

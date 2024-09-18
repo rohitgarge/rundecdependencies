@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.rundeck",
+    "module": "rundeck-data-models",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rundeck-data-models-1.0.6.jar",
+          "url": "rundeck-data-models-1.0.6.jar",
+          "size": 57066,
+          "sha512": "098dd7f757bfb955d601dd9fd899f8bcd8759b607460fc42a57e64d1cf4f1492b2718ad5fa5dacb3b22c7294e45e1177c3f62d5a60237128f735cc826533c2de",
+          "sha256": "b5dd1b1668da82735044724d1bad854ada0a27d829f584455982cb566d257b60",
+          "sha1": "a5490f8c4d2acc8cd8e3a2e2aff93c5e3a8490d3",
+          "md5": "da0ee1eb56f448463deba350b423f7af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rundeck-data-models-1.0.6.jar",
+          "url": "rundeck-data-models-1.0.6.jar",
+          "size": 57066,
+          "sha512": "098dd7f757bfb955d601dd9fd899f8bcd8759b607460fc42a57e64d1cf4f1492b2718ad5fa5dacb3b22c7294e45e1177c3f62d5a60237128f735cc826533c2de",
+          "sha256": "b5dd1b1668da82735044724d1bad854ada0a27d829f584455982cb566d257b60",
+          "sha1": "a5490f8c4d2acc8cd8e3a2e2aff93c5e3a8490d3",
+          "md5": "da0ee1eb56f448463deba350b423f7af"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rundeck-data-models-1.0.6-javadoc.jar",
+          "url": "rundeck-data-models-1.0.6-javadoc.jar",
+          "size": 653736,
+          "sha512": "2bda73ac116fed7c80340e3b9bf66450a31b6aca1bb09ddc8fc56c8c9a8cf599b9abd91ce7e52117ac8318181c5ab4c051153428300bbc47a2457479c14ebf42",
+          "sha256": "6c439cd2fe13f25fc1ef3e70ab8d8191b920d83f690825c4db3436208b06e0af",
+          "sha1": "6703c0b2452ae7c85377fc539f632ef665fe3eb8",
+          "md5": "58652d5cddf3de42a545e284fac5b3fa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rundeck-data-models-1.0.6-sources.jar",
+          "url": "rundeck-data-models-1.0.6-sources.jar",
+          "size": 63217,
+          "sha512": "93a0c4f74b8440d9e75ec172764f09fa1e51519a167cc505c2f47d38399355b7dcc89d44e2848e8ee032ba75f7378412da0ab804ab77e9952279cb8f2f452319",
+          "sha256": "529ad6a59ecc95d9953321195c43d0814cfd679ea5863942e3a93510fe41f027",
+          "sha1": "0d959a98e34ea99c4a3ab3037fcb4a7447467cff",
+          "md5": "072c170fffa8623ed760ce2ed11897cd"
+        }
+      ]
+    }
+  ]
+}

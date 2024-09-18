@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.adarshr",
+    "module": "gradle-test-logger-plugin",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gradle-test-logger-plugin-4.0.0.jar",
+          "url": "gradle-test-logger-plugin-4.0.0.jar",
+          "size": 153451,
+          "sha512": "a6af925cf5ca340b08c6b2f40409e4de44fca210403bfeb2e0104dae1947d919d4c57e206cd3358930d21d07237a6f6194b41bbe2b25d330cec4b3b2eae75243",
+          "sha256": "e678683a33d2bc835671bdd4e58710004ad1d9316aa9f9a54cfe22419a4f6ef9",
+          "sha1": "9b3ee6759e40da1db7c0d868f7b4d9cc32de7b51",
+          "md5": "023fa11e12e1f39f1d446f9a1bba4bb7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-test-logger-plugin-4.0.0.jar",
+          "url": "gradle-test-logger-plugin-4.0.0.jar",
+          "size": 153451,
+          "sha512": "a6af925cf5ca340b08c6b2f40409e4de44fca210403bfeb2e0104dae1947d919d4c57e206cd3358930d21d07237a6f6194b41bbe2b25d330cec4b3b2eae75243",
+          "sha256": "e678683a33d2bc835671bdd4e58710004ad1d9316aa9f9a54cfe22419a4f6ef9",
+          "sha1": "9b3ee6759e40da1db7c0d868f7b4d9cc32de7b51",
+          "md5": "023fa11e12e1f39f1d446f9a1bba4bb7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-test-logger-plugin-4.0.0-javadoc.jar",
+          "url": "gradle-test-logger-plugin-4.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "da3a6322d5324f40eebaeffd8c654a27e8eea3d740f4bc538f0e10252205848696c6d35d0ec40e6ae12788dd2c8bb670fe2ae597fe99019ae88b4e39519224b7",
+          "sha256": "0abceb399c440beecd15220e4d6d22b80f58dd4d2d2b41df6fdfbce032355fb7",
+          "sha1": "7b7bd8f2f9fcd9702c944ecba4b9555b0ebf38c7",
+          "md5": "e2919f931e7774276e11ec11042e320a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-test-logger-plugin-4.0.0-sources.jar",
+          "url": "gradle-test-logger-plugin-4.0.0-sources.jar",
+          "size": 22755,
+          "sha512": "0d0e4f24abc1807687b138018d17859534b351a9ae854a7dab15885f948b6c789c8c84c32aa7d66f91930ba9772ad49829af376471a49f37d41fb74539944a1e",
+          "sha256": "23b218beb53f855f76fe7d07bb75a3ed1b6dceb612828f23512d78b103900cc0",
+          "sha1": "8b8b0b174e2e483037125e1dd9913b8b97246aba",
+          "md5": "75c20c0d5a2be4d41db978477ec7bdf3"
+        }
+      ]
+    }
+  ]
+}

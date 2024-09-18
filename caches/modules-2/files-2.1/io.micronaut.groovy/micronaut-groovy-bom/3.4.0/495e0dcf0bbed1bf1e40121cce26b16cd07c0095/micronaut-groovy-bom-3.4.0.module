@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.groovy",
+    "module": "micronaut-groovy-bom",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.13"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-function-groovy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-gorm-common",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-graphql-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-hibernate-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-mongo-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-multitenancy-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-neo4j-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-runtime-groovy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.13"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-function-groovy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-gorm-common",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-graphql-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-hibernate-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-mongo-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-multitenancy-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-neo4j-gorm",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-runtime-groovy",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-groovy-bom-3.4.0.toml",
+          "url": "micronaut-groovy-bom-3.4.0.toml",
+          "size": 1308,
+          "sha512": "25500cc97ebc25231ea3ec1c9a9404f4bdf0e56e2017de05131f48e9e1e17c136302edcdf83b9dce0729484c37268e0da7d062aa04f5f5b33a77e1706ca2e7d7",
+          "sha256": "52654421d4f4cfe7525798f0ea18a14c7d2aa2be95efbfd52804bc6973b0b63c",
+          "sha1": "1cd6e3a9736b78e6a0b17fb2f43ad722a390b136",
+          "md5": "a9d94d9fc07ec7ad8c39e77129692f40"
+        }
+      ]
+    }
+  ]
+}

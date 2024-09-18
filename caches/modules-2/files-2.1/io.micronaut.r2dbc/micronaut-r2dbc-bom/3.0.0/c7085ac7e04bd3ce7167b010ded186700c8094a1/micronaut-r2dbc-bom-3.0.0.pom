@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.r2dbc</groupId>
+  <artifactId>micronaut-r2dbc-bom</artifactId>
+  <version>3.0.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut R2DBC</name>
+  <description>Integration with Micronaut and R2DBC</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-r2dbc.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-r2dbc.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-r2dbc.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <r2dbc.mariadb.version>1.1.1-rc</r2dbc.mariadb.version>
+    <r2dbc.mssql.version>0.9.0.RELEASE</r2dbc.mssql.version>
+    <r2dbc.mysql.version>0.8.2.RELEASE</r2dbc.mysql.version>
+    <r2dbc.h2.version>0.8.5.RELEASE</r2dbc.h2.version>
+    <r2dbc.postgresql.version>0.9.1.RELEASE</r2dbc.postgresql.version>
+    <r2dbc.pool.version>0.9.0.RELEASE</r2dbc.pool.version>
+    <r2dbc.oracle.version>0.4.0</r2dbc.oracle.version>
+    <r2dbc.version>1.0.0.RELEASE</r2dbc.version>
+    <micronaut.r2dbc.version>3.0.0</micronaut.r2dbc.version>
+    <testcontainers.version>1.17.1</testcontainers.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-h2</artifactId>
+        <version>${r2dbc.h2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mariadb</groupId>
+        <artifactId>r2dbc-mariadb</artifactId>
+        <version>${r2dbc.mariadb.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-mssql</artifactId>
+        <version>${r2dbc.mssql.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>dev.miku</groupId>
+        <artifactId>r2dbc-mysql</artifactId>
+        <version>${r2dbc.mysql.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.database.r2dbc</groupId>
+        <artifactId>oracle-r2dbc</artifactId>
+        <version>${r2dbc.oracle.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-pool</artifactId>
+        <version>${r2dbc.pool.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>r2dbc-postgresql</artifactId>
+        <version>${r2dbc.postgresql.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-spi</artifactId>
+        <version>${r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.r2dbc</groupId>
+        <artifactId>micronaut-r2dbc-core</artifactId>
+        <version>${micronaut.r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>testcontainers-bom</artifactId>
+        <version>${testcontainers.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

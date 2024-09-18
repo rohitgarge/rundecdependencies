@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.security",
+    "module": "micronaut-security-bom",
+    "version": "3.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.31"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-annotations",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-aot",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-jwt",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-ldap",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-oauth2",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-session",
+          "version": {
+            "requires": "3.11.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.31"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-annotations",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-aot",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-jwt",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-ldap",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-oauth2",
+          "version": {
+            "requires": "3.11.1"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-session",
+          "version": {
+            "requires": "3.11.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-security-bom-3.11.1.toml",
+          "url": "micronaut-security-bom-3.11.1.toml",
+          "size": 1360,
+          "sha512": "d1a46acbac59a3290c93af03131769cc1d8e56d5ce0997319928140a0df9ec297159b84f9f368f368518682cb0579f230468c165de82a6a700f2cf1ac2352b8e",
+          "sha256": "c8bf727e849657e292f46b9df1491d121ee40e6fa009c1e03c09bef8ccd65df1",
+          "sha1": "50e227ca779a50fe1fd55fc4821e892fc7e32bfd",
+          "md5": "3061222b40cac512573d92cba9a089e5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-core-reactive",
+    "version": "3.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-core-reactive-3.10.3.jar",
+          "url": "micronaut-core-reactive-3.10.3.jar",
+          "size": 45301,
+          "sha512": "5fd5476895c5ca0971fbb9536e71fab0e17e6aa9fb46154322629f7a0afd8d318f477b8a614f22c87e3c82d48e779b8e77ca07b33619ad498fcd8a0a55d686ea",
+          "sha256": "7236e440676381173af0c55af5e29f75e7d54e5087379102258d792efba7f235",
+          "sha1": "b1273144c062501ab28118f13128a432314303ce",
+          "md5": "f9178be7f7caf2663db3a9e3c4222b30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-core-reactive-3.10.3.jar",
+          "url": "micronaut-core-reactive-3.10.3.jar",
+          "size": 45301,
+          "sha512": "5fd5476895c5ca0971fbb9536e71fab0e17e6aa9fb46154322629f7a0afd8d318f477b8a614f22c87e3c82d48e779b8e77ca07b33619ad498fcd8a0a55d686ea",
+          "sha256": "7236e440676381173af0c55af5e29f75e7d54e5087379102258d792efba7f235",
+          "sha1": "b1273144c062501ab28118f13128a432314303ce",
+          "md5": "f9178be7f7caf2663db3a9e3c4222b30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-reactive-3.10.3-sources.jar",
+          "url": "micronaut-core-reactive-3.10.3-sources.jar",
+          "size": 25745,
+          "sha512": "ae339b9ed1b38e2d909dbc2ac5bbd770b613bfc33b15e4e1dbb812a3b62db6b29d8e3d9ea417f6978ac76fa9841342832f8f63b90d3587a8f7461e1e71a60924",
+          "sha256": "eaa747bf5cab968195881b88356070bceee5a1bb03173b1d0a273d4413bb32e6",
+          "sha1": "6f736eb1b83dfd136a37b2b0a4534816b232577b",
+          "md5": "e8dd03ec87e80ab9794032b51c65805c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-reactive-3.10.3-javadoc.jar",
+          "url": "micronaut-core-reactive-3.10.3-javadoc.jar",
+          "size": 389215,
+          "sha512": "dded750f1c47af08623441aa6b648b4be88d3a76f3869fd751751327144c9555a312d0a8e4bc59de456f890b96616c63696ab32fe5ba3b3cd5b8558632173f17",
+          "sha256": "c0c1399b6767dc7489376498f34a7d49da731472c9872b107de52375a9d23ed7",
+          "sha1": "000c19d672f124d01be73d4b63bad08dd15afef0",
+          "md5": "1cf22ffdfd57242149c3d12d51b98928"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-reactive-3.10.3-all.jar",
+          "url": "micronaut-core-reactive-3.10.3-all.jar",
+          "size": 45416,
+          "sha512": "9bb669040920f46262930dc4f1cc5642f582a79b909f9beb2b116c931c1aff55e6b9de04580cf793271ea1d9a240c8bdfc18387f2de64fa87a1111c88d74e30c",
+          "sha256": "6dd3347459d878308e27e34fbf5cd4c039a9246cacc81b085d5c1b0141cfd4c6",
+          "sha1": "ff733f757922d951e4638d731b5fe159c1320cbb",
+          "md5": "9e4252668128dafcf20c5f1706ad1082"
+        }
+      ]
+    }
+  ]
+}

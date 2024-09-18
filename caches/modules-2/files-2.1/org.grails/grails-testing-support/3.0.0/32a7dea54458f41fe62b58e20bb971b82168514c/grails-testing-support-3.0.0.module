@@ -1,0 +1,332 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-testing-support",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.27"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-codecs",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "grails-plugin-mimetypes"
+            },
+            {
+              "group": "*",
+              "module": "grails-plugin-converters"
+            },
+            {
+              "group": "*",
+              "module": "grails-web"
+            }
+          ]
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "grails-core"
+            },
+            {
+              "group": "*",
+              "module": "grails-plugin-controllers"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-test",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "2.7.12"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-spring",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test-junit5",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.9.3"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-runner",
+          "version": {
+            "requires": "1.9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-testing-support-3.0.0.jar",
+          "url": "grails-testing-support-3.0.0.jar",
+          "size": 68491,
+          "sha512": "13180e008d2446545ce232fdeea82df5ebb927d62dfbc11431a773ce04d88e045c9533846f1bb17bde96b23b6acb97c43856a4f66f865a4618b7a544bfd16663",
+          "sha256": "180b979a4da4fd4d1ed821b4d79a986b93baec0791eb71bbfeb217442579b2fb",
+          "sha1": "34b4efe52d138a532937c21f95facfd3fb0082bb",
+          "md5": "59e4bb328fc693207301191d8ff38fb4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-core",
+          "version": {
+            "requires": "3.15.14"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.27"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-codecs",
+          "version": {
+            "requires": "6.0.0-RC1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "grails-plugin-mimetypes"
+            },
+            {
+              "group": "*",
+              "module": "grails-plugin-converters"
+            },
+            {
+              "group": "*",
+              "module": "grails-web"
+            }
+          ]
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "grails-core"
+            },
+            {
+              "group": "*",
+              "module": "grails-plugin-controllers"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-gorm",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-test",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "2.7.12"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-spring",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.1-groovy-3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-test-junit5",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.9.3"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-runner",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-testing-support-3.0.0.jar",
+          "url": "grails-testing-support-3.0.0.jar",
+          "size": 68491,
+          "sha512": "13180e008d2446545ce232fdeea82df5ebb927d62dfbc11431a773ce04d88e045c9533846f1bb17bde96b23b6acb97c43856a4f66f865a4618b7a544bfd16663",
+          "sha256": "180b979a4da4fd4d1ed821b4d79a986b93baec0791eb71bbfeb217442579b2fb",
+          "sha1": "34b4efe52d138a532937c21f95facfd3fb0082bb",
+          "md5": "59e4bb328fc693207301191d8ff38fb4"
+        }
+      ]
+    }
+  ]
+}

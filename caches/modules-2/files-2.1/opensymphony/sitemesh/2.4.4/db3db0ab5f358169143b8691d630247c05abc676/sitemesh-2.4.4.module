@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "opensymphony",
+    "module": "sitemesh",
+    "version": "2.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sitemesh-2.4.4.jar",
+          "url": "sitemesh-2.4.4.jar",
+          "size": 184287,
+          "sha512": "97112d15c1b343a3ec7faf4339c47b67aa1cb8664fd8cc12ba39a5f7c3f30296eebc786efdba661f7ad3af1a22d68618da0618957d59eea54dae37d1aef3e223",
+          "sha256": "304e9c89e063472710e3fb5b4293ab17775aebbef9a9cf7ea26913ffaf756c83",
+          "sha1": "b84b6c6aa1a64c5a0b29b12cf4690c59aa84fb6a",
+          "md5": "b1376a5bce4bd3a503be6f232c980ffb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sitemesh-2.4.4.jar",
+          "url": "sitemesh-2.4.4.jar",
+          "size": 184287,
+          "sha512": "97112d15c1b343a3ec7faf4339c47b67aa1cb8664fd8cc12ba39a5f7c3f30296eebc786efdba661f7ad3af1a22d68618da0618957d59eea54dae37d1aef3e223",
+          "sha256": "304e9c89e063472710e3fb5b4293ab17775aebbef9a9cf7ea26913ffaf756c83",
+          "sha1": "b84b6c6aa1a64c5a0b29b12cf4690c59aa84fb6a",
+          "md5": "b1376a5bce4bd3a503be6f232c980ffb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sitemesh-2.4.4-sources.jar",
+          "url": "sitemesh-2.4.4-sources.jar",
+          "size": 146566,
+          "sha512": "ca03bbaea7bde1f78eeb6ef3da95af8cc7d3073b8f0d4d311b8554a9909441ebb07b318fb7dc5c7ef9c1c0f10f90e7b643f7cff98a2bebe6fe95527273d660e9",
+          "sha256": "1a2391bdbc2ee2fe41e390092de0cef146c07a80ee076c00e425de8a419b4338",
+          "sha1": "19df2165cdbc53ad630dd1a122262b2f267f2df3",
+          "md5": "f9d5dd160d7d61fa6696eac3b7907a49"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sitemesh-2.4.4-javadoc.jar",
+          "url": "sitemesh-2.4.4-javadoc.jar",
+          "size": 507628,
+          "sha512": "0c14545e554788ca17ff3e6776cca463e90ebe41b85d0dadb20db9f24e85b8053a45d8c173f9b7e919c40948ee0fc7f72b90040c3e039fb20917b7140e081b90",
+          "sha256": "b9e8a3b91060f940229c5173977cd21b0528aa3659cd7102e4759db7e2f9d0de",
+          "sha1": "c84760e31e14d83d224777164779b2b05d3945d3",
+          "md5": "b3768fbfbab61c94dd4ddcb9b8caaaeb"
+        }
+      ]
+    }
+  ]
+}

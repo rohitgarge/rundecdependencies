@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "geb",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "5.1.8"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-spock",
+          "version": {
+            "requires": "5.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-3.0.0-plain.jar",
+          "url": "geb-3.0.0-plain.jar",
+          "size": 3485,
+          "sha512": "96a80be4e3cb10dc0936e8f51d958634189c48f8877eec95dada66a2227290a7733bf5b4eb5b444827ef757fd32d2f39023814bd21a5514c83b6e0856d102726",
+          "sha256": "e5f1b89b50c1b31f54f0ef3f05d8a45f25829dff58af51fe62dc8bbc05ce36a8",
+          "sha1": "69448351d693501fc641ba4d2b21fac3677f29c8",
+          "md5": "eab5a744aacc56d08d209b790a7f57dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "5.1.8"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.gebish",
+          "module": "geb-spock",
+          "version": {
+            "requires": "5.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-3.0.0-plain.jar",
+          "url": "geb-3.0.0-plain.jar",
+          "size": 3485,
+          "sha512": "96a80be4e3cb10dc0936e8f51d958634189c48f8877eec95dada66a2227290a7733bf5b4eb5b444827ef757fd32d2f39023814bd21a5514c83b6e0856d102726",
+          "sha256": "e5f1b89b50c1b31f54f0ef3f05d8a45f25829dff58af51fe62dc8bbc05ce36a8",
+          "sha1": "69448351d693501fc641ba4d2b21fac3677f29c8",
+          "md5": "eab5a744aacc56d08d209b790a7f57dd"
+        }
+      ]
+    }
+  ]
+}

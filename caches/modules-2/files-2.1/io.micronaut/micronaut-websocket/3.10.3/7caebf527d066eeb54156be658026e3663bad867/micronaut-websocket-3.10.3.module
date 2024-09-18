@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-websocket",
+    "version": "3.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.10.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-websocket-3.10.3.jar",
+          "url": "micronaut-websocket-3.10.3.jar",
+          "size": 39768,
+          "sha512": "c8bd7c11aac6a7ba1a0925273fd9fe375e4a873bcb6bc59c0899e27e67c088d4786d2434964b3a9edafb2c36692bacce46bc005909868bd4c43d407b17633bb7",
+          "sha256": "a84e3815e7e69464c94b6c33e8ce0aeb5f2817619d67fb584a27d02be4b47cc5",
+          "sha1": "114491ac3298d2d53594500e2bcbe811e4d8d1dd",
+          "md5": "139c3cca7462da5538c1c2c1aa578e58"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.10.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-websocket-3.10.3.jar",
+          "url": "micronaut-websocket-3.10.3.jar",
+          "size": 39768,
+          "sha512": "c8bd7c11aac6a7ba1a0925273fd9fe375e4a873bcb6bc59c0899e27e67c088d4786d2434964b3a9edafb2c36692bacce46bc005909868bd4c43d407b17633bb7",
+          "sha256": "a84e3815e7e69464c94b6c33e8ce0aeb5f2817619d67fb584a27d02be4b47cc5",
+          "sha1": "114491ac3298d2d53594500e2bcbe811e4d8d1dd",
+          "md5": "139c3cca7462da5538c1c2c1aa578e58"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-websocket-3.10.3-sources.jar",
+          "url": "micronaut-websocket-3.10.3-sources.jar",
+          "size": 39802,
+          "sha512": "e8c350956d869d7078735eda8ae708dd44fb9ab6e3163abc338693060aad8ae5c43cf3c1661f4acf6a18f4dc44f4ea3ec482ddbe42b0820b01e1f8c987929f66",
+          "sha256": "b9b241d494d1c28f3818f56a6c078cb06fa51490c0ba61790c71fb9bc7b3fc31",
+          "sha1": "c1b24ff5a9d6a110a5b5e00c0c545ccf21f08a43",
+          "md5": "53aba89a6350af8a6680302978b86e1c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-websocket-3.10.3-javadoc.jar",
+          "url": "micronaut-websocket-3.10.3-javadoc.jar",
+          "size": 423436,
+          "sha512": "b19634ae992ff85cb7c389a9ced6a49abd282f5d1ad4585e3c870533f05c44953f904f9155a5a1f1c30f3643c2cdb1ba7ec99ed82b8ae97c1f0bd9fb4b842db9",
+          "sha256": "4b8bcd63472c5c5f7485bbad58cc5eda0f91f6c6206c4dbb348bf06e2bb56d3d",
+          "sha1": "9bea940d02392928ab4e932820057709a92161b3",
+          "md5": "8e951e21907ee865f62880563dd41e2c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-websocket-3.10.3-all.jar",
+          "url": "micronaut-websocket-3.10.3-all.jar",
+          "size": 39884,
+          "sha512": "d49e76f0ce285a4d13a74b7f798ad069403f045023a96fd6320cad97b3c3d8e5b2408f4e2ff2f5fc233bac688427f94f7951627823f2054fb4bb82008134edf9",
+          "sha256": "869a1a281c14eda231d7b6a32aa57aaa05045771be2d61316a1366ae20612b14",
+          "sha1": "4dd06579ab254f6765fab3a8a5a422536ef04f2f",
+          "md5": "c6db022a3065f197c7b883d59154378c"
+        }
+      ]
+    }
+  ]
+}

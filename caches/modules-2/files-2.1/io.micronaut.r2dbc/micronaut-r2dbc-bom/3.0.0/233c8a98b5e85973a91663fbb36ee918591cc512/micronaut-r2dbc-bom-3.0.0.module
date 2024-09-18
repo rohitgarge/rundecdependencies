@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.r2dbc",
+    "module": "micronaut-r2dbc-bom",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers-bom",
+          "version": {
+            "requires": "1.17.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-h2",
+          "version": {
+            "requires": "0.8.5.RELEASE"
+          }
+        },
+        {
+          "group": "org.mariadb",
+          "module": "r2dbc-mariadb",
+          "version": {
+            "requires": "1.1.1-rc"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-mssql",
+          "version": {
+            "requires": "0.9.0.RELEASE"
+          }
+        },
+        {
+          "group": "dev.miku",
+          "module": "r2dbc-mysql",
+          "version": {
+            "requires": "0.8.2.RELEASE"
+          }
+        },
+        {
+          "group": "com.oracle.database.r2dbc",
+          "module": "oracle-r2dbc",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "0.9.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "r2dbc-postgresql",
+          "version": {
+            "requires": "0.9.1.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.testcontainers",
+          "module": "testcontainers-bom",
+          "version": {
+            "requires": "1.17.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-h2",
+          "version": {
+            "requires": "0.8.5.RELEASE"
+          }
+        },
+        {
+          "group": "org.mariadb",
+          "module": "r2dbc-mariadb",
+          "version": {
+            "requires": "1.1.1-rc"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-mssql",
+          "version": {
+            "requires": "0.9.0.RELEASE"
+          }
+        },
+        {
+          "group": "dev.miku",
+          "module": "r2dbc-mysql",
+          "version": {
+            "requires": "0.8.2.RELEASE"
+          }
+        },
+        {
+          "group": "com.oracle.database.r2dbc",
+          "module": "oracle-r2dbc",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "0.9.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "r2dbc-postgresql",
+          "version": {
+            "requires": "0.9.1.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-r2dbc-bom-3.0.0.toml",
+          "url": "micronaut-r2dbc-bom-3.0.0.toml",
+          "size": 1383,
+          "sha512": "7b26a3b605badc72727781fc273427b8bf41618ccc76c4d2845a00cc787a33541c5686836f07ae086996a838785c00a2bbadae6b07f7d58177bd31cf9cbcf294",
+          "sha256": "4e46f1def7fa39595dcb5a3015b1714380c596e58165e0817120e0c2f33cf450",
+          "sha1": "513d17917087112183816e7f250216ceaf1e09a2",
+          "md5": "f28d95c730a6f9e0bc7621fc1628ccdb"
+        }
+      ]
+    }
+  ]
+}

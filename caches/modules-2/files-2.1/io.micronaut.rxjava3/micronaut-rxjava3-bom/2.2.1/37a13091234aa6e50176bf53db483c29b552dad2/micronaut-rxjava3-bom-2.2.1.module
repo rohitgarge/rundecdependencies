@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.rxjava3",
+    "module": "micronaut-rxjava3-bom",
+    "version": "2.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-http-client",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-http-client",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-rxjava3-bom-2.2.1.toml",
+          "url": "micronaut-rxjava3-bom-2.2.1.toml",
+          "size": 557,
+          "sha512": "cff4c8bbfcc244de4dc67d5a5304a833e8a40b64515c4f4fffa1f13020668a7125b39db81dea177339846c330f4ee63566d7156898fc3da367c99bf2599424cb",
+          "sha256": "d7e901b9239fc0a402467a96170157b0e6bc6b3d6ca50bc2037d123de931821e",
+          "sha1": "9f6ce859ed4159d1512c1c14f98c30c358d75893",
+          "md5": "4019a2c79f1d5e2e83b51a3197018a7d"
+        }
+      ]
+    }
+  ]
+}

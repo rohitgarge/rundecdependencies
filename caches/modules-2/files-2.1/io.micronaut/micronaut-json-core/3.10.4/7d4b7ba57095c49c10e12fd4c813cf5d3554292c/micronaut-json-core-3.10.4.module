@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-json-core",
+    "version": "3.10.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "3.10.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-json-core-3.10.4.jar",
+          "url": "micronaut-json-core-3.10.4.jar",
+          "size": 53421,
+          "sha512": "80b0cd60792c47493fdab6d933c84fc4636cc41ef677803b1a8503d46dc9b96680622ce30979c672b5c851db64891cba9a88a63eb975236b2ca560c3d9d7aebf",
+          "sha256": "1b3d7236250e05b1fe13a6a0986017b851fcb3e8866b60ef2a3b797c267618f3",
+          "sha1": "46d880bf151f370cc9000224eee8958857cc9517",
+          "md5": "26504279bb8fd69527d9c0d373523f7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "3.10.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "3.10.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-json-core-3.10.4.jar",
+          "url": "micronaut-json-core-3.10.4.jar",
+          "size": 53421,
+          "sha512": "80b0cd60792c47493fdab6d933c84fc4636cc41ef677803b1a8503d46dc9b96680622ce30979c672b5c851db64891cba9a88a63eb975236b2ca560c3d9d7aebf",
+          "sha256": "1b3d7236250e05b1fe13a6a0986017b851fcb3e8866b60ef2a3b797c267618f3",
+          "sha1": "46d880bf151f370cc9000224eee8958857cc9517",
+          "md5": "26504279bb8fd69527d9c0d373523f7f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-json-core-3.10.4-sources.jar",
+          "url": "micronaut-json-core-3.10.4-sources.jar",
+          "size": 28591,
+          "sha512": "fe22111d68510007c140156aac4e8de93dc6db83f101097c4496a56ee73a895df6ad64b4c26dbb171dae54fa06da7f7fb4d4a0baf32abbb25d72761338e127c6",
+          "sha256": "3cf47a739e283408364a7daed91d2fc3f3a0957d109be513951e46ac4dced21f",
+          "sha1": "0a1ff865df81cc5b7b65735b30e92a8bbc87e3fe",
+          "md5": "85479e60e3e1400ce316e8655808c453"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-json-core-3.10.4-javadoc.jar",
+          "url": "micronaut-json-core-3.10.4-javadoc.jar",
+          "size": 375940,
+          "sha512": "179a8a99f9d59e732b94ce67b34321021dfaf62d663e594a78989dcce178ca54c6afb8705f37f0ffdd5e0960e2567fa9de20eae4841840c14bd18addc956435b",
+          "sha256": "c8c4b0cfd677bfacd79603dd435284371369e31633a6eec492df69805dfe6df0",
+          "sha1": "5ed1751f085b7151251e370b1795df60d48481d0",
+          "md5": "3733165365c4c0484f0ff259e5f44517"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-json-core-3.10.4-all.jar",
+          "url": "micronaut-json-core-3.10.4-all.jar",
+          "size": 53652,
+          "sha512": "37e647b7764a8489d6d5d708328d47fddd3dd9fe6babac94ac9384f3d84547abe1640d218066796bf31fe7d31b95ae71d02272768cbf7d9788692a2e04824d3a",
+          "sha256": "976bef11a6ab79ee0e9a6df46533dfe73a5453fa84c59d25f09007228686ff18",
+          "sha1": "e68414565aef18d547577f034dc27e6a5194effc",
+          "md5": "15f111df91155711b1abff0f9bb98511"
+        }
+      ]
+    }
+  ]
+}

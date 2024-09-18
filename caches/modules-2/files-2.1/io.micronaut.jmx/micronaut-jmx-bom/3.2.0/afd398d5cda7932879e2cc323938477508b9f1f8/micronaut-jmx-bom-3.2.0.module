@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.jmx",
+    "module": "micronaut-jmx-bom",
+    "version": "3.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.jmx",
+          "module": "micronaut-jmx",
+          "version": {
+            "requires": "3.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.jmx",
+          "module": "micronaut-jmx",
+          "version": {
+            "requires": "3.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-jmx-bom-3.2.0.toml",
+          "url": "micronaut-jmx-bom-3.2.0.toml",
+          "size": 380,
+          "sha512": "cc668a61e28a92ba6296da712b68c083ce0d33ecaeb7c8d0c7c109b0ceafddb64f81c85a8762efbd295488bfee903d687f401856b07a6ed4737e7d9fd6255fb0",
+          "sha256": "3be6b61a69fec7d7c80186c2a82387df4e728a21e52bae7f127fdfcb0a607cc9",
+          "sha1": "d15aed6e13f327cd05445a85bf1cef1d0ef301e4",
+          "md5": "e8241c6d5687f05cb7d90310b7e70319"
+        }
+      ]
+    }
+  ]
+}

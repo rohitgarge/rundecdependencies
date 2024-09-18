@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-datastore-gorm-validation",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-core",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "commons-validator",
+          "module": "commons-validator",
+          "version": {
+            "requires": "1.7"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "commons-digester",
+              "module": "commons-digester"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-beanutils",
+              "module": "commons-beanutils"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-validation-8.0.0.jar",
+          "url": "grails-datastore-gorm-validation-8.0.0.jar",
+          "size": 98086,
+          "sha512": "530d31b2eb330269cbd45edfc027b78c8e54d3de9905d76b9c2d43a707738cde7c46365c6d054df01eb7cad6a4f69576359b3b0879df6821b860ff8a6818c09d",
+          "sha256": "6f3d272c85a02b18e8740329d3e40fd3505944679e00038aa89d85854bfa4a51",
+          "sha1": "fa1780d312a1161f704f598df59ae363eb5e4306",
+          "md5": "65ef5b3d3d333d0e4fb0210d20fbf1a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-datastore-core",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "commons-validator",
+          "module": "commons-validator",
+          "version": {
+            "requires": "1.7"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "commons-digester",
+              "module": "commons-digester"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-beanutils",
+              "module": "commons-beanutils"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-datastore-gorm-validation-8.0.0.jar",
+          "url": "grails-datastore-gorm-validation-8.0.0.jar",
+          "size": 98086,
+          "sha512": "530d31b2eb330269cbd45edfc027b78c8e54d3de9905d76b9c2d43a707738cde7c46365c6d054df01eb7cad6a4f69576359b3b0879df6821b860ff8a6818c09d",
+          "sha256": "6f3d272c85a02b18e8740329d3e40fd3505944679e00038aa89d85854bfa4a51",
+          "sha1": "fa1780d312a1161f704f598df59ae363eb5e4306",
+          "md5": "65ef5b3d3d333d0e4fb0210d20fbf1a4"
+        }
+      ]
+    }
+  ]
+}

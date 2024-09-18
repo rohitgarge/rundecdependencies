@@ -1,0 +1,78 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.4.2"
+    }
+  },
+  "component" : {
+    "group" : "com.github.rundeck-plugins",
+    "module" : "aws-s3-model-source",
+    "version" : "v1.0.8",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "aws-s3-model-source-v1.0.8.jar",
+      "url" : "aws-s3-model-source-v1.0.8.jar",
+      "size" : 5204465,
+      "sha512" : "7dfe2774408f9da4e4159c7d842a4062fd29a79c915bc68aac0e51c474cfd1ef6b5d8057bd251a179884b0a5597e87a6c0e9d0b132706a7c51a0126ad886a6fe",
+      "sha256" : "240d628cf83aecca0950d644d44b7e20b93ee5ca6adfb82e97841bce9280c38c",
+      "sha1" : "321a2d4e1944e7bdb6ae46762492cdc1136d6478",
+      "md5" : "49a0921a59c71120f24e4723108729c2"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.rundeck",
+      "module" : "rundeck-core",
+      "version" : {
+        "requires" : "4.13.0-20230515"
+      }
+    }, {
+      "group" : "org.slf4j",
+      "module" : "slf4j-api",
+      "version" : {
+        "requires" : "1.7.30"
+      }
+    }, {
+      "group" : "com.amazonaws",
+      "module" : "aws-java-sdk-s3",
+      "version" : {
+        "requires" : "1.12.479"
+      }
+    }, {
+      "group" : "com.amazonaws",
+      "module" : "aws-java-sdk-sts",
+      "version" : {
+        "requires" : "1.11.743"
+      }
+    } ],
+    "files" : [ {
+      "name" : "aws-s3-model-source-v1.0.8.jar",
+      "url" : "aws-s3-model-source-v1.0.8.jar",
+      "size" : 5204465,
+      "sha512" : "7dfe2774408f9da4e4159c7d842a4062fd29a79c915bc68aac0e51c474cfd1ef6b5d8057bd251a179884b0a5597e87a6c0e9d0b132706a7c51a0126ad886a6fe",
+      "sha256" : "240d628cf83aecca0950d644d44b7e20b93ee5ca6adfb82e97841bce9280c38c",
+      "sha1" : "321a2d4e1944e7bdb6ae46762492cdc1136d6478",
+      "md5" : "49a0921a59c71120f24e4723108729c2"
+    } ]
+  } ]
+}

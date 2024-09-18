@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.mongodb</groupId>
+  <artifactId>micronaut-mongo-bom</artifactId>
+  <version>4.2.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut MongoDB</name>
+  <description>Integration between Micronaut and MongoDB</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-mongodb.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-mongodb.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-mongodb.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.mongodb.version>4.2.0</micronaut.mongodb.version>
+    <mongo.reactive.version>4.6.0</mongo.reactive.version>
+    <mongo.version>4.6.0</mongo.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-core</artifactId>
+        <version>${mongo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-sync</artifactId>
+        <version>${mongo.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-reactivestreams</artifactId>
+        <version>${mongo.reactive.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.mongodb</groupId>
+        <artifactId>micronaut-mongo-core</artifactId>
+        <version>${micronaut.mongodb.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.mongodb</groupId>
+        <artifactId>micronaut-mongo-reactive</artifactId>
+        <version>${micronaut.mongodb.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.mongodb</groupId>
+        <artifactId>micronaut-mongo-sync</artifactId>
+        <version>${micronaut.mongodb.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-sql",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-sql-4.0.4-groovydoc.jar",
+          "url": "groovy-sql-4.0.4-groovydoc.jar",
+          "size": 139951,
+          "sha512": "8359c3f58b160f4fc1ed8575f846937e798641cee79d3afd83566e261382e97278686d955ea6e00d7cfdfffeec6fd38fdd7ab0e8532aa8a7cd581129a59f84da",
+          "sha256": "1d2ae7566643060633299ab3b399596bffbd3922d3aacf58a0c4c7232d181f4f",
+          "sha1": "dd3c5cf074450d7b1c28e680a7d66357071272e5",
+          "md5": "52158c465c24e4455cd5eb3c9ab94397"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-sql-4.0.4-javadoc.jar",
+          "url": "groovy-sql-4.0.4-javadoc.jar",
+          "size": 228237,
+          "sha512": "757da518a9edc3152fa386b333fc3bdbd3184a918de8746abd3462a5c8c7e4a8a1c268fe1ccc866db697a65f54f6b08ca052187b7c7920fddd018bb4d39892c9",
+          "sha256": "1f16545a6c9038c5f14a5f7dd4a9d4776da493f30940a25da24203f266b5eb4c",
+          "sha1": "2490579b704a0990698cefc6bd45d721cb8fc8a3",
+          "md5": "36b02d4277510562f791428096c69a1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-sql-4.0.4-sources.jar",
+          "url": "groovy-sql-4.0.4-sources.jar",
+          "size": 63791,
+          "sha512": "e33b458e9e9ce3911b0b65b34a0d1a52cb8f34b903fd0d9406c31c0e9d5629317e192ced0103e9eef297d3b605d46485f30713171a55219a61b6bd8abfca23f9",
+          "sha256": "3b0dd83bbbd649422213a985ceb4bf080b5c4b5366753a70e9ed339765f54f80",
+          "sha1": "ce4b1bb1273b13b9972d1831166a0aa6704b0583",
+          "md5": "d46f3247c1469f0a40040506a5a033ce"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-sql-4.0.4.jar",
+          "url": "groovy-sql-4.0.4.jar",
+          "size": 79405,
+          "sha512": "8d919674f31e69a94c6c3b1f79052e3693b01a228f6ebc1a2d5fabe0999ad9ec7db821b0370be1f42c3b887371f8bfe8a6197f15e0c505679786013e5af9a8c9",
+          "sha256": "4465f3f8c5954b0acb5f745cfb3123eeafb2a06c177e5e9eb6b6bb3826b406ec",
+          "sha1": "9b59ae059f5b5ec8f32ab5d9bddffeebb71623a5",
+          "md5": "a893dedfbe4921c1ba3cafcb7959768b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-sql",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-sql",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-sql-4.0.4.jar",
+          "url": "groovy-sql-4.0.4.jar",
+          "size": 79405,
+          "sha512": "8d919674f31e69a94c6c3b1f79052e3693b01a228f6ebc1a2d5fabe0999ad9ec7db821b0370be1f42c3b887371f8bfe8a6197f15e0c505679786013e5af9a8c9",
+          "sha256": "4465f3f8c5954b0acb5f745cfb3123eeafb2a06c177e5e9eb6b6bb3826b406ec",
+          "sha1": "9b59ae059f5b5ec8f32ab5d9bddffeebb71623a5",
+          "md5": "a893dedfbe4921c1ba3cafcb7959768b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-sql",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-sql",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

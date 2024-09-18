@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>external-config</artifactId>
+  <version>2.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.virtualdogbert</groupId>
+      <artifactId>GroovyConfigWriter</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>1.23</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>External Config</name>
+  <description>Load configs with grails.config.locations like in Grails 2.x</description>
+  <url>https://github.com/https://github.com/sbglasius/external-config</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/https://github.com/sbglasius/external-config</url>
+    <connection>scm:git@github.com:https://github.com/sbglasius/external-config.git</connection>
+    <developerConnection>scm:git@github.com:https://github.com/sbglasius/external-config.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <system>Github Issues</system>
+    <url>https://github.com/https://github.com/sbglasius/external-config/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>sbglasius</id>
+      <name>Søren Berg Glasius</name>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.email</groupId>
+  <artifactId>micronaut-email-bom</artifactId>
+  <version>1.5.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Email</name>
+  <description>Integration with Transaction Email Providers</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-email.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-email.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-email.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>sergiodelamo</id>
+      <name>Sergio del Amo</name>
+    </developer>
+  </developers>
+  <properties>
+    <sendgrid.version>4.9.3</sendgrid.version>
+    <mailjet.version>5.2.1</mailjet.version>
+    <javax.mail.version>1.6.2</javax.mail.version>
+    <micronaut.email.version>1.5.0</micronaut.email.version>
+    <postmark.version>1.8.4</postmark.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>javax.mail</artifactId>
+        <version>${javax.mail.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mailjet</groupId>
+        <artifactId>mailjet-client</artifactId>
+        <version>${mailjet.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.wildbit.java</groupId>
+        <artifactId>postmark</artifactId>
+        <version>${postmark.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.sendgrid</groupId>
+        <artifactId>sendgrid-java</artifactId>
+        <version>${sendgrid.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-amazon-ses</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-javamail</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-javamail-composer</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-mailjet</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-postmark</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-sendgrid</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.email</groupId>
+        <artifactId>micronaut-email-template</artifactId>
+        <version>${micronaut.email.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-web-gsp-taglib",
+    "version": "6.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-jsp",
+          "version": {
+            "requires": "6.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-gsp-taglib-6.1.3.jar",
+          "url": "grails-web-gsp-taglib-6.1.3.jar",
+          "size": 12799,
+          "sha512": "dfc8b9c3a6797234abd2f1cbe043a401901c7e5f14d5df18e84ad4ff0c3eac929a41a17c607e572a24b8795da4467a0431589bae04c608486e6c0a3c369b843a",
+          "sha256": "0d660b68818bd1299d07789a25c68698111808e78059d0d968e392d3baa8157a",
+          "sha1": "508fa34d834ab732f36ca98c2aa903260ed1916d",
+          "md5": "8f09c06c0d19f655c2b89530fb734946"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-jsp",
+          "version": {
+            "requires": "6.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-gsp-taglib-6.1.3.jar",
+          "url": "grails-web-gsp-taglib-6.1.3.jar",
+          "size": 12799,
+          "sha512": "dfc8b9c3a6797234abd2f1cbe043a401901c7e5f14d5df18e84ad4ff0c3eac929a41a17c607e572a24b8795da4467a0431589bae04c608486e6c0a3c369b843a",
+          "sha256": "0d660b68818bd1299d07789a25c68698111808e78059d0d968e392d3baa8157a",
+          "sha1": "508fa34d834ab732f36ca98c2aa903260ed1916d",
+          "md5": "8f09c06c0d19f655c2b89530fb734946"
+        }
+      ]
+    }
+  ]
+}

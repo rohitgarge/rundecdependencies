@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rundeck-plugins</groupId>
+  <artifactId>multiline-regex-datacapture-filter</artifactId>
+  <version>1.1.0</version>
+  <name>rundeck-plugins/multiline-regex-datacapture-filter</name>
+  <description>Captures Multiline Regex Key/Value data using a simple text format from a regular expression</description>
+  <url>https://github.com/rundeck-plugins/multiline-regex-datacapture-filter</url>
+  <inceptionYear>2018</inceptionYear>
+  <developers>
+    <developer>
+      <id>rundeck-plugins</id>
+      <name>rundeck-plugins</name>
+      <email>product@rundeck.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/rundeck-plugins/multiline-regex-datacapture-filter.git</connection>
+    <developerConnection>scm:git://github.com/rundeck-plugins/multiline-regex-datacapture-filter.git</developerConnection>
+    <url>git://github.com/rundeck-plugins/multiline-regex-datacapture-filter.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.3.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.rundeck</groupId>
+      <artifactId>rundeck-core</artifactId>
+      <version>3.0.6-20180917</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,212 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.spring",
+    "module": "micronaut-spring-context",
+    "version": "4.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-spring-context-4.5.1.jar",
+          "url": "micronaut-spring-context-4.5.1.jar",
+          "size": 81081,
+          "sha512": "01ed9e1c5d5b4532b74f246baf13d8b37389b951fb7b9aaa0a565b57cda17dd2becdab1d23e5fb3eca9ba2fa6d9509cf8f4cad41b8b1b4b0257487c46dbee404",
+          "sha256": "33e030a12500202cc8e865d5e9d83b1398343b977faae99f277d742c26dfdb07",
+          "sha1": "6d17299e70eef7036b0a69821200e5d2c0b20073",
+          "md5": "bd0b2035dd0109fee64651202838076b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-bom",
+          "version": {
+            "requires": "3.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-spring-context-4.5.1.jar",
+          "url": "micronaut-spring-context-4.5.1.jar",
+          "size": 81081,
+          "sha512": "01ed9e1c5d5b4532b74f246baf13d8b37389b951fb7b9aaa0a565b57cda17dd2becdab1d23e5fb3eca9ba2fa6d9509cf8f4cad41b8b1b4b0257487c46dbee404",
+          "sha256": "33e030a12500202cc8e865d5e9d83b1398343b977faae99f277d742c26dfdb07",
+          "sha1": "6d17299e70eef7036b0a69821200e5d2c0b20073",
+          "md5": "bd0b2035dd0109fee64651202838076b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-spring-context-4.5.1-sources.jar",
+          "url": "micronaut-spring-context-4.5.1-sources.jar",
+          "size": 21817,
+          "sha512": "aa3ac440f0335d148234c51b5688d0521d4f44cb15152f41611d99584ebbf74927d88dd48ea77caeafc45e1ebd8597c139f25337f6c469fb69422d35ad878944",
+          "sha256": "4a418c767412eb775d15a849bc64e5e7e9bf13bb8a192b74bcccd080c4b4fdea",
+          "sha1": "79f24263128f8ea44afb662d1f48932e387c6f37",
+          "md5": "6ba2b23e5b921981ce2621f6efd5f463"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-spring-context-4.5.1-javadoc.jar",
+          "url": "micronaut-spring-context-4.5.1-javadoc.jar",
+          "size": 347220,
+          "sha512": "300b0b5f56b3dea10ebbc60cd491b3a4f2e28f5d93dab35e3df629a6405a700c91e7b47b117d88d5dc02bdb5650e4eb95fb639bc5902b6efdfae1b1b94068428",
+          "sha256": "32b28887df89d5b7c57ea0161c666ba17d2ca4ae7c9de85e15e78f1655476d84",
+          "sha1": "ef9d94e8267f657b51cc7b9236b3e31d2db74741",
+          "md5": "7472d40c017ccbfd7cf0ad4e264eb30d"
+        }
+      ]
+    }
+  ]
+}

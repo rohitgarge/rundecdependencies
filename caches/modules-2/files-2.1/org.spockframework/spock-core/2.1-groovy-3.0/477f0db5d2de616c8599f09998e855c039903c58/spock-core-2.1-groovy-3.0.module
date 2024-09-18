@@ -1,0 +1,245 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spockframework",
+    "module": "spock-core",
+    "version": "2.1-groovy-3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.9"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.1-groovy-3.0.jar",
+          "url": "spock-core-2.1-groovy-3.0.jar",
+          "size": 868175,
+          "sha512": "57149d57e86622bbf3b1d8421c0c03cd852c9a65e6938af6c0588241378bdedd8957ccbf5f8729846e954e72c7adf5c4991a7717088f19f96089a450f6530930",
+          "sha256": "fa8ff7446df04c51b3ccbc2a1bbc71f9c280878afe2d53be44d59d00b1b9828c",
+          "sha1": "2bd689be193cb26f42692eeef070e6669bebae3e",
+          "md5": "730fc15ac4efd897c8d02b6659c6d2ad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.9"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-testkit",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "20.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "cglib",
+          "module": "cglib-nodep",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.objenesis",
+          "module": "objenesis",
+          "version": {
+            "requires": "3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.1-groovy-3.0.jar",
+          "url": "spock-core-2.1-groovy-3.0.jar",
+          "size": 868175,
+          "sha512": "57149d57e86622bbf3b1d8421c0c03cd852c9a65e6938af6c0588241378bdedd8957ccbf5f8729846e954e72c7adf5c4991a7717088f19f96089a450f6530930",
+          "sha256": "fa8ff7446df04c51b3ccbc2a1bbc71f9c280878afe2d53be44d59d00b1b9828c",
+          "sha1": "2bd689be193cb26f42692eeef070e6669bebae3e",
+          "md5": "730fc15ac4efd897c8d02b6659c6d2ad"
+        }
+      ]
+    }
+  ]
+}

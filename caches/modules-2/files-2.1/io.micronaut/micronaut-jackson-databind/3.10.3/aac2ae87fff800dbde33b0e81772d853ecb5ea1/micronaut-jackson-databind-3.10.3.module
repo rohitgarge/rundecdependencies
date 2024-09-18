@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-jackson-databind",
+    "version": "3.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-jackson-databind-3.10.3.jar",
+          "url": "micronaut-jackson-databind-3.10.3.jar",
+          "size": 152742,
+          "sha512": "9c621ecf8d988e33caadb7ec830eee86c5de7d44c675753a2be436afa741fb40b6ca35d4c439b2b411d99201bb6e983cfb52b21f80ced2b3f08b24dd55773853",
+          "sha256": "7cab67a7882249ea344520657aeab17cffb83603fed212d87413626f601ef444",
+          "sha1": "0c0655fa98226775d5835b370728a93583df8e5a",
+          "md5": "b5b65a7067ed8294a8b7282b987b8864"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-core",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-jackson-databind-3.10.3.jar",
+          "url": "micronaut-jackson-databind-3.10.3.jar",
+          "size": 152742,
+          "sha512": "9c621ecf8d988e33caadb7ec830eee86c5de7d44c675753a2be436afa741fb40b6ca35d4c439b2b411d99201bb6e983cfb52b21f80ced2b3f08b24dd55773853",
+          "sha256": "7cab67a7882249ea344520657aeab17cffb83603fed212d87413626f601ef444",
+          "sha1": "0c0655fa98226775d5835b370728a93583df8e5a",
+          "md5": "b5b65a7067ed8294a8b7282b987b8864"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-jackson-databind-3.10.3-sources.jar",
+          "url": "micronaut-jackson-databind-3.10.3-sources.jar",
+          "size": 51028,
+          "sha512": "46ec99852acb2db72d4db7a0dd4b93e5363432d57e976959431738f82152de73fe837733834db8fbb6f38b42898a1d8e192ae8a169eb87371e9fa717ade8491c",
+          "sha256": "5c6eda97d23fc38e98469ab781fe2f116c02f0dd6ed422a1ce3aba4a160df6e4",
+          "sha1": "74c79c4c3df0ab0387762c51e7f73e7539230307",
+          "md5": "b5328cce9b673636112e0eac498c4b02"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-jackson-databind-3.10.3-javadoc.jar",
+          "url": "micronaut-jackson-databind-3.10.3-javadoc.jar",
+          "size": 413555,
+          "sha512": "4ed99a82fe2c7606a74e6535535d2e73ea9452ed871304d25f4186a6d3aba2c962b7094c88c8f469867b1bd545cad0cfe3aceec5a7d825a5b64c7fcb79045b3c",
+          "sha256": "6d1780900fed6439d17b9e52b5c9770d23baae267a6c7404a68eac795c95b42d",
+          "sha1": "535a132a8f34f655bbac527d3acd49d94ec401fb",
+          "md5": "fc672d1de607249145c146ea2b62fc6a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-jackson-databind-3.10.3-all.jar",
+          "url": "micronaut-jackson-databind-3.10.3-all.jar",
+          "size": 153223,
+          "sha512": "a4850e09cfaf5b302050d3b82b73a031815059b414effeb73278698f449242b1d61de62e7905383f4a7fcc52fe15cd55d80f5eb8cd5568a1c79c59f4b3698538",
+          "sha256": "231f00375dfc7ebabc12057d739c61d63d6e67138d600640f5e925cc99b351a9",
+          "sha1": "6b359369867ae373cb1e1e36cd87807d04d396a3",
+          "md5": "01f6d745022a5bebfa9e794d4ed9f7ef"
+        }
+      ]
+    }
+  ]
+}

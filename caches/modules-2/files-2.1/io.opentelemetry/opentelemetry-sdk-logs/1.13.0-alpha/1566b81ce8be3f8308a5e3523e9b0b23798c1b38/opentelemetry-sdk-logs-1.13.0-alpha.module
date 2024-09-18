@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-logs",
+    "version": "1.13.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.13.0-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.13.0-alpha.jar",
+          "size": 44175,
+          "sha512": "b5e4ddef1b29194de0189d6cf28fa3638ee885acb0ebc60ccb5043e8af2ebdcfd482cecd83300d5c0378b176715e850f72767b772376d16e99d7a5c9ddaaba98",
+          "sha256": "f153f485e5e0b8622cfd00b5664da2c3050d911e1410f8a786fe853b30d8a128",
+          "sha1": "346a4cf9b4778ff97b2ecca28344ff2bccfca625",
+          "md5": "71de3f338f5bc5ef20c134fcdc0bed06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.13.0-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.13.0-alpha.jar",
+          "size": 44175,
+          "sha512": "b5e4ddef1b29194de0189d6cf28fa3638ee885acb0ebc60ccb5043e8af2ebdcfd482cecd83300d5c0378b176715e850f72767b772376d16e99d7a5c9ddaaba98",
+          "sha256": "f153f485e5e0b8622cfd00b5664da2c3050d911e1410f8a786fe853b30d8a128",
+          "sha1": "346a4cf9b4778ff97b2ecca28344ff2bccfca625",
+          "md5": "71de3f338f5bc5ef20c134fcdc0bed06"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.13.0-alpha-javadoc.jar",
+          "url": "opentelemetry-sdk-logs-1.13.0-alpha-javadoc.jar",
+          "size": 188319,
+          "sha512": "3c68c835a8348baf518094b5494f35f53c81e1867924b66b728f17d738808fe1a58dad7044a6833f54a9572a5e765907b98930b32fb904ffe5ab3664f8b953a6",
+          "sha256": "efa941470edd4bf4cb01a327c0957c137cf628da0b284a694c95d838aa90c614",
+          "sha1": "22b24588487d0096952a15ba778ac81f0fd714e1",
+          "md5": "8c82592d7bcbd453ef2ba9ef7f20e194"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.13.0-alpha-sources.jar",
+          "url": "opentelemetry-sdk-logs-1.13.0-alpha-sources.jar",
+          "size": 27523,
+          "sha512": "d862f1d6bdcef907428f2a134b5e2597e2cca7c6ef22669d6b746b65d54d5a268c30dce7668754f835e77598074884797001782e7ef8ce6cea2fd1fa40fcd140",
+          "sha256": "e2a42b9c60c606b41ab7c2f2245ec78972787d8f31f13e424fe40fad9bd7d40c",
+          "sha1": "9a3508a27c6c9cb874ab2fcdd889f5813e77f383",
+          "md5": "b7b89277fd3bf47a1ebbcb02959ac303"
+        }
+      ]
+    }
+  ]
+}

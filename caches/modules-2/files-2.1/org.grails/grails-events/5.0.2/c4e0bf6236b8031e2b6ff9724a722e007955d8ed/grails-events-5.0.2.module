@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-events",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-events-5.0.2.jar",
+          "url": "grails-events-5.0.2.jar",
+          "size": 52682,
+          "sha512": "368700556da3a1e8ed5489ebb0278aaec29194be138d267f03910a7c520d74959a7c56a83c60154f41c3dc24ef53a036d117453e5aa2872c741396dc9d09c8ce",
+          "sha256": "3db19d1718dc6aa07ac9e5bacb57522d948c1e7c49e93e48a92329b09015569d",
+          "sha1": "e57620512d515588a129f477a50ffcff0a952c80",
+          "md5": "ca074a798a5fbbaf8032069014be0216"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.19"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.31"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-events-5.0.2.jar",
+          "url": "grails-events-5.0.2.jar",
+          "size": 52682,
+          "sha512": "368700556da3a1e8ed5489ebb0278aaec29194be138d267f03910a7c520d74959a7c56a83c60154f41c3dc24ef53a036d117453e5aa2872c741396dc9d09c8ce",
+          "sha256": "3db19d1718dc6aa07ac9e5bacb57522d948c1e7c49e93e48a92329b09015569d",
+          "sha1": "e57620512d515588a129f477a50ffcff0a952c80",
+          "md5": "ca074a798a5fbbaf8032069014be0216"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-5.0.2-sources.jar",
+          "url": "grails-events-5.0.2-sources.jar",
+          "size": 15237,
+          "sha512": "c696f79b1e84a8015b45b3d02cfd9898d13087f62d8c42bf1a48fd4e45923bb08bb99be96506b6a465ba28c0fe23ce16b8108d16d63a4f6b60f197651bd6eaab",
+          "sha256": "9a83be6c49cfff927b5576fafc62a995c3e8b8753d72ae4cfd6d3f6e63d78dd6",
+          "sha1": "55c898c89165d31a24b2521b1b31cbf252c73604",
+          "md5": "baeacaec85d048f2771960e04652198f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-events-5.0.2-javadoc.jar",
+          "url": "grails-events-5.0.2-javadoc.jar",
+          "size": 261,
+          "sha512": "c6c54258d89f74896f36014e5be32377a2ef26248ba3b5164cdb8f58a4a3b19166e648c6a873111ff49542e6d2a851df6a16aff1679b3507af94e4de0c7137cf",
+          "sha256": "c6a995e2988be374b165888ae41e4576c72e6164a9de515a1348ef9fba612728",
+          "sha1": "2bfa818b0779a549b18be3cf484a7d6bc4ff8c7f",
+          "md5": "b0bfc381f9dd52f8f74e66404e7d151a"
+        }
+      ]
+    }
+  ]
+}

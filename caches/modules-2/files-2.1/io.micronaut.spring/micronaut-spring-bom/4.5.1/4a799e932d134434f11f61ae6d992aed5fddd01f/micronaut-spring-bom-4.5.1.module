@@ -1,0 +1,304 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.spring",
+    "module": "micronaut-spring-bom",
+    "version": "4.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot-starter",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-context",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-web",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-web-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-boot-starter",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-context",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-web",
+          "version": {
+            "requires": "4.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-web-annotation",
+          "version": {
+            "requires": "4.5.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-spring-bom-4.5.1.toml",
+          "url": "micronaut-spring-bom-4.5.1.toml",
+          "size": 2191,
+          "sha512": "cb2a8da74607ba84dc4b3281b3f1f8a6d143eff1f42dc3d321b4b9f74d8b7c63b20276be224cd58076f213a3a1ef4527c867ca67837e38a5b8eef5a90fe84041",
+          "sha256": "f7706f96bca815d433d0fcef7e78e058a12c4f60dd27f1ef75eb5e6fac36a465",
+          "sha1": "6e121edf382c91d796da8b69bfdac283ea9f0438",
+          "md5": "5c6caa542d0d5bd682ee362fe6f8d89a"
+        }
+      ]
+    }
+  ]
+}

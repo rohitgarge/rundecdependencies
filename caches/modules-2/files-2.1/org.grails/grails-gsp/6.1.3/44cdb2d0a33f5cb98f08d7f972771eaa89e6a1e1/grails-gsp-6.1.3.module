@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-gsp",
+    "version": "6.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-taglib",
+          "version": {
+            "requires": "6.1.3"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gsp-6.1.3.jar",
+          "url": "grails-gsp-6.1.3.jar",
+          "size": 170296,
+          "sha512": "1e86f67b9b881592abdb94a5fa68c8d75aee6eb6ec35c9d20c1dc415d8497f93df5064781ceec085510dbea0b908ce59cd1b7e0f8cf3c1989f3287182c35414f",
+          "sha256": "dc3d5e9d067d8cd460cd6014157e159976bb71cc8480638bd1bbcc0df8d6fce6",
+          "sha1": "7d1bef5faf687467808c9757a7cf479c3e1dd18e",
+          "md5": "1518c3ccc52b4c0cc6c0567640ded428"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.grails",
+              "module": "grails-spring"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-taglib",
+          "version": {
+            "requires": "6.1.3"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gsp-6.1.3.jar",
+          "url": "grails-gsp-6.1.3.jar",
+          "size": 170296,
+          "sha512": "1e86f67b9b881592abdb94a5fa68c8d75aee6eb6ec35c9d20c1dc415d8497f93df5064781ceec085510dbea0b908ce59cd1b7e0f8cf3c1989f3287182c35414f",
+          "sha256": "dc3d5e9d067d8cd460cd6014157e159976bb71cc8480638bd1bbcc0df8d6fce6",
+          "sha1": "7d1bef5faf687467808c9757a7cf479c3e1dd18e",
+          "md5": "1518c3ccc52b4c0cc6c0567640ded428"
+        }
+      ]
+    }
+  ]
+}

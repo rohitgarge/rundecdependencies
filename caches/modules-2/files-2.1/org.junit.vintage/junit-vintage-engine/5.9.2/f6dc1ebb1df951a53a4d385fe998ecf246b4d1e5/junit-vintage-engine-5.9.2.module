@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.junit.vintage",
+    "module": "junit-vintage-engine",
+    "version": "5.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "version": {
+            "requires": "1.9.2"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.apiguardian",
+          "module": "apiguardian-api",
+          "version": {
+            "requires": "1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-vintage-engine-5.9.2.jar",
+          "url": "junit-vintage-engine-5.9.2.jar",
+          "size": 66897,
+          "sha512": "d17b5dd3c288c04db9aec460c4779556c03fab8a819aa2bf1f27a0805ef6b5b62162891fe8035cf156a7498bd477a6de60bff13fea54ac605d8b02437dcc074c",
+          "sha256": "41e16dd32c8f462bbc032b2b79f23944191b32ec398d05858badb5dabffd0612",
+          "sha1": "53421816bde124a564a64ba005dcc0c8e66a9722",
+          "md5": "2af64ce5dc703829e601e85afd74b5ff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "version": {
+            "requires": "1.9.2"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-vintage-engine-5.9.2.jar",
+          "url": "junit-vintage-engine-5.9.2.jar",
+          "size": 66897,
+          "sha512": "d17b5dd3c288c04db9aec460c4779556c03fab8a819aa2bf1f27a0805ef6b5b62162891fe8035cf156a7498bd477a6de60bff13fea54ac605d8b02437dcc074c",
+          "sha256": "41e16dd32c8f462bbc032b2b79f23944191b32ec398d05858badb5dabffd0612",
+          "sha1": "53421816bde124a564a64ba005dcc0c8e66a9722",
+          "md5": "2af64ce5dc703829e601e85afd74b5ff"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-vintage-engine-5.9.2-javadoc.jar",
+          "url": "junit-vintage-engine-5.9.2-javadoc.jar",
+          "size": 159626,
+          "sha512": "7d9813e8d00944128d631ea2b9236845209bdb887850fc32c7c4b66d0b38e60ca9d7113918cab3751caa0686518f1fbf163940f14e4a338e0fe21d2131e12bdb",
+          "sha256": "c05be1dd0a3c6ff5299a2f840faca4c8e9ad621ccaa8624cc9deb5934dba10ec",
+          "sha1": "e6e6dd5b6dc264bd480a44d88f06b564cd95f1ff",
+          "md5": "4484eddfc4db1f70fe8f5ca11a256515"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-vintage-engine-5.9.2-sources.jar",
+          "url": "junit-vintage-engine-5.9.2-sources.jar",
+          "size": 38433,
+          "sha512": "ce06273b802eb9a22337005d95a4d595c67096e3fd53eab5817c7bc0aad4c28e18c459184c20f82df6af03de9990393472a5bd10ad09ec3447f1b2e1cfa48d2c",
+          "sha256": "20068f38816ff2835db0d65975e9ab71dae5e3916d1c26656e8b18f8290262ab",
+          "sha1": "2c49683874960c933535779555e02a9fac4ca154",
+          "md5": "6ebc90c308562b4885042a64a2fd55eb"
+        }
+      ]
+    }
+  ]
+}

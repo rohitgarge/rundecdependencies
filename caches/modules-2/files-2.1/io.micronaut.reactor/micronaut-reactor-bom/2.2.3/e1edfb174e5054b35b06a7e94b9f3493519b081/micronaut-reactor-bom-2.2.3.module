@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.reactor",
+    "module": "micronaut-reactor-bom",
+    "version": "2.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.19"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-http-client",
+          "version": {
+            "requires": "2.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.19"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-http-client",
+          "version": {
+            "requires": "2.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-reactor-bom-2.2.3.toml",
+          "url": "micronaut-reactor-bom-2.2.3.toml",
+          "size": 557,
+          "sha512": "9b928bfed6ff5afac391b4a8c596a2332ab60140a716562f9611295d7c81a0aeff7a670515a22045136318d073000beaf14d5e26d923dc13eed0b7b42874d109",
+          "sha256": "c0126ba2611c4f22ea9f7d75fb096d9e18ec3a686e53709e12ecd375b030f03d",
+          "sha1": "622cae7a211c0edde49d951f7a973c060846e96d",
+          "md5": "f679e1defe7aff271e61e7fe5810cd0f"
+        }
+      ]
+    }
+  ]
+}

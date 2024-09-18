@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.picocli</groupId>
+  <artifactId>micronaut-picocli-bom</artifactId>
+  <version>4.2.1</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Picocli Configuration</name>
+  <description>Provides integration between Micronaut and Picocli</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-picocli.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-picocli.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-picocli.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.picocli.version>4.2.1</micronaut.picocli.version>
+    <picocli.version>4.6.3</picocli.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>info.picocli</groupId>
+        <artifactId>picocli</artifactId>
+        <version>${picocli.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.picocli</groupId>
+        <artifactId>picocli-codegen</artifactId>
+        <version>${picocli.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.picocli</groupId>
+        <artifactId>micronaut-picocli</artifactId>
+        <version>${micronaut.picocli.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.openapi</groupId>
+  <artifactId>micronaut-openapi-bom</artifactId>
+  <version>4.8.7</version>
+  <packaging>pom</packaging>
+  <name>OpenAPI/Swagger Support</name>
+  <description>Configuration to integrate Micronaut and OpenAPI/Swagger</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-openapi.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-openapi.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-openapi.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>puneetbehl</id>
+      <name>Puneet Behl</name>
+    </developer>
+    <developer>
+      <id>ãlvarosã¡nchez-mariscal</id>
+      <name>Ãlvaro SÃ¡nchez-Mariscal</name>
+    </developer>
+    <developer>
+      <id>ivã¡nlã³pez</id>
+      <name>IvÃ¡n LÃ³pez</name>
+    </developer>
+  </developers>
+  <properties>
+    <html2md.converter.version>0.62.2</html2md.converter.version>
+    <jakarta.validation.api.version>3.0.2</jakarta.validation.api.version>
+    <slf4j.version>1.7.36</slf4j.version>
+    <javadoc.parser.version>0.3.1</javadoc.parser.version>
+    <jsoup.version>1.15.4</jsoup.version>
+    <swagger.compat.version>2.2.9</swagger.compat.version>
+    <swagger.version>2.2.9</swagger.version>
+    <micronaut.openapi.version>4.8.7</micronaut.openapi.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.vladsch.flexmark</groupId>
+        <artifactId>flexmark-html2md-converter</artifactId>
+        <version>${html2md.converter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.chhorz</groupId>
+        <artifactId>javadoc-parser</artifactId>
+        <version>${javadoc.parser.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>${jsoup.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-nop</artifactId>
+        <version>${slf4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger.core.v3</groupId>
+        <artifactId>swagger-core</artifactId>
+        <version>${swagger.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger.core.v3</groupId>
+        <artifactId>swagger-annotations</artifactId>
+        <version>${swagger.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger.core.v3</groupId>
+        <artifactId>swagger-models</artifactId>
+        <version>${swagger.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.openapi</groupId>
+        <artifactId>micronaut-openapi</artifactId>
+        <version>${micronaut.openapi.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

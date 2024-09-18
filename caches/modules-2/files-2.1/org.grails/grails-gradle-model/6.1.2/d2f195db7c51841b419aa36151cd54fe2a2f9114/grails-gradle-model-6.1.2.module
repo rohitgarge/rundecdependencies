@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-gradle-model",
+    "version": "6.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gradle-model-6.1.2.jar",
+          "url": "grails-gradle-model-6.1.2.jar",
+          "size": 2566,
+          "sha512": "01d95bfc6d5b27608aaf73273cc54f3f854aadf054038cfec856037347fea627353593799d9008be685694fd7bdee3e0010d27b58d64701e37bc414ee7d2efe3",
+          "sha256": "f3f988ea305e5b1b7faf6e1dcec03efaf12f459590257379a7c84d38c6e40477",
+          "sha1": "b45a573569855d186b8bba51ccce0f7c2c22d201",
+          "md5": "d2449d99f559201a8749bf7f43e4d4d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gradle-model-6.1.2.jar",
+          "url": "grails-gradle-model-6.1.2.jar",
+          "size": 2566,
+          "sha512": "01d95bfc6d5b27608aaf73273cc54f3f854aadf054038cfec856037347fea627353593799d9008be685694fd7bdee3e0010d27b58d64701e37bc414ee7d2efe3",
+          "sha256": "f3f988ea305e5b1b7faf6e1dcec03efaf12f459590257379a7c84d38c6e40477",
+          "sha1": "b45a573569855d186b8bba51ccce0f7c2c22d201",
+          "md5": "d2449d99f559201a8749bf7f43e4d4d9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-gradle-model-6.1.2-javadoc.jar",
+          "url": "grails-gradle-model-6.1.2-javadoc.jar",
+          "size": 261,
+          "sha512": "e23f2ad83132c07657cb6b86b920680f5f303eb0ba6127ae67515e9c9dad65b73b62f129a33b8230fd54d34c76b9361da132238799c2f3f2ed7267510c9713d7",
+          "sha256": "d992909f6b9976761b7be60782e5575b6076cbe85a42802e8efb7f5fe27ea191",
+          "sha1": "43b12591b724067d96858e03fc86008d9e367952",
+          "md5": "276011cd1b859b72c3b88e4b3dab75f8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-gradle-model-6.1.2-sources.jar",
+          "url": "grails-gradle-model-6.1.2-sources.jar",
+          "size": 2380,
+          "sha512": "4b6e55af375c9f3a88b8116abcdae720e671e23bb8664b10f10b0d62e8a1bb697b5f868f9b5ba4ab29f74816ebdd919b3eeaed398459a560ec251e2fe64916b4",
+          "sha256": "35a942871661571f9e979490c7bc4ddd7fe8caa714c175911572d864deb0823f",
+          "sha1": "4207ebd7e055c3cb1ef3165b00f4d81cb755c6ae",
+          "md5": "b2e7e84043c5496a4ba3a9ce6d854ce4"
+        }
+      ]
+    }
+  ]
+}

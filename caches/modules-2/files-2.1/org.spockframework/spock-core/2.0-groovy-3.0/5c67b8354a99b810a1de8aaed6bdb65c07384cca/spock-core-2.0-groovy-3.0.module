@@ -1,0 +1,321 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spockframework",
+    "module": "spock-core",
+    "version": "2.0-groovy-3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "smgxmigasvdjngrypor4627xty"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-testkit",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "20.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "cglib",
+          "module": "cglib-nodep",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.objenesis",
+          "module": "objenesis",
+          "version": {
+            "requires": "3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.0-groovy-3.0.jar",
+          "url": "spock-core-2.0-groovy-3.0.jar",
+          "size": 849237,
+          "sha512": "f04664ae75de37db38b6ad4aa997e7b99f184d1282e6dcb5202ede90b5ad8e5f99172eb224713049123495b4d63954acb7d3ec895414e11a80049067ba7346e4",
+          "sha256": "4e27181773491e4e6e4629d3a98bc19f7e9d086dfead36147cc6a02a5ad2beae",
+          "sha1": "705e1eac7070f6ac9dc4fdb64c2c8011d1074482",
+          "md5": "3638eb3a336ff1f3fc5ee2db55c8c865"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-testkit",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "20.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "cglib",
+          "module": "cglib-nodep",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        },
+        {
+          "group": "org.objenesis",
+          "module": "objenesis",
+          "version": {
+            "requires": "3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "junit-dep"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spock-core-2.0-groovy-3.0.jar",
+          "url": "spock-core-2.0-groovy-3.0.jar",
+          "size": 849237,
+          "sha512": "f04664ae75de37db38b6ad4aa997e7b99f184d1282e6dcb5202ede90b5ad8e5f99172eb224713049123495b4d63954acb7d3ec895414e11a80049067ba7346e4",
+          "sha256": "4e27181773491e4e6e4629d3a98bc19f7e9d086dfead36147cc6a02a5ad2beae",
+          "sha1": "705e1eac7070f6ac9dc4fdb64c2c8011d1074482",
+          "md5": "3638eb3a336ff1f3fc5ee2db55c8c865"
+        }
+      ]
+    }
+  ]
+}

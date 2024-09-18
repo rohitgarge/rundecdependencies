@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-exceptions",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-exceptions-5.1.jar",
+          "url": "geb-exceptions-5.1.jar",
+          "size": 3903,
+          "sha512": "2bb2bc7fa72ce7082cfc1354f6b87b375a30c45be89a2968674a429872f0e94f087c21b67bfe1464c7002440cd53094ae22648e37668b21d4e11bfbd7fecfd53",
+          "sha256": "3883defc76023c7b9a550dc9e7d1fd434a4cc2c028aea311091d1bdc85a67d9e",
+          "sha1": "f16b73bc819f6aadf3144227ade37a94973cfbc9",
+          "md5": "d068a5eb06b708b114515c1493f13457"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-exceptions-5.1.jar",
+          "url": "geb-exceptions-5.1.jar",
+          "size": 3903,
+          "sha512": "2bb2bc7fa72ce7082cfc1354f6b87b375a30c45be89a2968674a429872f0e94f087c21b67bfe1464c7002440cd53094ae22648e37668b21d4e11bfbd7fecfd53",
+          "sha256": "3883defc76023c7b9a550dc9e7d1fd434a4cc2c028aea311091d1bdc85a67d9e",
+          "sha1": "f16b73bc819f6aadf3144227ade37a94973cfbc9",
+          "md5": "d068a5eb06b708b114515c1493f13457"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-exceptions-5.1-javadoc.jar",
+          "url": "geb-exceptions-5.1-javadoc.jar",
+          "size": 31031,
+          "sha512": "c28a2d1ae431a4e0f30d1840766837aba9c6d1d28671b941169b571fcc07b181a624a35779c5e46cb03d717627037ec70877ef2f9d4b2c18c7a6d28612e4d6ca",
+          "sha256": "2f474949a7a01fa6929e57665447ecd700a06f14a5119167828721fa9b62ad88",
+          "sha1": "e8d1f6f3d82f8c8887594b81fe97b63acff369c5",
+          "md5": "c54d3bc47425f25b19412d19e42a708b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-exceptions-5.1-sources.jar",
+          "url": "geb-exceptions-5.1-sources.jar",
+          "size": 1691,
+          "sha512": "27af63828038a789e700ca3c6f5cc44d311f094248290bd9d7473514f9ddcdc7127f5e3e344afcbd86c2b2b4d0971d8bf466dc56716f074bfa6807f64047967e",
+          "sha256": "1e355e1c37840e43adce8d7f8716b8c461a91c710e3df4b1a9f3baf8f9a1739d",
+          "sha1": "62b6da746c5d58dbda6553355446578cd7f50bb8",
+          "md5": "953b4db977b6dfb03bb5e9c8a5b0293d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.reactor",
+    "module": "micronaut-reactor-bom",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-test",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-http-client",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-test",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-http-client",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-reactor-bom-2.5.0.toml",
+          "url": "micronaut-reactor-bom-2.5.0.toml",
+          "size": 884,
+          "sha512": "5c18bfca4e40f4e6809250b620301a8a2c7fc614bf4c9da741c98042efbd1fe646db3a05cef08ff005b8cd8a705908e13e22cb16e3362fc9a560fce8e4ae6b3d",
+          "sha256": "134871e81febe3b4809c8a6b542c8c521315ce2734e91b9c0b78ee16aad9959f",
+          "sha1": "ffc3ba0f4e7ce0424af7cab75e2ae7cabd70a109",
+          "md5": "c4d4914af799c45b7f68992acc507963"
+        }
+      ]
+    }
+  ]
+}

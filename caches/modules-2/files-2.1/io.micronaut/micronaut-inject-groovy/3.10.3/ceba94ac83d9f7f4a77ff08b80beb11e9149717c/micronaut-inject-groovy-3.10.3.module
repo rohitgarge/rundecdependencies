@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-inject-groovy",
+    "version": "3.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-inject-groovy-3.10.3.jar",
+          "url": "micronaut-inject-groovy-3.10.3.jar",
+          "size": 272003,
+          "sha512": "1c72e356d95635e261b46bd748ee1e97a97d998991301c67dd5dea14f151872053bc173788a71c3df8ef9abb96dc8c6e6c319d21ec249e1d26affe086cedef07",
+          "sha256": "644a0e9f1d2c88f160fe16e97fb8454a2a5ab1c3a02317fe2fd4842fa4f21475",
+          "sha1": "ab6770ead9948a7bfdd45fe2c5b0faf776b4b04d",
+          "md5": "d0ce2f4c39310638b3b1313ba4262401"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.10.3"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-inject-groovy-3.10.3.jar",
+          "url": "micronaut-inject-groovy-3.10.3.jar",
+          "size": 272003,
+          "sha512": "1c72e356d95635e261b46bd748ee1e97a97d998991301c67dd5dea14f151872053bc173788a71c3df8ef9abb96dc8c6e6c319d21ec249e1d26affe086cedef07",
+          "sha256": "644a0e9f1d2c88f160fe16e97fb8454a2a5ab1c3a02317fe2fd4842fa4f21475",
+          "sha1": "ab6770ead9948a7bfdd45fe2c5b0faf776b4b04d",
+          "md5": "d0ce2f4c39310638b3b1313ba4262401"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-inject-groovy-3.10.3-sources.jar",
+          "url": "micronaut-inject-groovy-3.10.3-sources.jar",
+          "size": 101706,
+          "sha512": "3b26ff5a803c15a7e990a6c46818b95256c0088583d24308796a83caff5fb31470049267ae226e563ddc8ad389b3459aba7ee98102f841e59f416e64e34b67d0",
+          "sha256": "eaab8c7868de69c13ba10eff81389f471be407cb4d7f0c2f29bb435b3d71a623",
+          "sha1": "9c0fda9676c64e5f8bdacec8e15dc82d36a01376",
+          "md5": "34744efb26597f8a9fc5cf0de98c288e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-inject-groovy-3.10.3-javadoc.jar",
+          "url": "micronaut-inject-groovy-3.10.3-javadoc.jar",
+          "size": 395182,
+          "sha512": "7e934a9001c460cc7c1d9b276e153ad95f5553c4b07a86b1c61df9628da055fbfed768edeec5a71df947b59a175c7ec0216d0f86d7d6e9fcba0bbb9bd21e6514",
+          "sha256": "1808612f43dd14da3a48a5c56bd43302b59df52c174cb2828d47d125c7b96169",
+          "sha1": "8bfdcae05d14efb6d266785692d90deb93ff1fca",
+          "md5": "d4946391173a8ae9eac02082c6c6e4b2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-inject-groovy-3.10.3-all.jar",
+          "url": "micronaut-inject-groovy-3.10.3-all.jar",
+          "size": 272605,
+          "sha512": "6a1db185f641b952e279584275465046b5127bcef87764a7a7eb395a115ec976078d2e049eb5590307aac7285e53404ef076761c19ccb99b79fb2cb72bd9317c",
+          "sha256": "3970d215681cd81eacb5a040f566d57e4a705d57c4232ebb53ea3e4c780b202b",
+          "sha1": "8cfe6c13a6ee38b00b8a74763723d2aba597e86d",
+          "md5": "511902698ae47659c6c00498a9b25617"
+        }
+      ]
+    }
+  ]
+}

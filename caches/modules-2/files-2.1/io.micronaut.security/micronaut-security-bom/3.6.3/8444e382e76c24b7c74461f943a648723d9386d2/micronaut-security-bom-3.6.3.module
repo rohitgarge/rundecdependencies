@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.security",
+    "module": "micronaut-security-bom",
+    "version": "3.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.23"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-annotations",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-jwt",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-ldap",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-oauth2",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-session",
+          "version": {
+            "requires": "3.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.23"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-annotations",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-jwt",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-ldap",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-oauth2",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-session",
+          "version": {
+            "requires": "3.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-security-bom-3.6.3.toml",
+          "url": "micronaut-security-bom-3.6.3.toml",
+          "size": 1230,
+          "sha512": "b86b7ccd5e134624966f7972a05725b97a4ef93dcd42814c741ca6837243ce0f825bd487ea8ee3099640f1a1505bc1605c6248b8db88adae0dfa836dc3e4a02f",
+          "sha256": "f1858a4e2207c3e013868ae25f6743953904ab599d439e635a55935ef2a70c55",
+          "sha1": "934e51a5a4931b8b9d7b343854731c2490b5a59c",
+          "md5": "7d6cb236b36e7a1613261e67f567c09f"
+        }
+      ]
+    }
+  ]
+}

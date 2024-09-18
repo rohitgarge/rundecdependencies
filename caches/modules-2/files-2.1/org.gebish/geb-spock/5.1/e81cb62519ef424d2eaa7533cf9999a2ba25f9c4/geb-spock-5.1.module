@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gebish",
+    "module": "geb-spock",
+    "version": "5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.gebish",
+          "module": "geb-core",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.0-groovy-3.0"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-spock-5.1.jar",
+          "url": "geb-spock-5.1.jar",
+          "size": 22881,
+          "sha512": "f30645f5f57440d8271de1474b56c6a4973fb5a2922f6e8dc4db436e44672c4e9c32be925bbe09870963718efd89b1e26a2020bd610afee0f940bf70cdecdb22",
+          "sha256": "96ecdfc3b8f0310aef8769c932af55207c2f69776fd19e828b375980527bd918",
+          "sha1": "9485f1167cc7af55f347ad69791bc05c4587a9d7",
+          "md5": "f72bfcb1f8fcdca38143f8d51cdc6f8f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.gebish",
+          "module": "geb-core",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.0-groovy-3.0"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates"
+        }
+      ],
+      "files": [
+        {
+          "name": "geb-spock-5.1.jar",
+          "url": "geb-spock-5.1.jar",
+          "size": 22881,
+          "sha512": "f30645f5f57440d8271de1474b56c6a4973fb5a2922f6e8dc4db436e44672c4e9c32be925bbe09870963718efd89b1e26a2020bd610afee0f940bf70cdecdb22",
+          "sha256": "96ecdfc3b8f0310aef8769c932af55207c2f69776fd19e828b375980527bd918",
+          "sha1": "9485f1167cc7af55f347ad69791bc05c4587a9d7",
+          "md5": "f72bfcb1f8fcdca38143f8d51cdc6f8f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-spock-5.1-javadoc.jar",
+          "url": "geb-spock-5.1-javadoc.jar",
+          "size": 46027,
+          "sha512": "a10db3b1c71a5445c43fffd2c54b303eaf9f8ed75e42ca3204ec4fd3218a1785a9d737322731ed92094a62446e414e07b6ac4a892f8fd9ba7b069ec48133ced9",
+          "sha256": "8c516a5a7360e1703a85cbf8d6420a0c1a66d97820c4c30d24371604774f75d3",
+          "sha1": "dd980135a454ebb6fc90adbfc7f523bd7e805d5b",
+          "md5": "ce3c50644220f9b41595f19d3486a250"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geb-spock-5.1-sources.jar",
+          "url": "geb-spock-5.1-sources.jar",
+          "size": 4818,
+          "sha512": "fd54767db894ea08843bdcfe461181864482d7ac8f1d71b5d7d00ae0fe4a6e208561f69e0261d0a2d484a4fadb0b0f43a7ea69fbfed95b1a97ddce9d995a72ef",
+          "sha256": "d943efb2d4c7d9da0eceff6c23f6c8499573e2099a6c2ce2cbdca8ce1a16e3c0",
+          "sha1": "2c685c9a53a633f2b73a7766080cd950189bdd55",
+          "md5": "3adcabc65b94cc6d651b6fe159ced80a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-swing",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-swing-4.0.4-groovydoc.jar",
+          "url": "groovy-swing-4.0.4-groovydoc.jar",
+          "size": 459967,
+          "sha512": "da94a5c193935fda5702aa61e9e49f315cf588b896b3d15131cf798243863f23aec379b2bd7ef408be38d35c4bc463ce037dc0a586f5d60737c7022903c13288",
+          "sha256": "005c9684847c6f7927d80cb2d73e342a7d794c103d231f49cee263ee6c18fcfe",
+          "sha1": "d5628bbbcab3c90290374e9551cce244b649c480",
+          "md5": "badaf7f73be7835e54338373c171ea25"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-swing-4.0.4-javadoc.jar",
+          "url": "groovy-swing-4.0.4-javadoc.jar",
+          "size": 297183,
+          "sha512": "cefaf29209edae3eaeb25a6d5960bbd0bb567863b4a0224a6147333b3afe68ce5ac7e7fbdce602af1e418a736dbaea9c97e85e5ea6562fcae155b1d5bcff35de",
+          "sha256": "c107fd232d329f5933cb6f643da12e36e13746c095bcd6ea68780f376cd6d5d6",
+          "sha1": "d5bbbeb7525460053c244ba03bf2a4bda5d8e26e",
+          "md5": "bd548d74973f4bd1d550b87585330843"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-swing-4.0.4-sources.jar",
+          "url": "groovy-swing-4.0.4-sources.jar",
+          "size": 141653,
+          "sha512": "f73b0c42e80cb6cec2ce69656071767add810d8a493c5223a62815cf84d2daec16e3e511b8e4ef45027bcb2c67bbce7a91b572fd7d89adb6975d674c27866881",
+          "sha256": "b944107bb961e7bb021d0ea6ff3a078b541e2e671e3355661b9fed3fd84edb46",
+          "sha1": "fb8ce04c1a08237afbefe262c72a6db49bd30ef8",
+          "md5": "8d63f0d01f2bdd6727bc88db183fec52"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-swing-4.0.4.jar",
+          "url": "groovy-swing-4.0.4.jar",
+          "size": 372211,
+          "sha512": "5ac121b1d3401c108a1b52d1557a59a13e60f158bf7f87fbc7eaa4e773e00627c74a2a325d95c1ff376ba8e8fc87f8da6f3ad82279db2e6348c4631c730b6285",
+          "sha256": "b56b3c1c1012e3216b500b28def1f32c33466101d158fd91948ece02b629b247",
+          "sha1": "13d3879080a14b66cfc21104467283d3dd45eb9a",
+          "md5": "19289b54c0f23535ed8479e64de611c2"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-swing",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-swing",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-swing-4.0.4.jar",
+          "url": "groovy-swing-4.0.4.jar",
+          "size": 372211,
+          "sha512": "5ac121b1d3401c108a1b52d1557a59a13e60f158bf7f87fbc7eaa4e773e00627c74a2a325d95c1ff376ba8e8fc87f8da6f3ad82279db2e6348c4631c730b6285",
+          "sha256": "b56b3c1c1012e3216b500b28def1f32c33466101d158fd91948ece02b629b247",
+          "sha1": "13d3879080a14b66cfc21104467283d3dd45eb9a",
+          "md5": "19289b54c0f23535ed8479e64de611c2"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-swing",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-swing",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

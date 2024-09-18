@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.spring",
+    "module": "micronaut-spring",
+    "version": "4.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-spring-4.5.1.jar",
+          "url": "micronaut-spring-4.5.1.jar",
+          "size": 54837,
+          "sha512": "85fe22c6f117354399e05b57e8e72c3ee27e982c759daaba6645a7c356ddace50519fb6ed35403ebb0bf95ec0e1574d2ef74e86ace5759b793025cde4b9fe900",
+          "sha256": "901cf6bbad2c76aa89250f989b4a7559220bf3bc17cd4541057f77685663d017",
+          "sha1": "659bd50d33d2cee9ae013bfa49c9734bfb1079c0",
+          "md5": "f060fed7723ef546b1ec680154b8abeb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-bom",
+          "version": {
+            "requires": "3.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-framework-bom",
+          "version": {
+            "requires": "5.3.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.25"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "3.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-spring-4.5.1.jar",
+          "url": "micronaut-spring-4.5.1.jar",
+          "size": 54837,
+          "sha512": "85fe22c6f117354399e05b57e8e72c3ee27e982c759daaba6645a7c356ddace50519fb6ed35403ebb0bf95ec0e1574d2ef74e86ace5759b793025cde4b9fe900",
+          "sha256": "901cf6bbad2c76aa89250f989b4a7559220bf3bc17cd4541057f77685663d017",
+          "sha1": "659bd50d33d2cee9ae013bfa49c9734bfb1079c0",
+          "md5": "f060fed7723ef546b1ec680154b8abeb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-spring-4.5.1-sources.jar",
+          "url": "micronaut-spring-4.5.1-sources.jar",
+          "size": 27341,
+          "sha512": "2536254310bc4102271867c4ba60fb89ea477d1016b9752a95c9371d726b2b29981d21f2f88fd4192bddd18326937591260456fadfcba9ae8710000fbb1f183a",
+          "sha256": "7bf863353e23af4df021fd018369f5645ec845f48627cac6bd47257e6d92be8f",
+          "sha1": "aeb055436475a2e7a46adfbe9693413e888eb94f",
+          "md5": "df891b8eed62412cbfd7e9e2e4c287e6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-spring-4.5.1-javadoc.jar",
+          "url": "micronaut-spring-4.5.1-javadoc.jar",
+          "size": 360499,
+          "sha512": "ac518d6d92a72c14837b667b2dacda09453e65aca3928ff3095d65837ef63a41b1464405e6d395ecc9b30c9281c10f7a7ac9f27a4f8592dcce59a7637665e798",
+          "sha256": "810e30774ed9a8a534ad9e2c7fe442e3c85cd55e923e9f280cc3f6a73f277af9",
+          "sha1": "d2dfcf02a4e1024ac72460141400ac1fc5938232",
+          "md5": "0284c445469d4770671f98e2d25d465d"
+        }
+      ]
+    }
+  ]
+}

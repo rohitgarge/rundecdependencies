@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.microstream",
+    "module": "micronaut-microstream-bom",
+    "version": "1.0.0-M1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "07.00.00-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "1.0.0-M1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-microstream-bom-1.0.0-M1.toml",
+          "url": "micronaut-microstream-bom-1.0.0-M1.toml",
+          "size": 1327,
+          "sha512": "779d797ca0530165f8f6a1c35ad4573ac9055aec54c403f3d308cd4e775db96bb6277c6d65f3c8b8d07452acf507dc94afed676dfd750a2b730ac9315508c734",
+          "sha256": "4544e5da8ee64ac2ffd1bcfc03fd3243125508a6b5947209d2f5fe72e38f527d",
+          "sha1": "0febe5cb2aac61e471de77a09afd099767ba3d2e",
+          "md5": "023cb598a3696ff00d4d088120e76242"
+        }
+      ]
+    }
+  ]
+}

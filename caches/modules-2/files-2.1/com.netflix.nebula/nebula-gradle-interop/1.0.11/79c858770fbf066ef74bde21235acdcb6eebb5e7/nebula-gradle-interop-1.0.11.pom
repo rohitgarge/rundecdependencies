@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.nebula</groupId>
+  <artifactId>nebula-gradle-interop</artifactId>
+  <version>1.0.11</version>
+  <name>nebula-gradle-interop</name>
+  <description>Test harness for Gradle plugins. Hopefully retiring in favor of Gradle TestKit</description>
+  <url>https://github.com/nebula-plugins/nebula-gradle-interop</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DanielThomas</id>
+      <name>Danny Thomas</name>
+      <email>dmthomas@gmail.com</email>
+    </developer>
+    <developer>
+      <id>rpalcolea</id>
+      <name>Roberto Perez Alcolea</name>
+      <email>roberto@perezalcolea.info</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/nebula-plugins/nebula-gradle-interop.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.3.50</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.nebula#nebula-gradle-interop;1.0.11</nebula_Implementation_Title>
+    <nebula_Implementation_Version>1.0.11</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2019-09-11_17:20:05</nebula_Build_Date>
+    <nebula_Gradle_Version>5.6.2</nebula_Gradle_Version>
+    <nebula_Module_Owner>dmthomas@gmail.com,roberto@perezalcolea.info</nebula_Module_Owner>
+    <nebula_Module_Email>dmthomas@gmail.com,roberto@perezalcolea.info</nebula_Module_Email>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/nebula-plugins/nebula-gradle-interop.git</nebula_Module_Origin>
+    <nebula_Change>e9d05f6</nebula_Change>
+    <nebula_Branch>e9d05f67d4a4c5c57f9e3858af1164b7bf031611</nebula_Branch>
+    <nebula_Build_Host>travis-job-0525a6be-d73a-4711-9251-0e45e5e87ebb</nebula_Build_Host>
+    <nebula_Build_Job>nebula-plugins/nebula-gradle-interop</nebula_Build_Job>
+    <nebula_Build_Number>153</nebula_Build_Number>
+    <nebula_Build_Id>583765806</nebula_Build_Id>
+    <nebula_Created_By>1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10 (Private Build)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.8.0_222</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK>
+  </properties>
+</project>

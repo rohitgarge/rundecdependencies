@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.security</groupId>
+  <artifactId>micronaut-security-bom</artifactId>
+  <version>3.6.3</version>
+  <packaging>pom</packaging>
+  <name>Micronaut Security</name>
+  <description>Official Security Solution for Micronaut</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-security.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-security.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-security.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jameskleeh</id>
+      <name>James Kleeh</name>
+    </developer>
+    <developer>
+      <id>sergiodelamo</id>
+      <name>Sergio del Amo</name>
+    </developer>
+  </developers>
+  <properties>
+    <micronaut.security.version>3.6.3</micronaut.security.version>
+    <nimbus.jose.jwt.version>9.23</nimbus.jose.jwt.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.nimbusds</groupId>
+        <artifactId>nimbus-jose-jwt</artifactId>
+        <version>${nimbus.jose.jwt.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security-annotations</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security-jwt</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security-ldap</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security-oauth2</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.security</groupId>
+        <artifactId>micronaut-security-session</artifactId>
+        <version>${micronaut.security.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

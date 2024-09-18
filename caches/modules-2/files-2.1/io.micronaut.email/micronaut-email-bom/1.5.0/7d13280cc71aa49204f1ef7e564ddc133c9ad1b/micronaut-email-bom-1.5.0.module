@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.email",
+    "module": "micronaut-email-bom",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.mailjet",
+          "module": "mailjet-client",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "com.wildbit.java",
+          "module": "postmark",
+          "version": {
+            "requires": "1.8.4"
+          }
+        },
+        {
+          "group": "com.sendgrid",
+          "module": "sendgrid-java",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-amazon-ses",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-javamail",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-javamail-composer",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-mailjet",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-postmark",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-sendgrid",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-template",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.mailjet",
+          "module": "mailjet-client",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "com.wildbit.java",
+          "module": "postmark",
+          "version": {
+            "requires": "1.8.4"
+          }
+        },
+        {
+          "group": "com.sendgrid",
+          "module": "sendgrid-java",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-amazon-ses",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-javamail",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-javamail-composer",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-mailjet",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-postmark",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-sendgrid",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-template",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-email-bom-1.5.0.toml",
+          "url": "micronaut-email-bom-1.5.0.toml",
+          "size": 1742,
+          "sha512": "a65188a60e71679b52b9c60440aa50e50528af8884dc6208fb3df69dfadbeecfd2d3120f94cc035b1faaacbcad60c79fe1b1533ee2794ed1b686b78f5680fdf5",
+          "sha256": "5d61b027e1cbfe4f99ae7ef8520d459e1b7fec7f3b3a013586ec9b2f0cd99472",
+          "sha1": "64b584bfa7a5f0f938673bc09905052fb2683731",
+          "md5": "b854668076f78a1080eafe5a11b91bce"
+        }
+      ]
+    }
+  ]
+}

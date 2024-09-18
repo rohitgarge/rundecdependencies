@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-docgenerator",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-docgenerator-4.0.4-groovydoc.jar",
+          "url": "groovy-docgenerator-4.0.4-groovydoc.jar",
+          "size": 30457,
+          "sha512": "6c73ea569afc15e949ba8611a33eafa2b5a3704d5e623dc6df3bec39dde2b3551f9987051b9df481d65a8be2bb62e6fe6b70061c33ba7b499107afe3bbee4323",
+          "sha256": "bd0250b91ce0625691446ab57cf65ff6b8072d05f470d7b9fef78e9be4fca1d0",
+          "sha1": "30b78016bada42dcfc297d718e1f13dfa4b2570c",
+          "md5": "1ef3279b68c692e51d168d894597d19f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-docgenerator-4.0.4-javadoc.jar",
+          "url": "groovy-docgenerator-4.0.4-javadoc.jar",
+          "size": 925,
+          "sha512": "3b1e39de558ccf29e6e62e6544b2da3529b3dc03272796752fbc6f9b51a7f0fa5278d0e363f06d7fab856a2a064b5c011ad16ca2f607394ee8420e1466ecfa95",
+          "sha256": "f4ffd15d87dd7f8d1312fdf4d51fb8e00f01863cd8c41ec8c602719bf4a87d91",
+          "sha1": "6eefcd1f5d49ee90fb98439d2ed23c1c06bf0615",
+          "md5": "512688cadb13260f116ab537c54e1354"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-docgenerator-4.0.4-sources.jar",
+          "url": "groovy-docgenerator-4.0.4-sources.jar",
+          "size": 34342,
+          "sha512": "6df7c35a1e46cab1e194b34625535e36ba0518dd5d883b482791f50c32d25fd7da4dec808e6013782bb0bf8b9f928edfdb899aeee821e526b408ed1c9095c784",
+          "sha256": "f1cbd9d30dc6719492d49bd60a588c0f100fb9d815911734f6d9fae60e299913",
+          "sha1": "7903e3b2b41da98881c6748fe5a0831b1f931f70",
+          "md5": "bf4381dbbdf74b86810bf00cfe33378a"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-docgenerator-4.0.4.jar",
+          "url": "groovy-docgenerator-4.0.4.jar",
+          "size": 125414,
+          "sha512": "7efa23c2a764d8a4b63ee9931430642f1620a17426aab8188160ffe863016ddc1e7c961b3b89c14b57aaa52c5608b7d2f69d333f4b881a6123b32871b7e9c5a1",
+          "sha256": "21909b2827389afc019d5f21883a10366a450b66c89e04be9b5939adb126130d",
+          "sha1": "e5bcf42b97cb5bdf0a0e7fd883b4756d8746532e",
+          "md5": "f27e3565cdc61ee120c296329117cc6a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-docgenerator",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-docgenerator",
+          "version": "4.0.4"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "com.thoughtworks.qdox",
+          "module": "qdox",
+          "version": {
+            "requires": "1.12.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-docgenerator-4.0.4.jar",
+          "url": "groovy-docgenerator-4.0.4.jar",
+          "size": 125414,
+          "sha512": "7efa23c2a764d8a4b63ee9931430642f1620a17426aab8188160ffe863016ddc1e7c961b3b89c14b57aaa52c5608b7d2f69d333f4b881a6123b32871b7e9c5a1",
+          "sha256": "21909b2827389afc019d5f21883a10366a450b66c89e04be9b5939adb126130d",
+          "sha1": "e5bcf42b97cb5bdf0a0e7fd883b4756d8746532e",
+          "md5": "f27e3565cdc61ee120c296329117cc6a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-docgenerator",
+          "version": "4.0.4"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-docgenerator",
+          "version": "4.0.4"
+        }
+      ]
+    }
+  ]
+}

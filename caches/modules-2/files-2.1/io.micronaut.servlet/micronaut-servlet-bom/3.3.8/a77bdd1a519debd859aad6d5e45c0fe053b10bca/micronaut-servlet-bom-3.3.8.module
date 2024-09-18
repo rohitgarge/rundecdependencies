@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.servlet",
+    "module": "micronaut-servlet-bom",
+    "version": "3.3.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jetty",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-tomcat",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-undertow",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-core",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-engine",
+          "version": {
+            "requires": "3.3.8"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jetty",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-tomcat",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-undertow",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-core",
+          "version": {
+            "requires": "3.3.8"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-engine",
+          "version": {
+            "requires": "3.3.8"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-servlet-bom-3.3.8.toml",
+          "url": "micronaut-servlet-bom-3.3.8.toml",
+          "size": 1096,
+          "sha512": "66efaeaf468ff88a36a2544f5d28eb62d3a19bf0a12ab2e1288a32876b3ba18be79e8bb4da2cd13d52ab0014fe0fa38afeb7aa94fed37928104372798fd3a073",
+          "sha256": "453e08580042d8bbed3c377603b36f9488059cd82381c333f90f78af5d556729",
+          "sha1": "172886745b3b875418bcbca1ff9b7c26a0f1ea00",
+          "md5": "21a6aa52762c96b16c036d490d39fee7"
+        }
+      ]
+    }
+  ]
+}

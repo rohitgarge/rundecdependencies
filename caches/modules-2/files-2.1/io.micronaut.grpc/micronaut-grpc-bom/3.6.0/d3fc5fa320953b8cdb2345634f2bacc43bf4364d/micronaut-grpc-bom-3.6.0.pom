@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micronaut.grpc</groupId>
+  <artifactId>micronaut-grpc-bom</artifactId>
+  <version>3.6.0</version>
+  <packaging>pom</packaging>
+  <name>Micronaut gRPC</name>
+  <description>Integration between Micronaut and gRPC</description>
+  <url>https://micronaut.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git@github.com:micronaut-projects/micronaut-grpc.git</url>
+    <connection>scm:git@github.com:micronaut-projects/micronaut-grpc.git</connection>
+    <developerConnection>scm:git@github.com:micronaut-projects/micronaut-grpc.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+  </developers>
+  <properties>
+    <protobuf.version>3.21.12</protobuf.version>
+    <protobuf.gradle.version>0.9.1</protobuf.gradle.version>
+    <grpc.version>1.54.0</grpc.version>
+    <micronaut.grpc.version>3.6.0</micronaut.grpc.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-protobuf</artifactId>
+        <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-services</artifactId>
+        <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-stub</artifactId>
+        <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protobuf-java</artifactId>
+        <version>${protobuf.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protobuf-java-util</artifactId>
+        <version>${protobuf.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protoc</artifactId>
+        <version>${protobuf.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>protoc-gen-grpc-java</artifactId>
+        <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-annotation</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-client-runtime</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-health</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-opentracing</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-runtime</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-grpc-server-runtime</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.micronaut.grpc</groupId>
+        <artifactId>micronaut-protobuff-support</artifactId>
+        <version>${micronaut.grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-bom</artifactId>
+        <version>${grpc.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protobuf-bom</artifactId>
+        <version>${protobuf.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

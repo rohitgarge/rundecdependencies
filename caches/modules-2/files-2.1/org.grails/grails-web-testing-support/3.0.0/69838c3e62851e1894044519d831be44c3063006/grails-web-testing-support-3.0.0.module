@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-web-testing-support",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-testing-support",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.29.2-GA"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-testing-support-3.0.0.jar",
+          "url": "grails-web-testing-support-3.0.0.jar",
+          "size": 104255,
+          "sha512": "b8cb73219a81027276e93610483789945996fe6b84c5cf06c7f2ce166a1ed6de71fb58177b27b8b90a95cc56f7f3f7d6c0ef32f44afdbdc78eafe7decadb5fec",
+          "sha256": "003c9063f80941bdb046df3caccfd44f8bf55b105395bff581a102de42d0cb01",
+          "sha1": "19fc8b9fa5be656d22ed0cc3bc139bceed33ff90",
+          "md5": "6c09805122ab193f631d386559825de3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-core",
+          "version": {
+            "requires": "3.15.14"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors",
+          "version": {
+            "requires": "6.0.0-RC1"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-testing-support",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.29.2-GA"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-web-testing-support-3.0.0.jar",
+          "url": "grails-web-testing-support-3.0.0.jar",
+          "size": 104255,
+          "sha512": "b8cb73219a81027276e93610483789945996fe6b84c5cf06c7f2ce166a1ed6de71fb58177b27b8b90a95cc56f7f3f7d6c0ef32f44afdbdc78eafe7decadb5fec",
+          "sha256": "003c9063f80941bdb046df3caccfd44f8bf55b105395bff581a102de42d0cb01",
+          "sha1": "19fc8b9fa5be656d22ed0cc3bc139bceed33ff90",
+          "md5": "6c09805122ab193f631d386559825de3"
+        }
+      ]
+    }
+  ]
+}

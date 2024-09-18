@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.kotlin",
+    "module": "micronaut-kotlin-bom",
+    "version": "3.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-extension-functions",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-runtime",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-ktor",
+          "version": {
+            "requires": "3.2.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-extension-functions",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-runtime",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-ktor",
+          "version": {
+            "requires": "3.2.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-kotlin-bom-3.2.2.toml",
+          "url": "micronaut-kotlin-bom-3.2.2.toml",
+          "size": 685,
+          "sha512": "29f9c5be8b84e9bfaabc81b8d964f5557b61ef8a8c56be639174e96d7f8a1f1d55d9ce13e4accbc9c7ea1bb49b55fdf631dfd9ad879bc6bd83da085f389e5d3d",
+          "sha256": "687e314be6fe1b628d177ae43a5feb52c0c04776e91e6a034c5f3c477acc91a5",
+          "sha1": "57e8a17a3400cb722172c504ec59a24188ded7ac",
+          "md5": "f00e29fcc2a4c101091540948af9f8ee"
+        }
+      ]
+    }
+  ]
+}

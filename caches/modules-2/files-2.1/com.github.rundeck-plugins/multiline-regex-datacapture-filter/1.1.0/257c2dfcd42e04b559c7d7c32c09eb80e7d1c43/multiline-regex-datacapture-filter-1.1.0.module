@@ -1,0 +1,80 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "6.7.1",
+      "buildId" : "2cnaf4rrkretnnhgkgpjojufx4"
+    }
+  },
+  "component" : {
+    "group" : "com.github.rundeck-plugins",
+    "module" : "multiline-regex-datacapture-filter",
+    "version" : "1.1.0",
+    "attributes" : {
+      "org.gradle.status" : "integration"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "org.codehaus.groovy",
+      "module" : "groovy-all",
+      "version" : {
+        "requires" : "2.3.11"
+      }
+    }, {
+      "group" : "org.rundeck",
+      "module" : "rundeck-core",
+      "version" : {
+        "requires" : "3.0.6-20180917"
+      }
+    } ],
+    "files" : [ {
+      "name" : "multiline-regex-datacapture-filter-1.1.0.jar",
+      "url" : "multiline-regex-datacapture-filter-1.1.0.jar",
+      "size" : 11312,
+      "sha512" : "af33bf685a5bf3100bd5086df651d0c9574d1c7c729bb9a1ed7ac348158562d2a16493a21d5b69d522efd8ea1ad1244d7a79b49128d80586ba9db34da4575261",
+      "sha256" : "c78f3ba0b2638911161a0d5debe3a02f73a91c02ab1c01c39d93ab6c1c22e505",
+      "sha1" : "24f8b9ad2b10cbdbfdb2d5bcfc3cf0a007da89ad",
+      "md5" : "c46b6deef42775f53f5cf7d4700cbd91"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.codehaus.groovy",
+      "module" : "groovy-all",
+      "version" : {
+        "requires" : "2.3.11"
+      }
+    }, {
+      "group" : "org.rundeck",
+      "module" : "rundeck-core",
+      "version" : {
+        "requires" : "3.0.6-20180917"
+      }
+    } ],
+    "files" : [ {
+      "name" : "multiline-regex-datacapture-filter-1.1.0.jar",
+      "url" : "multiline-regex-datacapture-filter-1.1.0.jar",
+      "size" : 11312,
+      "sha512" : "af33bf685a5bf3100bd5086df651d0c9574d1c7c729bb9a1ed7ac348158562d2a16493a21d5b69d522efd8ea1ad1244d7a79b49128d80586ba9db34da4575261",
+      "sha256" : "c78f3ba0b2638911161a0d5debe3a02f73a91c02ab1c01c39d93ab6c1c22e505",
+      "sha1" : "24f8b9ad2b10cbdbfdb2d5bcfc3cf0a007da89ad",
+      "md5" : "c46b6deef42775f53f5cf7d4700cbd91"
+    } ]
+  } ]
+}

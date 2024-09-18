@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "events",
+    "version": "5.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events-compat",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events-transform",
+          "version": {
+            "requires": "5.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-5.0.2.jar",
+          "url": "events-5.0.2.jar",
+          "size": 7782,
+          "sha512": "eff38e728115c5101f4bfc979fcd491644f2f223893a30b6fb858f74b8670e99b185bed48d13ea0370a05bc31bd8d1a0adf9ac9aacfc11dacf9dea0c38c6327f",
+          "sha256": "7b9a77088716f41f70f2f61ca1cf0dcac7e00dd41f2b134bcfd44bd7246d496b",
+          "sha1": "7d043e416a2aeb2cb11a14420a89f373aa452c49",
+          "md5": "44f6328f1541dd3fadf8a2f34ed28f87"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "6.1.1"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events-compat",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-events-transform",
+          "version": {
+            "requires": "5.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-5.0.2.jar",
+          "url": "events-5.0.2.jar",
+          "size": 7782,
+          "sha512": "eff38e728115c5101f4bfc979fcd491644f2f223893a30b6fb858f74b8670e99b185bed48d13ea0370a05bc31bd8d1a0adf9ac9aacfc11dacf9dea0c38c6327f",
+          "sha256": "7b9a77088716f41f70f2f61ca1cf0dcac7e00dd41f2b134bcfd44bd7246d496b",
+          "sha1": "7d043e416a2aeb2cb11a14420a89f373aa452c49",
+          "md5": "44f6328f1541dd3fadf8a2f34ed28f87"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-5.0.2-sources.jar",
+          "url": "events-5.0.2-sources.jar",
+          "size": 3271,
+          "sha512": "f2bb8b9e338f283c3d3f707b4c20944f7233023ddb4944516e269b183a2cdab00086440a82b839e8c55e98d4796363cf502ca455d9c743021d798457191bd388",
+          "sha256": "3d39b7d7fe659b5cd9a8f45db0f859341df025438aff011f176335f102e6f22c",
+          "sha1": "4d07d046383e6dd69acaaa34b4c779018ee81842",
+          "md5": "1bcd0734536a1e39192b9f0d8c9a0e83"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-5.0.2-javadoc.jar",
+          "url": "events-5.0.2-javadoc.jar",
+          "size": 35490,
+          "sha512": "eb421048feb143013186502147b34a9d8b1002ce934f581b732eb0c7dc45dba41d326923a282e0dbf194ec6ae6576fc40941e1a1b1b4d3b4875455d0b08a98e0",
+          "sha256": "57884a521404de1bea92614ab9de886bee6bca1f4939bf30f664b75e16b2ebd1",
+          "sha1": "49614b94f6e49b77a197ddaf831772d7d81f1158",
+          "md5": "fcfedde46d3b8380d519f011ee4d51eb"
+        }
+      ]
+    }
+  ]
+}

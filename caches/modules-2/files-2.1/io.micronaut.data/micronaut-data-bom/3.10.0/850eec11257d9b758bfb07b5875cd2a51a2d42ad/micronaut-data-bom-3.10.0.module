@@ -1,0 +1,264 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.data",
+    "module": "micronaut-data-bom",
+    "version": "3.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-azure-cosmos",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-model",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-processor",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-jpa",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-reactive",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-jdbc",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-model",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-mongodb",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-processor",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-r2dbc",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-runtime",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring-jpa",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx-hibernate",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-azure-cosmos",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-model",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-document-processor",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-jpa",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-hibernate-reactive",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-jdbc",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-model",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-mongodb",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-processor",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-r2dbc",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-runtime",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-spring-jpa",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-tx-hibernate",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-data-bom-3.10.0.toml",
+          "url": "micronaut-data-bom-3.10.0.toml",
+          "size": 2174,
+          "sha512": "4ebf6848a6c08bf993ac64ffc075e6bd51449b06390f6cb3983aa5ee0fd0bc2fe1a6e7b38301f6c056c727626888151fa7141f521c213ed1ac1485d8e9b6502b",
+          "sha256": "f08be85eb553ea74944321f48bf9a72a0d4135ecfb27bf51a85569ac96168cc2",
+          "sha1": "8c278ce286c7f12678067aee334a9ecbe30c6a2c",
+          "md5": "af38ccc48acb50529d39759784c1fa1c"
+        }
+      ]
+    }
+  ]
+}
